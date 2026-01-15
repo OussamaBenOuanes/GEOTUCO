@@ -4,10 +4,18 @@ import Link from 'next/link';
 import useEmblaCarousel from 'embla-carousel-react';
 import Head from 'next/head';
 import { FloatingWhatsApp } from 'react-floating-whatsapp';
-import { testimonials } from './constants/testimonials';
-import { carouselData } from './constants/carouselData';
-import { services } from './constants/services';
 import { translations } from '../translations/translations';
+import { pagesTranslations } from '../translations/pages';
+import BlogSection from '../components/BlogSection';
+
+const SERVICE_KEYS = ["structural-analysis", "project-management", "site-development", "environmental-consulting"];
+
+const SERVICE_EMOJIS: Record<string, string> = {
+  "structural-analysis": "🏗️",
+  "project-management": "📋",
+  "site-development": "🌍",
+  "environmental-consulting": "🌱"
+};
 
 export default function Home() {
   const [language, setLanguage] = useState("en");
@@ -27,7 +35,8 @@ export default function Home() {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  const t = translations[language];
+  const t = translations[language as keyof typeof translations] || translations.en;
+  const tPages = pagesTranslations[language] || pagesTranslations.en;
 
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true });
   const [selectedIndex, setSelectedIndex] = useState(0);
@@ -147,8 +156,8 @@ export default function Home() {
       interval = setInterval(() => {
         if (emblaApi && document.visibilityState === "visible") {
           // Prefetch the next image for better LCP
-          const nextIdx = (emblaApi.selectedScrollSnap() + 1) % carouselData.length;
-          const nextImg = carouselData[nextIdx]?.src;
+          const nextIdx = (emblaApi.selectedScrollSnap() + 1) % (t.carousel || []).length;
+          const nextImg = (t.carousel || [])[nextIdx]?.src;
           if (nextImg) {
             const img = new window.Image();
             img.loading = "lazy";
@@ -200,7 +209,7 @@ export default function Home() {
         <meta name="twitter:description" content="Innovative solutions for infrastructure, construction, and development. Partner with us for quality, safety, and sustainability." />
         <meta name="twitter:image" content="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=900&q=80" />
       </Head>
-      <main style={{ fontFamily: 'Inter, sans-serif',  minHeight: '100vh' }}>
+      <main style={{ fontFamily: 'Inter, sans-serif', minHeight: '100vh' }}>
         {/* Embla Carousel - moved outside Hero Section */}
         <div
           className="embla"
@@ -218,7 +227,7 @@ export default function Home() {
               gap: 8, // Increased gap between slides
             }}
           >
-            {carouselData.map((item, idx) => (
+            {(t.carousel || []).map((item: any, idx: number) => (
               <div
                 className="embla__slide"
                 key={idx}
@@ -357,8 +366,8 @@ export default function Home() {
                           }}
                         >
                           <span>More Details</span>
-                          <svg width="22" height="22" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{marginLeft: 4}} viewBox="0 0 24 24">
-                            <path d="M9 18l6-6-6-6"/>
+                          <svg width="22" height="22" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ marginLeft: 4 }} viewBox="0 0 24 24">
+                            <path d="M9 18l6-6-6-6" />
                           </svg>
                         </button>
                       </div>
@@ -375,7 +384,7 @@ export default function Home() {
             gap: 8,
             marginTop: 16
           }}>
-            {carouselData.map((_, idx) => (
+            {(t.carousel || []).map((_: any, idx: number) => (
               <button
                 key={idx}
                 type="button"
@@ -459,15 +468,19 @@ export default function Home() {
           zIndex: 3,
           position: 'relative'
         }}>
-          {services.map((service, idx) => (
-            <ServiceCard
-              key={idx}
-              title={t[`service${idx + 1}Title`] || service.title}
-              desc={t[`service${idx + 1}Desc`] || service.desc}
-              href={service.href}
-              emoji={service.emoji}
-            />
-          ))}
+          {SERVICE_KEYS.map((key) => {
+            const service = tPages.items[key];
+            if (!service) return null;
+            return (
+              <ServiceCard
+                key={key}
+                title={service.title}
+                desc={service.description}
+                href={`/${key}`}
+                emoji={SERVICE_EMOJIS[key]}
+              />
+            );
+          })}
         </section>
 
         {/* Testimonials */}
@@ -487,7 +500,7 @@ export default function Home() {
             justifyContent: 'center',
             flexWrap: 'wrap'
           }}>
-            {testimonials.map((t, i) => (
+            {(t.testimonials || []).map((item: any, i: number) => (
               <div key={i} style={{
                 background: '#f7f9fa',
                 borderRadius: 12,
@@ -496,12 +509,15 @@ export default function Home() {
                 maxWidth: 340,
                 boxShadow: '0 1px 6px #e0e6ed'
               }}>
-                <p style={{ fontStyle: 'italic', color: '#444', marginBottom: '1rem' }}>"{t.text}"</p>
-                <div style={{ fontWeight: 600, color: '#4b86b4' }}>{t.name}</div>
+                <p style={{ fontStyle: 'italic', color: '#444', marginBottom: '1rem' }}>"{item.text}"</p>
+                <div style={{ fontWeight: 600, color: '#4b86b4' }}>{item.name}</div>
               </div>
             ))}
           </div>
         </section>
+
+        {/* Blog Section */}
+        <BlogSection />
 
         {/* FAQ */}
         <section style={{
@@ -513,30 +529,12 @@ export default function Home() {
         }}>
           <h3 style={{ color: '#2a4d69', marginBottom: '1.5rem' }}>{t.faqTitle}</h3>
           <ul style={{ listStyle: 'none', padding: 0, color: '#333', fontSize: '1.05rem' }}>
-            {Array.isArray(t.faq)
-              ? t.faq.map((item: any, idx: number) => (
-                  <li key={idx} style={{ marginBottom: '1rem' }}>
-                    <b>{item.question}</b><br />
-                    {item.answer}
-                  </li>
-                ))
-              : (
-                <>
-                  <li>
-                    <b>{t.faq.q1}</b><br />
-                    {t.faq.a1}
-                  </li>
-                  <li>
-                    <b>{t.faq.q2}</b><br />
-                    {t.faq.a2}
-                  </li>
-                  <li>
-                    <b>{t.faq.q3}</b><br />
-                    {t.faq.a3}
-                  </li>
-                </>
-              )
-            }
+            {(t.faq || []).map((item: any, idx: number) => (
+              <li key={idx} style={{ marginBottom: '1rem' }}>
+                <b>{item.question}</b><br />
+                {item.answer}
+              </li>
+            ))}
           </ul>
         </section>
       </main>

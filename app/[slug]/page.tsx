@@ -1,22 +1,40 @@
-import { notFound } from 'next/navigation';
-import { pages } from '../constants/pages';
+"use client";
+
+import { notFound, useParams } from 'next/navigation';
 import Link from 'next/link';
 import ContactFormWithTitle from './ContactFormWithTitle';
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Geology from './Geology';
 import Training from './Training';
+import { pagesTranslations } from '../../translations/pages';
 
-export default async function DynamicPage({ params }: { params: Promise<{ slug: string }> }) {
-  const { slug } = await params;
+export default function DynamicPage() {
+  const params = useParams();
+  const slug = params?.slug as string;
+  const [lang, setLang] = useState("en");
 
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      const l = localStorage.getItem("lang") || "en";
+      setLang(l);
+    }
+  }, []);
+
+  const t = pagesTranslations[lang] || pagesTranslations.en;
+
+  if (!slug) return notFound();
+
+  // Handle generic services list
   if (slug === "services") {
-    // Render the services list page
+    // Services keys to display
+    const servicesKeys = ["structural-analysis", "project-management", "site-development", "environmental-consulting"];
+
     return (
       <>
-        <title>Our Services | GEOTUCO</title>
+        <title>{t.servicesTitle} | GEOTUCO</title>
         <main style={{ padding: '2rem', fontFamily: 'sans-serif', maxWidth: 900, margin: '0 auto' }}>
           <h1 style={{ fontSize: '2.2rem', color: '#2a4d69', fontWeight: 800, marginBottom: '2rem', textAlign: 'center' }}>
-            Our Services
+            {t.servicesTitle}
           </h1>
           <div style={{
             display: 'flex',
@@ -24,61 +42,64 @@ export default async function DynamicPage({ params }: { params: Promise<{ slug: 
             flexWrap: 'wrap',
             justifyContent: 'center'
           }}>
-            {Object.entries(pages).filter(([key]) =>
-              ["structural-analysis", "project-management", "site-development", "environmental-consulting"].includes(key)
-            ).map(([key, service]) => (
-              <Link
-                key={key}
-                href={`/${key}`}
-                style={{
-                  background: '#fff',
-                  borderRadius: 16,
-                  boxShadow: '0 2px 12px #e0e6ed',
-                  padding: '2rem 1.5rem',
-                  minWidth: 220,
-                  maxWidth: 260,
-                  textDecoration: 'none',
-                  color: '#2a4d69',
-                  display: 'flex',
-                  flexDirection: 'column',
-                  alignItems: 'center',
-                  fontWeight: 500,
-                  transition: 'transform 0.15s'
-                }}
-              >
-                <span style={{ fontSize: '2.2rem', marginBottom: '1rem' }}>
-                  {key === "structural-analysis" && "🏗️"}
-                  {key === "project-management" && "📋"}
-                  {key === "site-development" && "🌍"}
-                  {key === "environmental-consulting" && "🌱"}
-                </span>
-                <div style={{ fontSize: '1.2rem', fontWeight: 700, marginBottom: '0.5rem', textAlign: 'center' }}>{service.title}</div>
-                <div style={{ color: '#4b5d67', fontSize: '1rem', textAlign: 'center' }}>{service.description}</div>
-              </Link>
-            ))}
+            {servicesKeys.map((key) => {
+              const service = t.items[key];
+              if (!service) return null;
+
+              return (
+                <Link
+                  key={key}
+                  href={`/${key}`}
+                  style={{
+                    background: '#fff',
+                    borderRadius: 16,
+                    boxShadow: '0 2px 12px #e0e6ed',
+                    padding: '2rem 1.5rem',
+                    minWidth: 220,
+                    maxWidth: 260,
+                    textDecoration: 'none',
+                    color: '#2a4d69',
+                    display: 'flex',
+                    flexDirection: 'column',
+                    alignItems: 'center',
+                    fontWeight: 500,
+                    transition: 'transform 0.15s'
+                  }}
+                >
+                  <span style={{ fontSize: '2.2rem', marginBottom: '1rem' }}>
+                    {key === "structural-analysis" && "🏗️"}
+                    {key === "project-management" && "📋"}
+                    {key === "site-development" && "🌍"}
+                    {key === "environmental-consulting" && "🌱"}
+                  </span>
+                  <div style={{ fontSize: '1.2rem', fontWeight: 700, marginBottom: '0.5rem', textAlign: 'center' }}>{service.title}</div>
+                  <div style={{ color: '#4b5d67', fontSize: '1rem', textAlign: 'center' }}>{service.description}</div>
+                </Link>
+              );
+            })}
           </div>
         </main>
       </>
     );
   }
 
+  // Handle specific Hardcoded Pages (Refactored to use translations)
   if (slug === "geotechnical-engineering") {
+    const geoT = t.geotechnicalEngineering;
     return (
       <>
-        <title>Geotechnical Engineering | GEOTUCO</title>
+        <title>{geoT.title} | GEOTUCO</title>
         <main style={{ padding: '2rem', fontFamily: 'sans-serif', maxWidth: 900, margin: '0 auto' }}>
           <h1 style={{ fontSize: '2.2rem', color: '#2a4d69', fontWeight: 800, marginBottom: '2rem', textAlign: 'center' }}>
-            Geotechnical Engineering
+            {geoT.title}
           </h1>
           <div style={{ color: '#444', fontSize: '1.15rem', marginBottom: '1.5rem', textAlign: 'center' }}>
-            Our Geotechnical Engineering services provide comprehensive site investigations, soil analysis, and foundation recommendations to ensure the safety and stability of your construction projects. We utilize advanced testing methods and industry expertise to deliver reliable solutions tailored to your project's unique requirements.
+            {geoT.description}
           </div>
           <ul style={{ color: '#4b5d67', fontSize: '1rem', maxWidth: 600, margin: '0 auto', lineHeight: 1.7 }}>
-            <li>✔️ Site and soil investigations</li>
-            <li>✔️ Foundation design and recommendations</li>
-            <li>✔️ Slope stability analysis</li>
-            <li>✔️ Ground improvement solutions</li>
-            <li>✔️ Retaining wall and earthwork design</li>
+            {geoT.bullets.map((b: string, i: number) => (
+              <li key={i}>✔️ {b}</li>
+            ))}
           </ul>
         </main>
       </>
@@ -86,23 +107,21 @@ export default async function DynamicPage({ params }: { params: Promise<{ slug: 
   }
 
   if (slug === "geotechnical-tests") {
+    const geoTestT = t.geotechnicalTests;
     return (
       <>
-        <title>Geotechnical Tests | GEOTUCO</title>
+        <title>{geoTestT.title} | GEOTUCO</title>
         <main style={{ padding: '2rem', fontFamily: 'sans-serif', maxWidth: 900, margin: '0 auto' }}>
           <h1 style={{ fontSize: '2.2rem', color: '#2a4d69', fontWeight: 800, marginBottom: '2rem', textAlign: 'center' }}>
-            Geotechnical Tests
+            {geoTestT.title}
           </h1>
           <div style={{ color: '#444', fontSize: '1.15rem', marginBottom: '1.5rem', textAlign: 'center' }}>
-            We offer a comprehensive suite of geotechnical tests to assess soil, rock, and groundwater conditions for your project. Our laboratory and field testing services ensure accurate data for safe and cost-effective engineering solutions.
+            {geoTestT.description}
           </div>
           <ul style={{ color: '#4b5d67', fontSize: '1rem', maxWidth: 600, margin: '0 auto', lineHeight: 1.7 }}>
-            <li>✔️ Standard Penetration Test (SPT)</li>
-            <li>✔️ Cone Penetration Test (CPT)</li>
-            <li>✔️ Plate Load Test</li>
-            <li>✔️ Soil Classification and Index Properties</li>
-            <li>✔️ Shear Strength and Consolidation Tests</li>
-            <li>✔️ Permeability and Compaction Tests</li>
+            {geoTestT.bullets.map((b: string, i: number) => (
+              <li key={i}>✔️ {b}</li>
+            ))}
           </ul>
         </main>
       </>
@@ -110,35 +129,37 @@ export default async function DynamicPage({ params }: { params: Promise<{ slug: 
   }
 
   if (slug === "training") {
-    return <Training />;
+    return <Training />; // Training component handles its own translations internally or need update
   }
 
   if (slug === "softwares") {
-    // Redirect to /geoprog instead of rendering a page here
     if (typeof window !== "undefined") {
       window.location.replace("/geoprog");
       return null;
     }
-    // For SSR, use a Next.js redirect
-    return notFound();
+    return null;
   }
 
   if (slug === "contact") {
-    // Contact page with mailto form
     return (
       <>
-        {/* No <title> here, let ContactFormWithTitle handle it */}
         <ContactFormWithTitle />
       </>
     );
   }
 
   if (slug === "geology") {
-    return <Geology />;
+    return <Geology />; // Geology component handles its own translations internally or need update
   }
 
-  const service = pages[slug];
-  if (!service) return notFound();
+  // Handle generic pages from t.items
+  const service = t.items[slug];
+  if (!service) {
+    // If not found in our translation items, maybe it is a 404
+    // Since this is a client component, we can return notFound() but it might behave differently on client.
+    // Better to render a custom 404 message or use the Next.js notFound() which triggers the error boundary.
+    return notFound();
+  }
 
   return (
     <>
@@ -150,3 +171,4 @@ export default async function DynamicPage({ params }: { params: Promise<{ slug: 
     </>
   );
 }
+

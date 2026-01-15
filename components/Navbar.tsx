@@ -29,14 +29,16 @@ export default function Navbar() {
   const NAV_PAGES = [
     { label: t.home, slug: "" },
     { label: t.about, slug: "about" },
-    { label: t.services, slug: "services", children: [
+    {
+      label: t.services, slug: "services", children: [
         { label: t.geotechnicalEngineering, slug: "geotechnical-engineering" },
         { label: t.geotechnicalTests, slug: "geotechnical-tests" },
         { label: t.training, slug: "training" },
         { label: t.geology, slug: "geology" } // Added Geology
       ]
     },
-    { label: t.softwares, slug: "geoprog", children: [
+    {
+      label: t.softwares, slug: "geoprog", children: [
         { label: t.geologa || "GEOLOGA®", slug: "geologa" },
         { label: t.geopres || "GEOPRES®", slug: "geopres" },
         { label: t.geoprec || "GEOPREC®", slug: "geoprec" },
@@ -51,6 +53,7 @@ export default function Navbar() {
         { label: t.geoproc || "GEOPROC®", slug: "geoproc" }
       ]
     },
+    { label: t.blog, slug: "blog" },
     { label: t.contact, slug: "contact" }
   ];
 
@@ -371,6 +374,7 @@ export default function Navbar() {
                 >
                   Français
                 </button>
+                {/* Arabic */}
                 <button
                   style={{
                     display: "block",
@@ -387,10 +391,15 @@ export default function Navbar() {
                   }}
                   onMouseEnter={e => (e.currentTarget.style.color = "#0057AC")}
                   onMouseLeave={e => (e.currentTarget.style.color = "#495867")}
-                  onClick={() => setDropdownOpen(null)}
+                  onClick={() => {
+                    localStorage.setItem("lang", "ar");
+                    setDropdownOpen(null);
+                    window.location.reload();
+                  }}
                 >
                   العربية
                 </button>
+                {/* Spanish */}
                 <button
                   style={{
                     display: "block",
@@ -407,10 +416,15 @@ export default function Navbar() {
                   }}
                   onMouseEnter={e => (e.currentTarget.style.color = "#0057AC")}
                   onMouseLeave={e => (e.currentTarget.style.color = "#495867")}
-                  onClick={() => setDropdownOpen(null)}
+                  onClick={() => {
+                    localStorage.setItem("lang", "es");
+                    setDropdownOpen(null);
+                    window.location.reload();
+                  }}
                 >
                   Español
                 </button>
+                {/* German */}
                 <button
                   style={{
                     display: "block",
@@ -427,10 +441,15 @@ export default function Navbar() {
                   }}
                   onMouseEnter={e => (e.currentTarget.style.color = "#0057AC")}
                   onMouseLeave={e => (e.currentTarget.style.color = "#495867")}
-                  onClick={() => setDropdownOpen(null)}
+                  onClick={() => {
+                    localStorage.setItem("lang", "de");
+                    setDropdownOpen(null);
+                    window.location.reload();
+                  }}
                 >
                   Deutsch
                 </button>
+                {/* Italian */}
                 <button
                   style={{
                     display: "block",
@@ -447,11 +466,16 @@ export default function Navbar() {
                   }}
                   onMouseEnter={e => (e.currentTarget.style.color = "#0057AC")}
                   onMouseLeave={e => (e.currentTarget.style.color = "#495867")}
-                  onClick={() => setDropdownOpen(null)}
+                  onClick={() => {
+                    localStorage.setItem("lang", "it");
+                    setDropdownOpen(null);
+                    window.location.reload();
+                  }}
                 >
                   Italiano
                 </button>
                 {/* Chinese */}
+
                 <button
                   style={{
                     display: "block",
@@ -468,7 +492,11 @@ export default function Navbar() {
                   }}
                   onMouseEnter={e => (e.currentTarget.style.color = "#0057AC")}
                   onMouseLeave={e => (e.currentTarget.style.color = "#495867")}
-                  onClick={() => setDropdownOpen(null)}
+                  onClick={() => {
+                    localStorage.setItem("lang", "zh");
+                    setDropdownOpen(null);
+                    window.location.reload();
+                  }}
                 >
                   中文 (Chinese)
                 </button>
@@ -489,7 +517,11 @@ export default function Navbar() {
                   }}
                   onMouseEnter={e => (e.currentTarget.style.color = "#0057AC")}
                   onMouseLeave={e => (e.currentTarget.style.color = "#495867")}
-                  onClick={() => setDropdownOpen(null)}
+                  onClick={() => {
+                    localStorage.setItem("lang", "sw");
+                    setDropdownOpen(null);
+                    window.location.reload();
+                  }}
                 >
                   Kiswahili
                 </button>
@@ -510,7 +542,11 @@ export default function Navbar() {
                   }}
                   onMouseEnter={e => (e.currentTarget.style.color = "#0057AC")}
                   onMouseLeave={e => (e.currentTarget.style.color = "#495867")}
-                  onClick={() => setDropdownOpen(null)}
+                  onClick={() => {
+                    localStorage.setItem("lang", "yo");
+                    setDropdownOpen(null);
+                    window.location.reload();
+                  }}
                 >
                   Yorùbá
                 </button>
@@ -530,9 +566,13 @@ export default function Navbar() {
                   }}
                   onMouseEnter={e => (e.currentTarget.style.color = "#0057AC")}
                   onMouseLeave={e => (e.currentTarget.style.color = "#495867")}
-                  onClick={() => setDropdownOpen(null)}
+                  onClick={() => {
+                    localStorage.setItem("lang", "am");
+                    setDropdownOpen(null);
+                    window.location.reload();
+                  }}
                 >
-                           አማርኛ (Amharic)
+                  አማርኛ (Amharic)
                 </button>
                 {/* Hausa */}
                 <button
@@ -551,7 +591,11 @@ export default function Navbar() {
                   }}
                   onMouseEnter={e => (e.currentTarget.style.color = "#0057AC")}
                   onMouseLeave={e => (e.currentTarget.style.color = "#495867")}
-                  onClick={() => setDropdownOpen(null)}
+                  onClick={() => {
+                    localStorage.setItem("lang", "ha");
+                    setDropdownOpen(null);
+                    window.location.reload();
+                  }}
                 >
                   Hausa
                 </button>
@@ -602,11 +646,11 @@ export default function Navbar() {
                   style={
                     isActive(slug)
                       ? {
-                          background: "linear-gradient(85deg, #003365 54.3%, #0057AC 100%)",
-                          WebkitBackgroundClip: "text",
-                          WebkitTextFillColor: "transparent",
-                          transition: "background 0.3s"
-                        }
+                        background: "linear-gradient(85deg, #003365 54.3%, #0057AC 100%)",
+                        WebkitBackgroundClip: "text",
+                        WebkitTextFillColor: "transparent",
+                        transition: "background 0.3s"
+                      }
                       : undefined
                   }
                   onClick={() => {
@@ -627,11 +671,11 @@ export default function Navbar() {
                     style={
                       (isActive(slug) || isParentActive(children))
                         ? {
-                            background: "linear-gradient(85deg, #003365 54.3%, #0057AC 100%)",
-                            WebkitBackgroundClip: "text",
-                            WebkitTextFillColor: "transparent",
-                            transition: "background 0.3s"
-                          }
+                          background: "linear-gradient(85deg, #003365 54.3%, #0057AC 100%)",
+                          WebkitBackgroundClip: "text",
+                          WebkitTextFillColor: "transparent",
+                          transition: "background 0.3s"
+                        }
                         : undefined
                     }
                     onClick={() =>
@@ -691,11 +735,11 @@ export default function Navbar() {
                           style={
                             isActive(child.slug)
                               ? {
-                                  background: "linear-gradient(85deg, #003365 54.3%, #0057AC 100%)",
-                                  WebkitBackgroundClip: "text",
-                                  WebkitTextFillColor: "transparent",
-                                  transition: "background 0.3s"
-                                }
+                                background: "linear-gradient(85deg, #003365 54.3%, #0057AC 100%)",
+                                WebkitBackgroundClip: "text",
+                                WebkitTextFillColor: "transparent",
+                                transition: "background 0.3s"
+                              }
                               : undefined
                           }
                           onClick={() => {
@@ -863,7 +907,11 @@ export default function Navbar() {
                     }}
                     onMouseEnter={e => (e.currentTarget.style.color = "#0057AC")}
                     onMouseLeave={e => (e.currentTarget.style.color = "#495867")}
-                    onClick={() => setMenuOpen(false)}
+                    onClick={() => {
+                      localStorage.setItem("lang", "ar");
+                      setMenuOpen(false);
+                      window.location.reload();
+                    }}
                   >
                     العربية
                   </button>
@@ -883,7 +931,11 @@ export default function Navbar() {
                     }}
                     onMouseEnter={e => (e.currentTarget.style.color = "#0057AC")}
                     onMouseLeave={e => (e.currentTarget.style.color = "#495867")}
-                    onClick={() => setMenuOpen(false)}
+                    onClick={() => {
+                      localStorage.setItem("lang", "es");
+                      setMenuOpen(false);
+                      window.location.reload();
+                    }}
                   >
                     Español
                   </button>
@@ -903,7 +955,11 @@ export default function Navbar() {
                     }}
                     onMouseEnter={e => (e.currentTarget.style.color = "#0057AC")}
                     onMouseLeave={e => (e.currentTarget.style.color = "#495867")}
-                    onClick={() => setMenuOpen(false)}
+                    onClick={() => {
+                      localStorage.setItem("lang", "de");
+                      setMenuOpen(false);
+                      window.location.reload();
+                    }}
                   >
                     Deutsch
                   </button>
@@ -923,7 +979,11 @@ export default function Navbar() {
                     }}
                     onMouseEnter={e => (e.currentTarget.style.color = "#0057AC")}
                     onMouseLeave={e => (e.currentTarget.style.color = "#495867")}
-                    onClick={() => setMenuOpen(false)}
+                    onClick={() => {
+                      localStorage.setItem("lang", "it");
+                      setMenuOpen(false);
+                      window.location.reload();
+                    }}
                   >
                     Italiano
                   </button>
@@ -943,7 +1003,11 @@ export default function Navbar() {
                     }}
                     onMouseEnter={e => (e.currentTarget.style.color = "#0057AC")}
                     onMouseLeave={e => (e.currentTarget.style.color = "#495867")}
-                    onClick={() => setMenuOpen(false)}
+                    onClick={() => {
+                      localStorage.setItem("lang", "zh");
+                      setMenuOpen(false);
+                      window.location.reload();
+                    }}
                   >
                     中文 (Chinese)
                   </button>
@@ -963,7 +1027,11 @@ export default function Navbar() {
                     }}
                     onMouseEnter={e => (e.currentTarget.style.color = "#0057AC")}
                     onMouseLeave={e => (e.currentTarget.style.color = "#495867")}
-                    onClick={() => setMenuOpen(false)}
+                    onClick={() => {
+                      localStorage.setItem("lang", "sw");
+                      setMenuOpen(false);
+                      window.location.reload();
+                    }}
                   >
                     Kiswahili
                   </button>
@@ -983,7 +1051,11 @@ export default function Navbar() {
                     }}
                     onMouseEnter={e => (e.currentTarget.style.color = "#0057AC")}
                     onMouseLeave={e => (e.currentTarget.style.color = "#495867")}
-                    onClick={() => setMenuOpen(false)}
+                    onClick={() => {
+                      localStorage.setItem("lang", "yo");
+                      setMenuOpen(false);
+                      window.location.reload();
+                    }}
                   >
                     Yorùbá
                   </button>
@@ -1003,9 +1075,13 @@ export default function Navbar() {
                     }}
                     onMouseEnter={e => (e.currentTarget.style.color = "#0057AC")}
                     onMouseLeave={e => (e.currentTarget.style.color = "#495867")}
-                    onClick={() => setMenuOpen(false)}
+                    onClick={() => {
+                      localStorage.setItem("lang", "am");
+                      setMenuOpen(false);
+                      window.location.reload();
+                    }}
                   >
-                           አማርኛ (Amharic)
+                    አማርኛ (Amharic)
                   </button>
                   <button
                     style={{
@@ -1023,7 +1099,11 @@ export default function Navbar() {
                     }}
                     onMouseEnter={e => (e.currentTarget.style.color = "#0057AC")}
                     onMouseLeave={e => (e.currentTarget.style.color = "#495867")}
-                    onClick={() => setMenuOpen(false)}
+                    onClick={() => {
+                      localStorage.setItem("lang", "ha");
+                      setMenuOpen(false);
+                      window.location.reload();
+                    }}
                   >
                     Hausa
                   </button>

@@ -1,7 +1,20 @@
 "use client";
 import Link from "next/link";
+import React, { useEffect, useState } from "react";
+import { pagesTranslations } from "../translations/pages";
 
 export default function NotFound() {
+  const [lang, setLang] = useState("en");
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      const l = localStorage.getItem("lang") || "en";
+      setLang(l);
+    }
+  }, []);
+
+  const t = pagesTranslations[lang]?.notFound || pagesTranslations.en.notFound;
+
   return (
     <main style={{
       minHeight: "70vh",
@@ -19,16 +32,16 @@ export default function NotFound() {
         marginBottom: "1rem",
         textAlign: "center"
       }}>
-        404 – Page Not Found
+        {t.title}
       </h1>
       <p style={{
         fontSize: "1.2rem",
         color: "#495867",
         marginBottom: "2rem",
-        textAlign: "center"
+        textAlign: "center",
+        whiteSpace: "pre-line"
       }}>
-        Sorry, the page you are looking for does not exist.<br />
-        Please check the URL or return to the homepage.
+        {t.description}
       </p>
       <Link
         href="/"
@@ -43,8 +56,9 @@ export default function NotFound() {
           boxShadow: "0 1px 2px rgba(0,0,0,0.04)"
         }}
       >
-        Go Home
+        {t.goHome}
       </Link>
     </main>
   );
 }
+

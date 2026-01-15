@@ -1,11 +1,23 @@
-import React from "react";
+"use client";
+import React, { useEffect, useState } from "react";
 import Link from "next/link";
-import { SOFTWARES } from "../constants/softwares";
+import { softwaresTranslations } from "../../translations/softwares";
 
 export default function GeoprogPage() {
+  const [lang, setLang] = useState("en");
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      const l = localStorage.getItem("lang") || "en";
+      setLang(l);
+    }
+  }, []);
+
+  const t = softwaresTranslations[lang] || softwaresTranslations.en;
+
   return (
     <>
-      <title>Softwares | GEOTUCO</title>
+      <title>{t.pageTitle} | GEOTUCO</title>
       <main style={{ padding: "2rem", fontFamily: "sans-serif", maxWidth: 900, margin: "0 auto" }}>
         <div style={{
           display: "flex",
@@ -20,7 +32,7 @@ export default function GeoprogPage() {
             style={{ height: 44, width: "auto", display: "block" }}
           />
           <h1 style={{ fontSize: "2.6rem", color: "#023264", fontWeight: 800, margin: 0, textAlign: "center" }}>
-            Softwares
+            {t.pageTitle}
           </h1>
         </div>
         <div style={{
@@ -29,7 +41,7 @@ export default function GeoprogPage() {
           flexWrap: "wrap",
           justifyContent: "center"
         }}>
-          {Object.entries(SOFTWARES).map(([key, software]) => (
+          {Object.entries(t.items).map(([key, software]: [string, any]) => (
             <Link
               key={key}
               href={`/geoprog/${key}`}
@@ -62,3 +74,4 @@ export default function GeoprogPage() {
     </>
   );
 }
+
