@@ -41,34 +41,71 @@ export default function GeoprogPage() {
           flexWrap: "wrap",
           justifyContent: "center"
         }}>
-          {Object.entries(t.items).map(([key, software]: [string, any]) => (
-            <Link
-              key={key}
-              href={`/geoprog/${key}`}
-              style={{
-                background: "#fff",
-                borderRadius: 16,
-                boxShadow: "0 2px 12px #e0e6ed",
-                padding: "2rem 1.5rem",
-                minWidth: 220,
-                maxWidth: 260,
-                textDecoration: "none",
-                color: "#2a4d69",
-                display: "flex",
-                flexDirection: "column",
-                alignItems: "center",
-                fontWeight: 500,
-                transition: "transform 0.15s"
-              }}
-            >
-              <div style={{ fontSize: "1.2rem", fontWeight: 700, marginBottom: "0.5rem", textAlign: "center" }}>
-                {software.title}
-              </div>
-              <div style={{ color: "#4b5d67", fontSize: "1rem", textAlign: "center" }}>
-                {software.description}
-              </div>
-            </Link>
-          ))}
+          {Object.entries(t.items).map(([key, software]: [string, any]) => {
+            const imagePath = `/GEOPROG MODULES/${key.toUpperCase()}.jpg`;
+            return (
+              <Link
+                key={key}
+                href={`/geoprog/${key}`}
+                style={{
+                  background: "#fff",
+                  borderRadius: 16,
+                  boxShadow: "0 2px 12px #e0e6ed",
+                  overflow: "hidden",
+                  minWidth: 220,
+                  maxWidth: 260,
+                  textDecoration: "none",
+                  color: "#2a4d69",
+                  display: "flex",
+                  flexDirection: "column",
+                  fontWeight: 500,
+                  transition: "transform 0.15s, box-shadow 0.15s"
+                }}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.transform = 'translateY(-5px)';
+                  e.currentTarget.style.boxShadow = '0 8px 24px #e0e6ed';
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.transform = 'translateY(0)';
+                  e.currentTarget.style.boxShadow = '0 2px 12px #e0e6ed';
+                }}
+              >
+                {/* Thumbnail Image */}
+                <div style={{
+                  height: 160,
+                  overflow: 'hidden',
+                  backgroundColor: '#f0f4f8',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center'
+                }}>
+                  <img
+                    src={imagePath}
+                    alt={software.title}
+                    style={{
+                      width: '100%',
+                      height: '100%',
+                      objectFit: 'cover'
+                    }}
+                    onError={(e) => {
+                      // Fallback if image doesn't load
+                      (e.target as HTMLImageElement).style.display = 'none';
+                    }}
+                  />
+                </div>
+
+                {/* Card Content */}
+                <div style={{ padding: "1.5rem" }}>
+                  <div style={{ fontSize: "1.2rem", fontWeight: 700, marginBottom: "0.5rem", textAlign: "center" }}>
+                    {software.title}
+                  </div>
+                  <div style={{ color: "#4b5d67", fontSize: "0.95rem", textAlign: "center", lineHeight: 1.4 }}>
+                    {software.description}
+                  </div>
+                </div>
+              </Link>
+            );
+          })}
         </div>
       </main>
     </>

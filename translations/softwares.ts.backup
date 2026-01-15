@@ -1,0 +1,773 @@
+export const softwaresTranslations: any = {
+    en: {
+        pageTitle: "Softwares",
+        overview: "Overview",
+        keyFeatures: "Key Features",
+        benefits: "Benefits",
+        technicalSpecs: "Technical Specifications",
+        items: {
+            geologa: {
+                title: "GEOLOGA®",
+                description: "Comprehensive soil boring test report generation software for sampling, SPT, RQD, water level analysis, and geological cross-section editing.",
+                features: [
+                    "Automated soil boring test report generation",
+                    "SPT (Standard Penetration Test) data processing",
+                    "RQD (Rock Quality Designation) calculations",
+                    "Water level tracking and visualization",
+                    "Geological cross-section editor",
+                    "Multi-layer soil profile representation"
+                ],
+                benefits: [
+                    "Streamlines geological documentation process",
+                    "Ensures accurate and consistent reporting",
+                    "Professional presentation of geological data",
+                    "Reduces manual calculation errors"
+                ],
+                technicalSpecs: [
+                    "Supports multiple sampling methods",
+                    "Customizable report templates",
+                    "Integration with CAD systems",
+                    "Export to PDF and standard formats"
+                ]
+            },
+            geopres: {
+                title: "GEOPRES®",
+                description: "Advanced prebored pressuremeter testing analysis and reporting software for geotechnical investigations.",
+                features: [
+                    "Automated pressuremeter test analysis",
+                    "Pressure-volume curve generation",
+                    "Limit pressure calculations",
+                    "Pressuremeter modulus determination",
+                    "Professional report generation"
+                ],
+                benefits: [
+                    "Fast and accurate pressuremeter data processing",
+                    "Standardized test interpretation",
+                    "Comprehensive quality control",
+                    "Time-saving automation"
+                ],
+                technicalSpecs: [
+                    "Supports Ménard pressuremeter standards",
+                    "Multi-test comparison tools",
+                    "Graphical data visualization",
+                    "Customizable calculation parameters"
+                ]
+            },
+            geoprec: {
+                title: "GEOPREC®",
+                description: "Specialized software for creating detailed prebored pressuremeter test profiles with depth correlation.",
+                features: [
+                    "Pressuremeter profile generation",
+                    "Depth-based parameter plotting",
+                    "Multiple parameter visualization",
+                    "Soil layer correlation",
+                    "Profile comparison tools"
+                ],
+                benefits: [
+                    "Clear visualization of pressuremeter data",
+                    "Easy identification of soil layers",
+                    "Professional profile presentations",
+                    "Enhanced data interpretation"
+                ],
+                technicalSpecs: [
+                    "Vertical profile plotting",
+                    "Multi-parameter display",
+                    "Customizable depth scales",
+                    "Export to various formats"
+                ]
+            },
+            geostat: {
+                title: "GEOSTAT®",
+                description: "CPT (Cone Penetration Test) data processing and reporting software for detailed subsurface investigation.",
+                features: [
+                    "CPT data import and processing",
+                    "Tip resistance analysis",
+                    "Friction ratio calculations",
+                    "Pore pressure measurements",
+                    "Soil behavior type classification",
+                    "Professional CPT report generation"
+                ],
+                benefits: [
+                    "Rapid CPT data interpretation",
+                    "Accurate soil classification",
+                    "High-quality graphical outputs",
+                    "Standardized reporting format"
+                ],
+                technicalSpecs: [
+                    "Supports international CPT standards",
+                    "Real-time data processing",
+                    "Robertson soil classification",
+                    "Multi-test correlation"
+                ]
+            },
+            geodyna: {
+                title: "GEODYNA®",
+                description: "DCP (Dynamic Cone Penetrometer) test analysis software for pavement and soil compaction assessment.",
+                features: [
+                    "DCP test data processing",
+                    "Penetration rate calculations",
+                    "Layer strength assessment",
+                    "CBR (California Bearing Ratio) correlation",
+                    "Depth-resistance plotting"
+                ],
+                benefits: [
+                    "Quick field test evaluation",
+                    "Cost-effective soil assessment",
+                    "Reliable compaction verification",
+                    "Easy-to-read graphical results"
+                ],
+                technicalSpecs: [
+                    "DCP blow count analysis",
+                    "Automatic layer detection",
+                    "CBR estimation formulas",
+                    "Customizable test parameters"
+                ]
+            },
+            geogran: {
+                title: "GEOGRAN®",
+                description: "Particle size distribution analysis and soil classification software based on sieve and hydrometer testing.",
+                features: [
+                    "Sieve analysis processing",
+                    "Hydrometer test calculations",
+                    "Grain size distribution curves",
+                    "USCS and AASHTO soil classification",
+                    "D10, D30, D60 parameter calculation",
+                    "Coefficient of uniformity and curvature"
+                ],
+                benefits: [
+                    "Automated soil classification",
+                    "Accurate grain size analysis",
+                    "Professional gradation curves",
+                    "Standards-compliant results"
+                ],
+                technicalSpecs: [
+                    "Multiple classification systems",
+                    "Combined sieve-hydrometer analysis",
+                    "Statistical parameter calculation",
+                    "Graphical and tabular outputs"
+                ]
+            },
+            geolima: {
+                title: "GEOLIMA®",
+                description: "Atterberg limits testing software for plasticity analysis and fine-grained soil classification.",
+                features: [
+                    "Liquid limit calculations",
+                    "Plastic limit determination",
+                    "Plasticity index computation",
+                    "Casagrande plasticity chart",
+                    "Soil plasticity classification"
+                ],
+                benefits: [
+                    "Precise plasticity characterization",
+                    "Automated Atterberg limits processing",
+                    "Clear classification results",
+                    "Quality control verification"
+                ],
+                technicalSpecs: [
+                    "Flow curve analysis",
+                    "Multiple test method support",
+                    "A-line classification",
+                    "Graphical presentation tools"
+                ]
+            },
+            geocomp: {
+                title: "GEOCOMP®",
+                description: "Oedometer consolidation test analysis software for compressibility and settlement calculations.",
+                features: [
+                    "Consolidation test data processing",
+                    "E-log p curve generation",
+                    "Compression index calculation",
+                    "Preconsolidation pressure determination",
+                    "Coefficient of consolidation",
+                    "Settlement predictions"
+                ],
+                benefits: [
+                    "Accurate compressibility assessment",
+                    "Reliable settlement analysis",
+                    "Professional test reports",
+                    "Time-saving automation"
+                ],
+                technicalSpecs: [
+                    "Casagrande and other methods",
+                    "Multi-load increment analysis",
+                    "Void ratio calculations",
+                    "Customizable test parameters"
+                ]
+            },
+            geocons: {
+                title: "GEOCONS®",
+                description: "Advanced oedometer consolidation software focusing on time-rate compression curves and Cv determination.",
+                features: [
+                    "Time-compression curve plotting",
+                    "Coefficient of consolidation (Cv)",
+                    "Root time and log time methods",
+                    "Secondary compression analysis",
+                    "Multi-stage consolidation"
+                ],
+                benefits: [
+                    "Detailed time-rate analysis",
+                    "Accurate Cv determination",
+                    "Complete consolidation characterization",
+                    "Enhanced settlement predictions"
+                ],
+                technicalSpecs: [
+                    "Taylor and Casagrande methods",
+                    "Time-based curve fitting",
+                    "Secondary compression coefficient",
+                    "Graphical curve analysis"
+                ]
+            },
+            geogonf: {
+                title: "GEOGONF®",
+                description: "Oedometer swelling test software for expansive soil characterization and swell potential assessment.",
+                features: [
+                    "Swelling test data processing",
+                    "Swell percentage calculations",
+                    "Swell pressure determination",
+                    "Volume change analysis",
+                    "Swelling potential classification"
+                ],
+                benefits: [
+                    "Accurate expansive soil evaluation",
+                    "Foundation design support",
+                    "Risk assessment for expansive soils",
+                    "Professional swell reports"
+                ],
+                technicalSpecs: [
+                    "Free swell and swell pressure tests",
+                    "Multiple loading conditions",
+                    "Classification criteria",
+                    "Graphical swell representation"
+                ]
+            },
+            geocisa: {
+                title: "GEOCISA®",
+                description: "Direct shear test analysis software for soil strength determination and Mohr-Coulomb parameters.",
+                features: [
+                    "Direct shear test processing",
+                    "Shear stress-displacement curves",
+                    "Normal stress analysis",
+                    "Cohesion and friction angle calculation",
+                    "Mohr-Coulomb failure envelope",
+                    "Peak and residual strength"
+                ],
+                benefits: [
+                    "Accurate shear strength determination",
+                    "Reliable foundation design parameters",
+                    "Professional strength analysis reports",
+                    "Quality-controlled calculations"
+                ],
+                technicalSpecs: [
+                    "Multi-specimen testing",
+                    "Automated parameter calculation",
+                    "Failure envelope plotting",
+                    "Customizable test conditions"
+                ]
+            },
+            geoproc: {
+                title: "GEOPROC®",
+                description: "Proctor compaction test software for moisture-density relationship and optimum compaction determination.",
+                features: [
+                    "Standard and modified Proctor tests",
+                    "Moisture-density curve generation",
+                    "Optimum moisture content determination",
+                    "Maximum dry density calculation",
+                    "Zero air voids curve",
+                    "Compaction curve analysis"
+                ],
+                benefits: [
+                    "Accurate compaction control",
+                    "Optimized fill material specifications",
+                    "Quality assurance for earthworks",
+                    "Professional compaction reports"
+                ],
+                technicalSpecs: [
+                    "Standard and modified Proctor methods",
+                    "Automatic curve fitting",
+                    "Multiple point analysis",
+                    "Saturation line calculation"
+                ]
+            }
+        }
+    },
+    fr: {
+        pageTitle: "Logiciels",
+        overview: "Aperçu",
+        keyFeatures: "Caractéristiques Principales",
+        benefits: "Avantages",
+        technicalSpecs: "Spécifications Techniques",
+        items: {
+            geologa: {
+                title: "GEOLOGA®",
+                description: "Logiciel complet de génération de rapports de sondages géotechniques pour l'échantillonnage, les essais SPT, RQD, niveau d'eau et l'édition de coupes géologiques.",
+                features: [
+                    "Génération automatique de rapports de sondages",
+                    "Traitement des données SPT (Standard Penetration Test)",
+                    "Calculs RQD (Rock Quality Designation)",
+                    "Suivi et visualisation du niveau d'eau",
+                    "Éditeur de coupes géologiques",
+                    "Représentation multi-couches des profils de sol"
+                ],
+                benefits: [
+                    "Simplifie le processus de documentation géologique",
+                    "Garantit des rapports précis et cohérents",
+                    "Présentation professionnelle des données géologiques",
+                    "Réduit les erreurs de calcul manuel"
+                ],
+                technicalSpecs: [
+                    "Supporte plusieurs méthodes d'échantillonnage",
+                    "Modèles de rapport personnalisables",
+                    "Intégration avec les systèmes CAO",
+                    "Export en PDF et formats standards"
+                ]
+            },
+            geopres: {
+                title: "GEOPRES®",
+                description: "Logiciel avancé d'analyse et de rapport d'essais pressiométriques pour les investigations géotechniques.",
+                features: [
+                    "Analyse automatique des essais pressiométriques",
+                    "Génération de courbes pression-volume",
+                    "Calculs de pression limite",
+                    "Détermination du module pressiométrique",
+                    "Génération de rapports professionnels"
+                ],
+                benefits: [
+                    "Traitement rapide et précis des données pressiométriques",
+                    "Interprétation standardisée des essais",
+                    "Contrôle qualité complet",
+                    "Automatisation économisant du temps"
+                ],
+                technicalSpecs: [
+                    "Conforme aux normes pressiométriques Ménard",
+                    "Outils de comparaison multi-essais",
+                    "Visualisation graphique des données",
+                    "Paramètres de calcul personnalisables"
+                ]
+            },
+            geoprec: {
+                title: "GEOPREC®",
+                description: "Logiciel spécialisé pour créer des profils détaillés d'essais pressiométriques avec corrélation en profondeur.",
+                features: [
+                    "Génération de profils pressiométriques",
+                    "Tracé des paramètres en fonction de la profondeur",
+                    "Visualisation de paramètres multiples",
+                    "Corrélation des couches de sol",
+                    "Outils de comparaison de profils"
+                ],
+                benefits: [
+                    "Visualisation claire des données pressiométriques",
+                    "Identification facile des couches de sol",
+                    "Présentations professionnelles de profils",
+                    "Interprétation améliorée des données"
+                ],
+                technicalSpecs: [
+                    "Tracé de profils verticaux",
+                    "Affichage multi-paramètres",
+                    "Échelles de profondeur personnalisables",
+                    "Export vers divers formats"
+                ]
+            },
+            geostat: {
+                title: "GEOSTAT®",
+                description: "Logiciel de traitement et de rapport de données CPT (Cone Penetration Test) pour l'investigation détaillée du sous-sol.",
+                features: [
+                    "Import et traitement des données CPT",
+                    "Analyse de la résistance de pointe",
+                    "Calculs du rapport de frottement",
+                    "Mesures de pression interstitielle",
+                    "Classification du type de comportement du sol",
+                    "Génération de rapports CPT professionnels"
+                ],
+                benefits: [
+                    "Interprétation rapide des données CPT",
+                    "Classification précise des sols",
+                    "Sorties graphiques de haute qualité",
+                    "Format de rapport standardisé"
+                ],
+                technicalSpecs: [
+                    "Conforme aux normes CPT internationales",
+                    "Traitement des données en temps réel",
+                    "Classification des sols de Robertson",
+                    "Corrélation multi-essais"
+                ]
+            },
+            geodyna: {
+                title: "GEODYNA®",
+                description: "Logiciel d'analyse d'essais DCP (Dynamic Cone Penetrometer) pour l'évaluation des chaussées et du compactage des sols.",
+                features: [
+                    "Traitement des données d'essais DCP",
+                    "Calculs du taux de pénétration",
+                    "Évaluation de la résistance des couches",
+                    "Corrélation CBR (California Bearing Ratio)",
+                    "Tracé profondeur-résistance"
+                ],
+                benefits: [
+                    "Évaluation rapide des essais de terrain",
+                    "Évaluation économique des sols",
+                    "Vérification fiable du compactage",
+                    "Résultats graphiques faciles à lire"
+                ],
+                technicalSpecs: [
+                    "Analyse du nombre de coups DCP",
+                    "Détection automatique des couches",
+                    "Formules d'estimation CBR",
+                    "Paramètres d'essai personnalisables"
+                ]
+            },
+            geogran: {
+                title: "GEOGRAN®",
+                description: "Logiciel d'analyse granulométrique et de classification des sols basé sur les essais au tamis et à l'hydromètre.",
+                features: [
+                    "Traitement de l'analyse au tamis",
+                    "Calculs des essais à l'hydromètre",
+                    "Courbes de distribution granulométrique",
+                    "Classification des sols USCS et AASHTO",
+                    "Calcul des paramètres D10, D30, D60",
+                    "Coefficient d'uniformité et de courbure"
+                ],
+                benefits: [
+                    "Classification automatique des sols",
+                    "Analyse précise de la granulométrie",
+                    "Courbes de gradation professionnelles",
+                    "Résultats conformes aux normes"
+                ],
+                technicalSpecs: [
+                    "Systèmes de classification multiples",
+                    "Analyse combinée tamis-hydromètre",
+                    "Calcul de paramètres statistiques",
+                    "Sorties graphiques et tabulaires"
+                ]
+            },
+            geolima: {
+                title: "GEOLIMA®",
+                description: "Logiciel d'essais des limites d'Atterberg pour l'analyse de plasticité et la classification des sols fins.",
+                features: [
+                    "Calculs de la limite de liquidité",
+                    "Détermination de la limite de plasticité",
+                    "Calcul de l'indice de plasticité",
+                    "Diagramme de plasticité de Casagrande",
+                    "Classification de la plasticité du sol"
+                ],
+                benefits: [
+                    "Caractérisation précise de la plasticité",
+                    "Traitement automatisé des limites d'Atterberg",
+                    "Résultats de classification clairs",
+                    "Vérification du contrôle qualité"
+                ],
+                technicalSpecs: [
+                    "Analyse de la courbe d'écoulement",
+                    "Support de méthodes d'essai multiples",
+                    "Classification ligne A",
+                    "Outils de présentation graphique"
+                ]
+            },
+            geocomp: {
+                title: "GEOCOMP®",
+                description: "Logiciel d'analyse d'essais de consolidation à l'œdomètre pour les calculs de compressibilité et de tassement.",
+                features: [
+                    "Traitement des données d'essais de consolidation",
+                    "Génération de courbe E-log p",
+                    "Calcul de l'indice de compression",
+                    "Détermination de la pression de préconsolidation",
+                    "Coefficient de consolidation",
+                    "Prévisions de tassement"
+                ],
+                benefits: [
+                    "Évaluation précise de la compressibilité",
+                    "Analyse fiable du tassement",
+                    "Rapports d'essais professionnels",
+                    "Automatisation économisant du temps"
+                ],
+                technicalSpecs: [
+                    "Méthodes de Casagrande et autres",
+                    "Analyse multi-paliers de charge",
+                    "Calculs d'indice des vides",
+                    "Paramètres d'essai personnalisables"
+                ]
+            },
+            geocons: {
+                title: "GEOCONS®",
+                description: "Logiciel avancé de consolidation à l'œdomètre axé sur les courbes de compression temps-déformation et la détermination de Cv.",
+                features: [
+                    "Tracé des courbes temps-compression",
+                    "Coefficient de consolidation (Cv)",
+                    "Méthodes racine du temps et log du temps",
+                    "Analyse de compression secondaire",
+                    "Consolidation multi-étapes"
+                ],
+                benefits: [
+                    "Analyse détaillée temps-déformation",
+                    "Détermination précise de Cv",
+                    "Caractérisation complète de consolidation",
+                    "Prévisions améliorées de tassement"
+                ],
+                technicalSpecs: [
+                    "Méthodes de Taylor et Casagrande",
+                    "Ajustement de courbes temporelles",
+                    "Coefficient de compression secondaire",
+                    "Analyse graphique des courbes"
+                ]
+            },
+            geogonf: {
+                title: "GEOGONF®",
+                description: "Logiciel d'essais de gonflement à l'œdomètre pour la caractérisation des sols expansifs et l'évaluation du potentiel de gonflement.",
+                features: [
+                    "Traitement des données d'essais de gonflement",
+                    "Calculs du pourcentage de gonflement",
+                    "Détermination de la pression de gonflement",
+                    "Analyse du changement de volume",
+                    "Classification du potentiel de gonflement"
+                ],
+                benefits: [
+                    "Évaluation précise des sols expansifs",
+                    "Support pour la conception de fondations",
+                    "Évaluation des risques pour sols expansifs",
+                    "Rapports de gonflement professionnels"
+                ],
+                technicalSpecs: [
+                    "Essais de gonflement libre et sous pression",
+                    "Conditions de chargement multiples",
+                    "Critères de classification",
+                    "Représentation graphique du gonflement"
+                ]
+            },
+            geocisa: {
+                title: "GEOCISA®",
+                description: "Logiciel d'analyse d'essais de cisaillement direct pour la détermination de la résistance au cisaillement et des paramètres de Mohr-Coulomb.",
+                features: [
+                    "Traitement des essais de cisaillement direct",
+                    "Courbes contrainte de cisaillement-déplacement",
+                    "Analyse de contrainte normale",
+                    "Calcul de cohésion et angle de frottement",
+                    "Enveloppe de rupture de Mohr-Coulomb",
+                    "Résistance au pic et résiduelle"
+                ],
+                benefits: [
+                    "Détermination précise de la résistance au cisaillement",
+                    "Paramètres fiables pour conception de fondations",
+                    "Rapports d'analyse de résistance professionnels",
+                    "Calculs contrôlés qualité"
+                ],
+                technicalSpecs: [
+                    "Essais multi-échantillons",
+                    "Calcul automatique des paramètres",
+                    "Tracé de l'enveloppe de rupture",
+                    "Conditions d'essai personnalisables"
+                ]
+            },
+            geoproc: {
+                title: "GEOPROC®",
+                description: "Logiciel d'essais de compactage Proctor pour la relation teneur en eau-densité et la détermination du compactage optimal.",
+                features: [
+                    "Essais Proctor normal et modifié",
+                    "Génération de courbe teneur en eau-densité",
+                    "Détermination de la teneur en eau optimale",
+                    "Calcul de la densité sèche maximale",
+                    "Courbe de saturation",
+                    "Analyse de courbes de compactage"
+                ],
+                benefits: [
+                    "Contrôle précis du compactage",
+                    "Spécifications optimisées des matériaux de remblai",
+                    "Assurance qualité pour terrassements",
+                    "Rapports de compactage professionnels"
+                ],
+                technicalSpecs: [
+                    "Méthodes Proctor normal et modifié",
+                    "Ajustement automatique de courbes",
+                    "Analyse multi-points",
+                    "Calcul de la ligne de saturation"
+                ]
+            }
+        }
+    },
+    ar: {
+        pageTitle: "البرمجيات",
+        overview: "نظرة عامة",
+        keyFeatures: "الميزات الرئيسية",
+        benefits: "الفوائد",
+        technicalSpecs: "المواصفات التقنية",
+        items: {
+            geologa: { title: "GEOLOGA®", description: "تقرير اختبار حفر التربة وتعديل المقاطع الجيولوجية." },
+            geopres: { title: "GEOPRES®", description: "تقرير اختبار مقياس الضغط مسبق الحفر." },
+            geoprec: { title: "GEOPREC®", description: "ملف تعريف اختبار مقياس الضغط مسبق الحفر." },
+            geostat: { title: "GEOSTAT®", description: "تقرير اختبار اختراق المخروط CPT." },
+            geodyna: { title: "GEODYNA®", description: "تقرير اختبار اختراق المخروط الديناميكي DCP." },
+            geogran: { title: "GEOGRAN®", description: "تقرير تحليل توزيع حجم الجسيمات - تصنيف التربة." },
+            geolima: { title: "GEOLIMA®", description: "تقرير تحليل حدود اللدونة أتربيرغ." },
+            geocomp: { title: "GEOCOMP®", description: "تقرير اختبار التماسك بمقياس الأودومتر." },
+            geocons: { title: "GEOCONS®", description: "تقرير اختبار التماسك - منحنيات معدل الانضغاط الزمني." },
+            geogonf: { title: "GEOGONF®", description: "تقرير اختبار الانتفاخ بمقياس الأودومتر." },
+            geocisa: { title: "GEOCISA®", description: "تقرير تحليل اختبار القص المباشر." },
+            geoproc: { title: "GEOPROC®", description: "تقرير اختبار دمك بروكتور للكثافة والرطوبة." }
+        }
+    },
+    es: {
+        pageTitle: "Software",
+        overview: "Descripción General",
+        keyFeatures: "Características Principales",
+        benefits: "Beneficios",
+        technicalSpecs: "Especificaciones Técnicas",
+        items: {
+            geologa: { title: "GEOLOGA®", description: "Informe de prueba de perforación de suelo y edición de secciones geológicas." },
+            geopres: { title: "GEOPRES®", description: "Informe de prueba presiométrica preperforada." },
+            geoprec: { title: "GEOPREC®", description: "Perfil de prueba presiométrica preperforada." },
+            geostat: { title: "GEOSTAT®", description: "Informe de prueba de penetración de cono CPT." },
+            geodyna: { title: "GEODYNA®", description: "Informe de prueba de penetrómetro de cono dinámico DCP." },
+            geogran: { title: "GEOGRAN®", description: "Informe de análisis de distribución de tamaño de partículas - Clasificación de suelos." },
+            geolima: { title: "GEOLIMA®", description: "Informe de análisis de límites de plasticidad de Atterberg." },
+            geocomp: { title: "GEOCOMP®", description: "Informe de prueba de consolidación edométrica." },
+            geocons: { title: "GEOCONS®", description: "Informe de prueba de consolidación - Curvas de tiempo-compresión." },
+            geogonf: { title: "GEOGONF®", description: "Informe de prueba de hinchamiento edométrico." },
+            geocisa: { title: "GEOCISA®", description: "Informe de análisis de prueba de corte directo." },
+            geoproc: { title: "GEOPROC®", description: "Informe de prueba de compactación Proctor de humedad-densidad." }
+        }
+    },
+    de: {
+        pageTitle: "Software",
+        overview: "Übersicht",
+        keyFeatures: "Hauptmerkmale",
+        benefits: "Vorteile",
+        technicalSpecs: "Technische Spezifikationen",
+        items: {
+            geologa: { title: "GEOLOGA®", description: "Bodenbohrtestbericht und geologische Querschnittsbearbeitung." },
+            geopres: { title: "GEOPRES®", description: "Bericht über vorgebohrten Druckmessertest." },
+            geoprec: { title: "GEOPREC®", description: "Profil des vorgebohrten Druckmessertests." },
+            geostat: { title: "GEOSTAT®", description: "CPT-Kegeldrucktestbericht." },
+            geodyna: { title: "GEODYNA®", description: "DCP-Dynamischer Kegeldrucktestbericht." },
+            geogran: { title: "GEOGRAN®", description: "Bericht zur Analyse der Partikelgrößenverteilung - Bodenklassifizierung." },
+            geolima: { title: "GEOLIMA®", description: "Bericht zur Analyse der Atterbergschen Plastizitätsgrenzen." },
+            geocomp: { title: "GEOCOMP®", description: "Ödometer-Konsolidierungstestbericht." },
+            geocons: { title: "GEOCONS®", description: "Ödometer-Konsolidierungstestbericht - Zeit-Kompressions-Kurven." },
+            geogonf: { title: "GEOGONF®", description: "Ödometer-Schwelltestbericht." },
+            geocisa: { title: "GEOCISA®", description: "Bericht zur Analyse des direkten Schertests." },
+            geoproc: { title: "GEOPROC®", description: "Feuchtigkeits-Dichte-Proctor-Verdichtungstestbericht." }
+        }
+    },
+    it: {
+        pageTitle: "Software",
+        overview: "Panoramica",
+        keyFeatures: "Caratteristiche Principali",
+        benefits: "Vantaggi",
+        technicalSpecs: "Specifiche Tecniche",
+        items: {
+            geologa: { title: "GEOLOGA®", description: "Rapporto di prova di sondaggio del terreno e modifica della sezione geologica." },
+            geopres: { title: "GEOPRES®", description: "Rapporto di prova pressiometrica preforata." },
+            geoprec: { title: "GEOPREC®", description: "Profilo di prova pressiometrica preforata." },
+            geostat: { title: "GEOSTAT®", description: "Rapporto di prova di penetrazione conica CPT." },
+            geodyna: { title: "GEODYNA®", description: "Rapporto di prova penetrometrica dinamica DCP." },
+            geogran: { title: "GEOGRAN®", description: "Rapporto di analisi della distribuzione granulometrica - Classificazione del suolo." },
+            geolima: { title: "GEOLIMA®", description: "Rapporto di analisi dei limiti di plasticità di Atterberg." },
+            geocomp: { title: "GEOCOMP®", description: "Rapporto di prova di consolidamento edometrico." },
+            geocons: { title: "GEOCONS®", description: "Rapporto di prova di consolidamento - Curve tempo-compressione." },
+            geogonf: { title: "GEOGONF®", description: "Rapporto di prova di rigonfiamento edometrico." },
+            geocisa: { title: "GEOCISA®", description: "Rapporto di analisi della prova di taglio diretto." },
+            geoproc: { title: "GEOPROC®", description: "Rapporto di prova di compattazione Proctor umidità-densità." }
+        }
+    },
+    zh: {
+        pageTitle: "软件",
+        overview: "概述",
+        keyFeatures: "主要特点",
+        benefits: "优势",
+        technicalSpecs: "技术规格",
+        items: {
+            geologa: { title: "GEOLOGA®", description: "土壤钻孔测试报告和地质剖面编辑。" },
+            geopres: { title: "GEOPRES®", description: "预钻旁压测试报告。" },
+            geoprec: { title: "GEOPREC®", description: "预钻旁压测试剖面。" },
+            geostat: { title: "GEOSTAT®", description: "CPT-静力触探测试报告。" },
+            geodyna: { title: "GEODYNA®", description: "DCP-动态触探测试报告。" },
+            geogran: { title: "GEOGRAN®", description: "粒度分布分析报告 - 土壤分类。" },
+            geolima: { title: "GEOLIMA®", description: "阿特贝格可塑性极限分析报告。" },
+            geocomp: { title: "GEOCOMP®", description: "固结仪固结测试报告。" },
+            geocons: { title: "GEOCONS®", description: "固结仪固结测试报告 - 时间-压缩曲线。" },
+            geogonf: { title: "GEOGONF®", description: "固结仪膨胀测试报告。" },
+            geocisa: { title: "GEOCISA®", description: "直接剪切测试分析报告。" },
+            geoproc: { title: "GEOPROC®", description: "湿度-密度普罗克特压实测试报告。" }
+        }
+    },
+    sw: {
+        pageTitle: "Programu",
+        overview: "Muhtasari",
+        keyFeatures: "Vipengele Vikuu",
+        benefits: "Faida",
+        technicalSpecs: "Vipimo vya Kiufundi",
+        items: {
+            geologa: { title: "GEOLOGA®", description: "Ripoti ya majaribio ya kuchimba udongo na uhariri wa sehemu ya jiolojia." },
+            geopres: { title: "GEOPRES®", description: "Ripoti ya Upimaji wa Kipima Shinikizo la Awali." },
+            geoprec: { title: "GEOPREC®", description: "Wasifu wa Jaribio la Kipima Shinikizo la Awali." },
+            geostat: { title: "GEOSTAT®", description: "Ripoti ya jaribio la kupenya kwa koni ya CPT." },
+            geodyna: { title: "GEODYNA®", description: "Ripoti ya jaribio la kupenya kwa koni ya nguvu ya DCP." },
+            geogran: { title: "GEOGRAN®", description: "Ripoti ya uchambuzi wa usambazaji wa ukubwa wa chembe - Uainishaji wa udongo." },
+            geolima: { title: "GEOLIMA®", description: "Ripoti ya uchambuzi wa mipaka ya plastiki ya Atterberg." },
+            geocomp: { title: "GEOCOMP®", description: "Ripoti ya jaribio la uimarishaji wa oedometer." },
+            geocons: { title: "GEOCONS®", description: "Ripoti ya jaribio la uimarishaji wa oedometer - Curves za kiwango cha muda wa kukandamiza." },
+            geogonf: { title: "GEOGONF®", description: "Ripoti ya jaribio la uvimbe wa oedometer." },
+            geocisa: { title: "GEOCISA®", description: "Ripoti ya uchambuzi wa jaribio la kukata moja kwa moja." },
+            geoproc: { title: "GEOPROC®", description: "Ripoti ya Jaribio la ushindiliaji wa Proctor wa Unyevu-Uzito." }
+        }
+    },
+    yo: {
+        pageTitle: "Sọfitiwia",
+        overview: "Akopọ",
+        keyFeatures: "Awọn ẹya Pataki",
+        benefits: "Awọn anfani",
+        technicalSpecs: "Awọn ipilẹ Imọ-ẹrọ",
+        items: {
+            geologa: { title: "GEOLOGA®", description: "Ijabọ idanwo alaidun ile ati ṣiṣatunṣe apakan agbelebu ti ẹkọ-aye." },
+            geopres: { title: "GEOPRES®", description: "Ijabọ Idanwo Pressuremeter ti a ti lu tẹlẹ." },
+            geoprec: { title: "GEOPREC®", description: "Profaili Idanwo Pressuremeter ti a ti lu tẹlẹ." },
+            geostat: { title: "GEOSTAT®", description: "Ijabọ idanwo ilaluja koni CPT." },
+            geodyna: { title: "GEODYNA®", description: "Ijabọ idanwo ilaluja koni DCP-Dynamic." },
+            geogran: { title: "GEOGRAN®", description: "Ijabọ itupalẹ pinpin iwọn patiku - Isọdi ile." },
+            geolima: { title: "GEOLIMA®", description: "Ijabọ itupalẹ awọn ifilelẹ pilasitiki Atterberg." },
+            geocomp: { title: "GEOCOMP®", description: "Ijabọ idanwo isọdọkan oedometer." },
+            geocons: { title: "GEOCONS®", description: "Ijabọ idanwo isọdọkan oedometer - Awọn iyipo oṣuwọn akoko funmorawon." },
+            geogonf: { title: "GEOGONF®", description: "Ijabọ idanwo wiwu oedometer." },
+            geocisa: { title: "GEOCISA®", description: "Ijabọ itupalẹ idanwo irẹrun taara." },
+            geoproc: { title: "GEOPROC®", description: "Ijabọ Idanwo iwapọ Proctor Ọrinrin-Density." }
+        }
+    },
+    am: {
+        pageTitle: "ሶፍትዌሮች",
+        overview: "አጠቃላይ እይታ",
+        keyFeatures: "ቁልፍ ባህሪያት",
+        benefits: "ጥቅሞች",
+        technicalSpecs: "ቴክኒካል ዝርዝር መግለጫዎች",
+        items: {
+            geologa: { title: "GEOLOGA®", description: "የአፈር ቦርንግ ሙከራ ሪፖርት እና የጂኦሎጂካል መስቀለኛ መንገድ አርትዖት።" },
+            geopres: { title: "GEOPRES®", description: "የPrebored Pressuremeter ሙከራ ሪፖርት።" },
+            geoprec: { title: "GEOPREC®", description: "የPrebored Pressuremeter ሙከራ መገለጫ።" },
+            geostat: { title: "GEOSTAT®", description: "የCPT-Cone የመግባት ሙከራ ሪፖርት።" },
+            geodyna: { title: "GEODYNA®", description: "የDCP-Dynamic cone penetrometer ሙከራ ሪፖርት።" },
+            geogran: { title: "GEOGRAN®", description: "የቅንጣት መጠን ስርጭት ትንተና ሪፖርት - የአፈር ምደባ።" },
+            geolima: { title: "GEOLIMA®", description: "የፕላስቲክነት Atterberg ወሰን ትንተና ሪፖርት።" },
+            geocomp: { title: "GEOCOMP®", description: "የOedometer ማጠናከሪያ ሙከራ ሪፖርት።" },
+            geocons: { title: "GEOCONS®", description: "የOedometer ማጠናከሪያ ሙከራ ሪፖርት - የመጭመቂያ ጊዜ-ደረጃ ኩርባዎች።" },
+            geogonf: { title: "GEOGONF®", description: "የOedometer እብጠት ሙከራ ሪፖርት።" },
+            geocisa: { title: "GEOCISA®", description: "ቀጥተኛ የመሸርሸር ሙከራ ትንተና ሪፖርት።" },
+            geoproc: { title: "GEOPROC®", description: "የእርጥበት-ጥግግት ፕሮክተር መጨመቅ ሙከራ ሪፖርት።" }
+        }
+    },
+    ha: {
+        pageTitle: "Manhaja",
+        overview: "Bayani",
+        keyFeatures: "Muhimman Fasaloli",
+        benefits: "Fa'idodi",
+        technicalSpecs: "Bayanin Fasaha",
+        items: {
+            geologa: { title: "GEOLOGA®", description: "Rahoton gwajin huda ƙasa da gyaran sashen giciye na yanayin ƙasa." },
+            geopres: { title: "GEOPRES®", description: "Rahoton Gwajin Pressuremeter da aka riga aka huda." },
+            geoprec: { title: "GEOPREC®", description: "Bayanan Gwajin Pressuremeter da aka riga aka huda." },
+            geostat: { title: "GEOSTAT®", description: "Rahoton gwajin shigar mazugi na CPT." },
+            geodyna: { title: "GEODYNA®", description: "Rahoton gwajin shigar mazugi mai ƙarfi na DCP." },
+            geogran: { title: "GEOGRAN®", description: "Rahoton binciken rarraba girman barbashi - Rarraba ƙasa." },
+            geolima: { title: "GEOLIMA®", description: "Rahoton binciken iyakokin filastik Atterberg." },
+            geocomp: { title: "GEOCOMP®", description: "Rahoton gwajin haɗin gwiwar Oedometer." },
+            geocons: { title: "GEOCONS®", description: "Rahoton gwajin haɗin gwiwar Oedometer - Lankwasa ƙimar lokacin matsawa." },
+            geogonf: { title: "GEOGONF®", description: "Rahoton gwajin kumburin Oedometer." },
+            geocisa: { title: "GEOCISA®", description: "Rahoton binciken gwajin shear kai tsaye." },
+            geoproc: { title: "GEOPROC®", description: "Rahoton Gwajin Haɗaɗɗen Proctor na Danshi-Density." }
+        }
+    }
+};
