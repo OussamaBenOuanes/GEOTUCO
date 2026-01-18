@@ -1,0 +1,21 @@
+970: [5->5]                     name: "HANNIBAL MEDICAL CENTER-BERGES DU LAC II",
+971: [5->5]                     site: "TUNIS-TUNESIEN",
+972: [5->5]                     structure: "3 UNTERGESCHOSSE + ERDGESCHOSS + 9 ETAGEN",
+973: [5->5]                     mission: "G2-PRO",
+974: [5->5]                     details: ["Gründungs- und Stützwandstudie"],
+975: [5->5]                     image: "/PROJECTS/image49.jpg"
+976: [5->4]                 }
+977: [4->4]             ]
+978: [4->3]         }
+979: [3->2]     },
+980: [2->3]     it: {
+981: [3->3]         servicesTitle: "I Nostri Servizi",
+982: [3->4]         geotechnicalEngineering: {
+983: [4->4]             title: "Ingegneria Geotecnica",
+984: [4->4]             description: "I nostri servizi di Ingegneria Geotecnica forniscono indagini complete sul sito, analisi del terreno e raccomandazioni per le fondazioni per garantire la sicurezza e la stabilità dei vostri progetti di costruzione.",
+985: [4->4]             bullets: [
+986: [4->4]                 "Indagini sul sito e sul terreno",
+987: [4->4]                 "Progettazione e raccomandazioni per le fondazioni",
+988: [4->4]                 "Analisi di stabilità dei pendii",
+989: [4->4]                 "Soluzioni di miglioramento del terreno",
+990: [4->4]                 "Progettazione di muri di sostegno e lavori di terra"

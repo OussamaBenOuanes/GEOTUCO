@@ -1,0 +1,5 @@
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100" height="100" fill="#111827" />
+  <path d="M80 0 L100 0 L100 20 Z" fill="white" />
+  <text x="50" y="65" font-family="'Arial Rounded MT Bold', Arial, sans-serif" font-weight="900" font-size="50" fill="white" text-anchor="middle">St</text>
+</svg>

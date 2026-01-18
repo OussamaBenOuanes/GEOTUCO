@@ -96,6 +96,17 @@ export default function GeoprogPage() {
 
                 {/* Card Content */}
                 <div style={{ padding: "1.5rem" }}>
+                  {/* Logo Image */}
+                  <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '1.2rem', background: '#f8fafc', padding: '1rem', borderRadius: '12px' }}>
+                    <img
+                      src={`/LOGOSV3/${key.toUpperCase()}_logo.svg`}
+                      alt={`${software.title} logo`}
+                      style={{ height: 40, width: 'auto', objectFit: 'contain' }}
+                      onError={(e) => {
+                        (e.target as HTMLImageElement).style.display = 'none';
+                      }}
+                    />
+                  </div>
                   <div style={{ fontSize: "1.2rem", fontWeight: 700, marginBottom: "0.5rem", textAlign: "center" }}>
                     {software.title}
                   </div>

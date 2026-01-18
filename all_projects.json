@@ -1,0 +1,226 @@
+[
+  {
+    "name_fr": "ALLIANCE BAY PROJECT",
+    "name_en": "ALLIANCE BAY PROJECT",
+    "details_fr": [
+      "Campagne géotechnique",
+      "Etude de Fondations",
+      "Etude d'Amélioration du sol/Préchargement"
+    ],
+    "details_en": [
+      "Campagne géotechnique",
+      "Etude de Fondations",
+      "Etude d'Amélioration du sol/Préchargement"
+    ],
+    "site_fr": "RAOUED ARIANA-TUNISIA",
+    "site_en": "RAOUED ARIANA-TUNISIA",
+    "structure_fr": "Golf Resort/ hôtel et club house/ 500 maisons individuelles/12 immeubles collectifs…",
+    "structure_en": "PONTS PK…..",
+    "mission_fr": "G1/G2-PRO",
+    "mission_en": "G1/G3"
+  },
+  {
+    "name_fr": "QATARI DIAR RESSORT",
+    "name_en": "QATARI DIAR RESSORT",
+    "details_fr": [
+      "Campagne géotechnique",
+      "Etude de Fondations"
+    ],
+    "details_en": [
+      "Campagne géotechnique",
+      "Etude de Fondations"
+    ],
+    "site_fr": "TOZEUR-TUNISIA",
+    "site_en": "TOZEUR-TUNISIA",
+    "structure_fr": "Desert resort/villas VIP/SPA/Zones de loisirs et activités",
+    "structure_en": "Desert Resort/VIP villas and Cottages/SPA/Entertainment & Recreation facilities",
+    "mission_fr": "G1/G2-AVP",
+    "mission_en": "G1/G2-AVP"
+  },
+  {
+    "name_fr": "MALL OF SOUSSE",
+    "name_en": "MALL OF SOUSSE",
+    "details_fr": [
+      "Campagne géotechnique",
+      "Etude de Fondations"
+    ],
+    "details_en": [
+      "Campagne géotechnique",
+      "Etude de Fondations"
+    ],
+    "site_fr": "SOUSSE-TUNISIE",
+    "site_en": "SOUSSE-TUNISIE",
+    "structure_fr": "1SOUS-SOL+2 NIVEAUX/SUPERFICIE 50 000m²",
+    "structure_en": "1SOUS-SOL+2 NIVEAUX/SUPERFICIE 50 000m131",
+    "mission_fr": "G1/G2-AVP",
+    "mission_en": "G1/G2-AVP"
+  },
+  {
+    "name_fr": "STATION DE DESSALEMENT D'EAU DE MER",
+    "name_en": "STATION DE DESSALEMENT D'EAU DE MER",
+    "details_fr": [
+      "Supervion géotechnique "
+    ],
+    "details_en": [
+      "Supervion géotechnique "
+    ],
+    "site_fr": "SOUSSE-TUNISIE",
+    "site_en": "SOUSSE-TUNISIE",
+    "structure_fr": "Divers structures-Capacité de 50 000 m3/j",
+    "structure_en": "Capacité de 50 000 m3/j",
+    "mission_fr": "G4",
+    "mission_en": "G5"
+  },
+  {
+    "name_fr": "REMPLACEMENT DES PONTS-LA LIGNE FERROVIAIRE T.G.M",
+    "name_en": "REMPLACEMENT DES PONTS-LA LIGNE FERROVIAIRE T.G.M",
+    "details_fr": [
+      "Campagne géotechnique",
+      "Assistance technique"
+    ],
+    "details_en": [
+      "Campagne géotechnique",
+      null
+    ],
+    "site_fr": "TUNIS-TUNISIA",
+    "site_en": "TUNIS-TUNISIA",
+    "structure_fr": "Ligne T.G.M/PK 3.663 ET PK 12.183",
+    "structure_en": "PONTS PK…..",
+    "mission_fr": "G1",
+    "mission_en": "G2"
+  },
+  {
+    "name_fr": "RFR-TRANCHE 1/TUNNEL A SAIDA MANOUBIA ",
+    "name_en": "REMPLACEMENT DES PONTS-LA LIGNE FERROVIAIRE T.G.M",
+    "details_fr": [
+      "Etude d'éxécution géotechnique",
+      "Contrôle interne",
+      "Assistance technique"
+    ],
+    "details_en": [
+      "Campagne géotechnique",
+      null,
+      null
+    ],
+    "site_fr": "TUNIS-TUNISIA",
+    "site_en": "TUNIS-TUNISIA",
+    "structure_fr": "Linéaire-630ml/Tunnel-260ml",
+    "structure_en": "PONTS PK…..",
+    "mission_fr": "G3",
+    "mission_en": "G3"
+  },
+  {
+    "name_fr": "AUTOROUTE DE L’OUEST-LOT1/ OUED ZARGA - BOUSALEM\r\n",
+    "name_en": "CLINIQE LA MIDETERRANNEE",
+    "details_fr": [
+      "Etude de fondations des ouvrages OH et OA",
+      "Analyse des tassements des sections en remblais",
+      "Etude de stabilité des sections en remblais",
+      "Assiatance technique"
+    ],
+    "details_en": [
+      "Campagne géotechnique",
+      "Etude de Fondations",
+      null,
+      null
+    ],
+    "site_fr": "TUNIS-OUEST-TUNISIE",
+    "site_en": "ARIANA-TUNISIE",
+    "structure_fr": "OUVRAGES HYDRAULIQUES-OUVRAGES D'ART/REMBLAIS",
+    "structure_en": "1SOUS-SOL+RDC+4 ETAGES",
+    "mission_fr": "G3",
+    "mission_en": "G1/G2-AVP"
+  },
+  {
+    "name_fr": "RESEAU GAZ NATUREL DU NORD-OUEST",
+    "name_en": "QATARI DIAR RESSORT",
+    "details_fr": [
+      "Campagne géotechnique",
+      "Assiatance technique"
+    ],
+    "details_en": [
+      "Campagne géotechnique",
+      "Etude de Fondations"
+    ],
+    "site_fr": "TUNIS-OUEST-TUNISIA",
+    "site_en": "TOZEUR-TUNISIA",
+    "structure_fr": "PIPE 24\"-16Km/PIPE 20\"-57Km",
+    "structure_en": "PONTS PK…..",
+    "mission_fr": "G1",
+    "mission_en": "G1/G2-AVP"
+  },
+  {
+    "name_fr": "STATIONS EPURATION",
+    "name_en": "QATARI DIAR RESSORT",
+    "details_fr": [
+      "Campagne géotechnique",
+      "Assiatance technique"
+    ],
+    "details_en": [
+      "Campagne géotechnique",
+      "Etude de Fondations"
+    ],
+    "site_fr": "STEP HAMMAMET/MOKNINE/BEN GUERDANE-TUNISIA",
+    "site_en": "TOZEUR-TUNISIA",
+    "structure_fr": "BASSINS-RESERVOIS-RESEAUX-STATIONS DE POMPAGE",
+    "structure_en": "PONTS PK…..",
+    "mission_fr": "G1",
+    "mission_en": "G1/G2-AVP"
+  },
+  {
+    "name_fr": "RESIDENCE BABA ALI",
+    "name_en": "RESIDENCE BAB ALI",
+    "details_fr": [
+      "Campagne géotechnique",
+      "Etude de Fondations-soutènements",
+      "Supervision géotechnique"
+    ],
+    "details_en": [
+      "Campagne géotechnique",
+      "Etude de Fondations-soutènements",
+      "Supervision géotechnique"
+    ],
+    "site_fr": "ARIANA-TUNISIE",
+    "site_en": "ARIANA-TUNISIE",
+    "structure_fr": "2SOUS-SOL+RDC+6 ETAGES",
+    "structure_en": "2SOUS-SOL+RDC+6 ETAGES",
+    "mission_fr": "G1/G2/G4",
+    "mission_en": "G1/G2/G5"
+  },
+  {
+    "name_fr": "RESIDENCE EL BOUSTENE JARDINS DE CARTHAGE",
+    "name_en": "RESIDENCE BAB ALI",
+    "details_fr": [
+      "Campagne géotechnique",
+      "Etude de Fondations-soutènements",
+      "Supervision géotechnique"
+    ],
+    "details_en": [
+      "Campagne géotechnique",
+      "Etude de Fondations-soutènements",
+      "Supervision géotechnique"
+    ],
+    "site_fr": "TUNIS-TUNISIE",
+    "site_en": "ARIANA-TUNISIE",
+    "structure_fr": "2SOUS-SOL+RDC+6 ETAGES",
+    "structure_en": "2SOUS-SOL+RDC+6 ETAGES",
+    "mission_fr": "G1/G2/G4",
+    "mission_en": "G1/G2/G6"
+  },
+  {
+    "name_fr": "HANNIBAL MEDICAL CENTER-BERGES DU LAC II",
+    "name_en": "RESIDENCE BAB ALI",
+    "details_fr": [
+      "Etude de Fondations-Soutènements"
+    ],
+    "details_en": [
+      "Campagne géotechnique"
+    ],
+    "site_fr": "TUNIS-TUNISIE",
+    "site_en": "ARIANA-TUNISIE",
+    "structure_fr": "3SOUS-SOLS+RDC+9ETAGES",
+    "structure_en": "2SOUS-SOL+RDC+6 ETAGES",
+    "mission_fr": "G2-PRO",
+    "mission_en": "G1/G2/G7"
+  }
+]

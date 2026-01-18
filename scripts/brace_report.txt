@@ -1,0 +1,31 @@
+770: [4->4]                     mission: "G1/G2/G4",
+771: [4->4]                     details: ["Campaña geotécnica", "Estudio de Cimentaciones-muros de contención", "Supervisión geotécnica"],
+772: [4->4]                     image: "/PROJECTS/image46.png"
+773: [4->3]                 },
+774: [3->4]                 {
+775: [4->4]                     name: "HANNIBAL MEDICAL CENTER-BERGES DU LAC II",
+776: [4->4]                     site: "TÚNEZ-TÚNEZ",
+777: [4->4]                     structure: "3 SÓTANOS + PLANTA BAJA + 9 PISOS",
+778: [4->4]                     mission: "G2-PRO",
+779: [4->4]                     details: ["Estudio de Cimentaciones-Muros de contención"],
+780: [4->4]                     image: "/PROJECTS/image49.jpg"
+781: [4->4]                 ]
+782: [4->3]         }
+783: [3->2]     },
+784: [2->3]     de: {
+785: [3->3]         servicesTitle: "Unsere Dienstleistungen",
+786: [3->4]         geotechnicalEngineering: {
+787: [4->4]             title: "Geotechnisches Ingenieurwesen",
+788: [4->4]             description: "Unsere geotechnischen Ingenieurdienstleistungen bieten umfassende Standortuntersuchungen, Bodenanalysen und Fundamentempfehlungen, um die Sicherheit und Stabilität Ihrer Bauprojekte zu gewährleisten.",
+789: [4->4]             bullets: [
+790: [4->4]                 "Standort- und Bodenuntersuchungen",
+791: [4->4]                 "Fundamentplanung und Empfehlungen",
+792: [4->4]                 "Hangstabilitätsanalyse",
+793: [4->4]                 "Bodenverbesserungslösungen",
+794: [4->4]                 "Stützmauer- und Erdbauplanung"
+795: [4->4]             ]
+796: [4->3]         },
+797: [3->4]         geotechnicalTests: {
+798: [4->4]             title: "Geotechnische Tests",
+799: [4->4]             description: "Wir bieten eine umfassende Reihe geotechnischer Tests zur Bewertung von Boden-, Fels- und Grundwasserbedingungen für Ihr Projekt. Unsere Labor- und Feldtestdienste gewährleisten genaue Daten.",
+800: [4->4]             bullets: [

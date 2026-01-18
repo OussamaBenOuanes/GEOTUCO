@@ -251,19 +251,18 @@ export default function Home() {
                     style={{ width: '100%', height: '100%', willChange: 'transform', cursor: 'pointer' }}
                     onClick={() => scrollTo(idx)}
                   >
-                    {/* For mobile: eager load and set width/height */}
                     <img
                       src={item.src}
                       alt={item.title}
                       loading={isMobile ? undefined : "lazy"}
-                      width={isMobile ? 400 : undefined}
-                      height={isMobile ? 250 : undefined}
+                      // Removed explicit width/height to prevent blurriness on high-DPI screens
                       style={{
                         width: '100%',
                         height: '100%',
                         objectFit: 'cover',
                         borderRadius: 12,
-                        display: 'block'
+                        display: 'block',
+                        imageRendering: 'auto' // Ensures best quality rendering
                       }}
                     />
                     {/* Overlay with fade in/out effect */}

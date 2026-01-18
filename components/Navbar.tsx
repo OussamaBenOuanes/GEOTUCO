@@ -29,6 +29,7 @@ export default function Navbar() {
   const NAV_PAGES = [
     { label: t.home, slug: "" },
     { label: t.about, slug: "about" },
+    { label: t.career, slug: "career" },
     {
       label: t.services, slug: "services", children: [
         { label: t.geotechnicalEngineering, slug: "geotechnical-engineering" },
@@ -231,7 +232,7 @@ export default function Navbar() {
         {/* Get Started Button */}
         <div style={{ display: "flex", alignItems: "center", gap: "0.5rem" }}>
           <Link
-            href="/get-started"
+            href="/contact"
             className="hidden md:inline-block text-white font-bold px-6 py-2 rounded-lg transition-colors"
             style={{
               background: "linear-gradient(85deg, #003365 54.3%, #0057AC 100%)",
@@ -756,7 +757,7 @@ export default function Navbar() {
               )
             )}
             <Link
-              href="/get-started"
+              href="/contact"
               className="text-white font-bold px-6 py-2 rounded-lg transition-colors mt-2 text-center"
               style={{
                 background: "linear-gradient(85deg, #003365 54.3%, #0057AC 100%)",

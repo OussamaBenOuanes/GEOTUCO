@@ -66,14 +66,24 @@ export default function GeoprogSoftwarePage() {
               </svg>
               {t.backToAll || "Back to All Software"}
             </Link>
-            <h1 style={{
-              fontSize: 'clamp(2rem, 5vw, 3rem)',
-              fontWeight: 800,
-              margin: 0,
-              lineHeight: 1.1
-            }}>
-              {software.title}
-            </h1>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '1.5rem' }}>
+              <img
+                src={`/LOGOSV3/${slug.toUpperCase()}_logo.svg`}
+                alt={`${software.title} logo`}
+                style={{ height: 60, width: 'auto', objectFit: 'contain' }}
+                onError={(e) => {
+                  (e.target as HTMLImageElement).style.display = 'none';
+                }}
+              />
+              <h1 style={{
+                fontSize: 'clamp(2rem, 5vw, 3rem)',
+                fontWeight: 800,
+                margin: 0,
+                lineHeight: 1.1
+              }}>
+                {software.title}
+              </h1>
+            </div>
           </div>
         </div>
 

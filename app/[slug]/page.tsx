@@ -6,6 +6,8 @@ import ContactFormWithTitle from './ContactFormWithTitle';
 import React, { useEffect, useState } from 'react';
 import Geology from './Geology';
 import Training from './Training';
+import About from './About';
+import Career from './Career';
 import { pagesTranslations } from '../../translations/pages';
 
 export default function DynamicPage() {
@@ -130,6 +132,14 @@ export default function DynamicPage() {
 
   if (slug === "training") {
     return <Training />; // Training component handles its own translations internally or need update
+  }
+
+  if (slug === "about") {
+    return <About />;
+  }
+
+  if (slug === "careers" || slug === "career") {
+    return <Career />;
   }
 
   if (slug === "softwares") {
