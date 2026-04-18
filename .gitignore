@@ -26,3 +26,5 @@ Thumbs.db
 # Misc
 *.log
 *.tsbuildinfo
+#supabase creds
+setup-db.js

@@ -29,6 +29,7 @@ export default function Navbar() {
   const NAV_PAGES = [
     { label: t.home, slug: "" },
     { label: t.about, slug: "about" },
+
     { label: t.career, slug: "career" },
     {
       label: t.services, slug: "services", children: [
@@ -39,21 +40,9 @@ export default function Navbar() {
       ]
     },
     {
-      label: t.softwares, slug: "geoprog", children: [
-        { label: t.geologa || "GEOLOGA®", slug: "geologa" },
-        { label: t.geopres || "GEOPRES®", slug: "geopres" },
-        { label: t.geoprec || "GEOPREC®", slug: "geoprec" },
-        { label: t.geostat || "GEOSTAT®", slug: "geostat" },
-        { label: t.geodyna || "GEODYNA®", slug: "geodyna" },
-        { label: t.geogran || "GEOGRAN®", slug: "geogran" },
-        { label: t.geolima || "GEOLIMA®", slug: "geolima" },
-        { label: t.geocomp || "GEOCOMP®", slug: "geocomp" },
-        { label: t.geocons || "GEOCONS®", slug: "geocons" },
-        { label: t.geogonf || "GEOGONF®", slug: "geogonf" },
-        { label: t.geocisa || "GEOCISA®", slug: "geocisa" },
-        { label: t.geoproc || "GEOPROC®", slug: "geoproc" }
-      ]
+      label: t.softwares, slug: "geoprog"
     },
+    { label: t.geodata, slug: "geodata" },
     { label: t.blog, slug: "blog" },
     { label: t.contact, slug: "contact" }
   ];

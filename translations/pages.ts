@@ -192,6 +192,15 @@ export const pagesTranslations: any = {
                     image: "/PROJECTS/image49.jpg"
                 }
             ]
+        },
+        references: {
+            tunisiaTab: "Tunisia",
+            internationalTab: "International",
+            clientsTitle: "Our Clients",
+            siteLabel: "Site",
+            structureLabel: "Structure",
+            missionLabel: "Mission",
+            detailsLabel: "Services Provided"
         }
     },
     fr: {
@@ -388,6 +397,15 @@ export const pagesTranslations: any = {
                     image: "/PROJECTS/image49.jpg"
                 }
             ]
+        },
+        references: {
+            tunisiaTab: "Tunisie",
+            internationalTab: "International",
+            clientsTitle: "Nos Clients",
+            siteLabel: "Site",
+            structureLabel: "Structure",
+            missionLabel: "Mission",
+            detailsLabel: "Services Fournis"
         }
     },
     ar: {
@@ -584,6 +602,15 @@ export const pagesTranslations: any = {
                     image: "/PROJECTS/image49.jpg"
                 }
             ]
+        },
+        references: {
+            tunisiaTab: "تونس",
+            internationalTab: "دولي",
+            clientsTitle: "عملاؤنا",
+            siteLabel: "الموقع",
+            structureLabel: "الهيكل",
+            missionLabel: "المهمة",
+            detailsLabel: "الخدمات المقدمة"
         }
     },
     es: {
@@ -976,6 +1003,15 @@ export const pagesTranslations: any = {
                     image: "/PROJECTS/image49.jpg"
                 }
             ]
+        },
+        references: {
+            tunisiaTab: "Tunesien",
+            internationalTab: "International",
+            clientsTitle: "Unsere Kunden",
+            siteLabel: "Standort",
+            structureLabel: "Struktur",
+            missionLabel: "Mission",
+            detailsLabel: "Erbrachte Dienstleistungen"
         }
     },
     it: {
@@ -1171,6 +1207,15 @@ export const pagesTranslations: any = {
                     details: ["Studio di Fondazioni-Sostegni"],
                 }
             ]
+        },
+        references: {
+            tunisiaTab: "Tunisia",
+            internationalTab: "Internazionale",
+            clientsTitle: "I Nostri Clienti",
+            siteLabel: "Sito",
+            structureLabel: "Struttura",
+            missionLabel: "Missione",
+            detailsLabel: "Servizi Forniti"
         }
     },
     zh: {
@@ -1365,6 +1410,15 @@ export const pagesTranslations: any = {
                     mission: "G2-PRO",
                 }
             ]
+        },
+        references: {
+            tunisiaTab: "突尼斯",
+            internationalTab: "国际",
+            clientsTitle: "我们的客户",
+            siteLabel: "地点",
+            structureLabel: "结构",
+            missionLabel: "任务",
+            detailsLabel: "提供的服务"
         }
     },
     sw: {
@@ -1518,6 +1572,15 @@ export const pagesTranslations: any = {
                     image: "/PROJECTS/image49.jpg"
                 }
             ]
+        },
+        references: {
+            tunisiaTab: "Tunisia",
+            internationalTab: "Kimataifa",
+            clientsTitle: "Wateja Wetu",
+            siteLabel: "Tovuti",
+            structureLabel: "Muundo",
+            missionLabel: "Ujumbe",
+            detailsLabel: "Huduma Zilizotolewa"
         }
     },
     yo: {

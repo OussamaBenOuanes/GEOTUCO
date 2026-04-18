@@ -7,7 +7,9 @@ import React, { useEffect, useState } from 'react';
 import Geology from './Geology';
 import Training from './Training';
 import About from './About';
-import Career from './Career';
+import References from './References';
+
+import Geodata from './Geodata';
 import { pagesTranslations } from '../../translations/pages';
 
 export default function DynamicPage() {
@@ -138,8 +140,14 @@ export default function DynamicPage() {
     return <About />;
   }
 
-  if (slug === "careers" || slug === "career") {
-    return <Career />;
+
+
+  if (slug === "geodata") {
+    return <Geodata />;
+  }
+
+  if (slug === "careers" || slug === "career" || slug === "references") {
+    return <References />;
   }
 
   if (slug === "softwares") {

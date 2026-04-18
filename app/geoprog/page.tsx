@@ -58,16 +58,7 @@ export default function GeoprogPage() {
                   color: "#2a4d69",
                   display: "flex",
                   flexDirection: "column",
-                  fontWeight: 500,
-                  transition: "transform 0.15s, box-shadow 0.15s"
-                }}
-                onMouseEnter={(e) => {
-                  e.currentTarget.style.transform = 'translateY(-5px)';
-                  e.currentTarget.style.boxShadow = '0 8px 24px #e0e6ed';
-                }}
-                onMouseLeave={(e) => {
-                  e.currentTarget.style.transform = 'translateY(0)';
-                  e.currentTarget.style.boxShadow = '0 2px 12px #e0e6ed';
+                  fontWeight: 500
                 }}
               >
                 {/* Thumbnail Image */}

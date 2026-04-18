@@ -10,7 +10,9 @@ export const navbarTranslations = {
     softwares: "Softwares",
     contact: "Contact",
     blog: "Blog",
+    geodata: "GEODATA",
     career: "References",
+
     getStarted: "Get started",
     language: "Language"
   },
@@ -25,7 +27,9 @@ export const navbarTranslations = {
     softwares: "البرمجيات",
     contact: "اتصل بنا",
     blog: "المدونة",
+    geodata: "GEODATA",
     career: "مراجعنا",
+
     getStarted: "ابدأ الآن",
     language: "اللغة"
   },
@@ -40,7 +44,9 @@ export const navbarTranslations = {
     softwares: "Software",
     contact: "Contacto",
     blog: "Blog",
+    geodata: "GEODATA",
     career: "Referencias",
+
     getStarted: "Empezar",
     language: "Idioma"
   },
@@ -55,7 +61,9 @@ export const navbarTranslations = {
     softwares: "Software",
     contact: "Kontakt",
     blog: "Blog",
+    geodata: "GEODATA",
     career: "Referenzen",
+
     getStarted: "Loslegen",
     language: "Sprache"
   },
@@ -70,7 +78,9 @@ export const navbarTranslations = {
     softwares: "Software",
     contact: "Contatto",
     blog: "Blog",
+    geodata: "GEODATA",
     career: "Referenze",
+
     getStarted: "Inizia",
     language: "Lingua"
   },
@@ -85,7 +95,9 @@ export const navbarTranslations = {
     softwares: "软件",
     contact: "联系我们",
     blog: "博客",
+    geodata: "GEODATA",
     career: "参考项目",
+
     getStarted: "开始使用",
     language: "语言"
   },
@@ -100,7 +112,9 @@ export const navbarTranslations = {
     softwares: "Programu",
     contact: "Wasiliana",
     blog: "Blogu",
+    geodata: "GEODATA",
     career: "Marejeleo",
+
     getStarted: "Anza",
     language: "Lugha"
   },
@@ -115,7 +129,9 @@ export const navbarTranslations = {
     softwares: "Sọfitiwia",
     contact: "Kan si",
     blog: "Bulọọgi",
+    geodata: "GEODATA",
     career: "Awọn Itọkasi",
+
     getStarted: "Bẹrẹ",
     language: "Ede"
   },
@@ -130,7 +146,9 @@ export const navbarTranslations = {
     softwares: "ሶፍትዌሮች",
     contact: "ያግኙን",
     blog: "ብሎግ",
+    geodata: "GEODATA",
     career: "ማጣቀሻዎች",
+
     getStarted: "ይጀምሩ",
     language: "ቋንቋ"
   },
@@ -145,7 +163,9 @@ export const navbarTranslations = {
     softwares: "Manhaja",
     contact: "Tuntube Mu",
     blog: "Blog",
+    geodata: "GEODATA",
     career: "Ayyukanmu",
+
     getStarted: "Fara",
     language: "Harshe"
   },
@@ -160,7 +180,9 @@ export const navbarTranslations = {
     softwares: "Logiciels",
     contact: "Contact",
     blog: "Blog",
+    geodata: "GEODATA",
     career: "Références",
+
     getStarted: "Commencer",
     language: "Langue"
   }

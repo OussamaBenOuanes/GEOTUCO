@@ -20,6 +20,7 @@ const SERVICE_EMOJIS: Record<string, string> = {
 export default function Home() {
   const [language, setLanguage] = useState("en");
   const [isMobile, setIsMobile] = useState(false);
+  const [formationImages, setFormationImages] = useState<string[]>([]);
 
   // Detect browser language and set mobile state
   useEffect(() => {
@@ -35,8 +36,24 @@ export default function Home() {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
+  // Fetch formation images from Supabase storage
+  useEffect(() => {
+    const keys = Array.from({ length: 13 }, (_, i) => `formation/FORMATION-${i + 1}.webp`);
+    setFormationImages(keys.map(k => `/api/storage?key=${encodeURIComponent(k)}`));
+  }, []);
+
   const t = translations[language as keyof typeof translations] || translations.en;
   const tPages = pagesTranslations[language] || pagesTranslations.en;
+
+  // Build carousel slides: use formation images from Supabase, with translated text overlay
+  const carouselSlides = formationImages.map((src, idx) => {
+    const translated = (t.carousel || [])[idx];
+    return {
+      src,
+      title: translated?.title || '',
+      description: translated?.description || '',
+    };
+  });
 
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true });
   const [selectedIndex, setSelectedIndex] = useState(0);
@@ -156,8 +173,8 @@ export default function Home() {
       interval = setInterval(() => {
         if (emblaApi && document.visibilityState === "visible") {
           // Prefetch the next image for better LCP
-          const nextIdx = (emblaApi.selectedScrollSnap() + 1) % (t.carousel || []).length;
-          const nextImg = (t.carousel || [])[nextIdx]?.src;
+          const nextIdx = (emblaApi.selectedScrollSnap() + 1) % carouselSlides.length;
+          const nextImg = carouselSlides[nextIdx]?.src;
           if (nextImg) {
             const img = new window.Image();
             img.loading = "lazy";
@@ -227,7 +244,7 @@ export default function Home() {
               gap: 8, // Increased gap between slides
             }}
           >
-            {(t.carousel || []).map((item: any, idx: number) => (
+            {carouselSlides.map((item: any, idx: number) => (
               <div
                 className="embla__slide"
                 key={idx}
@@ -383,7 +400,7 @@ export default function Home() {
             gap: 8,
             marginTop: 16
           }}>
-            {(t.carousel || []).map((_: any, idx: number) => (
+            {carouselSlides.map((_: any, idx: number) => (
               <button
                 key={idx}
                 type="button"

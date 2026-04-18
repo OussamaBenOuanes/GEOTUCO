@@ -1,0 +1,498 @@
+{
+  "tunisia": [
+    {
+      "name_fr": "ALLIANCE BAY PROJECT",
+      "name_en": "ALLIANCE BAY PROJECT",
+      "details_fr": [
+        "Campagne géotechnique",
+        "Etude de Fondations",
+        "Etude d'Amélioration du sol/Préchargement"
+      ],
+      "details_en": [
+        "Campagne géotechnique",
+        "Etude de Fondations",
+        "Etude d'Amélioration du sol/Préchargement"
+      ],
+      "site_fr": "RAOUED ARIANA-TUNISIA",
+      "site_en": "RAOUED ARIANA-TUNISIA",
+      "structure_fr": "PONTS PK…..",
+      "structure_en": "PONTS PK…..",
+      "mission_fr": "G1/G2-PRO",
+      "mission_en": "G1/G3"
+    },
+    {
+      "name_fr": "QATARI DIAR RESSORT",
+      "name_en": "QATARI DIAR RESSORT",
+      "details_fr": [
+        "Campagne géotechnique",
+        "Etude de Fondations"
+      ],
+      "details_en": [
+        "Campagne géotechnique",
+        "Etude de Fondations"
+      ],
+      "site_fr": "TOZEUR-TUNISIA",
+      "site_en": "TOZEUR-TUNISIA",
+      "structure_fr": "PONTS PK…..",
+      "structure_en": "PONTS PK…..",
+      "mission_fr": "G1/G2-AVP",
+      "mission_en": "G1/G2-AVP"
+    },
+    {
+      "name_fr": "MALL OF SOUSSE",
+      "name_en": "MALL OF SOUSSE",
+      "details_fr": [
+        "Campagne géotechnique",
+        "Etude de Fondations"
+      ],
+      "details_en": [
+        "Campagne géotechnique",
+        "Etude de Fondations"
+      ],
+      "site_fr": "SOUSSE-TUNISIE",
+      "site_en": "SOUSSE-TUNISIE",
+      "structure_fr": "1SOUS-SOL+2 NIVEAUX/SUPERFICIE 50 000m²",
+      "structure_en": "1SOUS-SOL+2 NIVEAUX/SUPERFICIE 50 000m131",
+      "mission_fr": "G1/G2-AVP",
+      "mission_en": "G1/G2-AVP"
+    },
+    {
+      "name_fr": "STATION DE DESSALEMENT D'EAU DE MER",
+      "name_en": "STATION DE DESSALEMENT D'EAU DE MER",
+      "details_fr": [
+        "Supervion géotechnique "
+      ],
+      "details_en": [
+        "Supervion géotechnique "
+      ],
+      "site_fr": "SOUSSE-TUNISIE",
+      "site_en": "SOUSSE-TUNISIE",
+      "structure_fr": "Capacité de 50 000 m3/j",
+      "structure_en": "Capacité de 50 000 m3/j",
+      "mission_fr": "G4",
+      "mission_en": "G5"
+    },
+    {
+      "name_fr": "REMPLACEMENT DES PONTS-LA LIGNE FERROVIAIRE T.G.M",
+      "name_en": "REMPLACEMENT DES PONTS-LA LIGNE FERROVIAIRE T.G.M",
+      "details_fr": [
+        "Campagne géotechnique"
+      ],
+      "details_en": [
+        "Campagne géotechnique"
+      ],
+      "site_fr": "TUNIS-TUNISIA",
+      "site_en": "TUNIS-TUNISIA",
+      "structure_fr": "PONTS PK…..",
+      "structure_en": "PONTS PK…..",
+      "mission_fr": "G1",
+      "mission_en": "G2"
+    },
+    {
+      "name_fr": "RFR-TRANCHE 1/TUNNEL A SAIDA MANOUBIA ",
+      "name_en": "REMPLACEMENT DES PONTS-LA LIGNE FERROVIAIRE T.G.M",
+      "details_fr": [
+        "Etude d'éxécution géotechnique",
+        "Contrôle interne",
+        "Assistance technique"
+      ],
+      "details_en": [
+        "Campagne géotechnique"
+      ],
+      "site_fr": "TUNIS-TUNISIA",
+      "site_en": "TUNIS-TUNISIA",
+      "structure_fr": "PONTS PK…..",
+      "structure_en": "PONTS PK…..",
+      "mission_fr": "G3",
+      "mission_en": "G3"
+    },
+    {
+      "name_fr": "AUTOROUTE DE L’OUEST-LOT1/ OUED ZARGA - BOUSALEM\r\n",
+      "name_en": "CLINIQE LA MIDETERRANNEE",
+      "details_fr": [
+        "Etude de fondations des ouvrages OH et OA",
+        "Analyse des tassements des sections en remblais",
+        "Etude de stabilité des sections en remblais",
+        "Assiatance technique"
+      ],
+      "details_en": [
+        "Campagne géotechnique",
+        "Etude de Fondations"
+      ],
+      "site_fr": "TUNIS-OUEST-TUNISIE",
+      "site_en": "ARIANA-TUNISIE",
+      "structure_fr": "OUVRAGES HYDRAULIQUES-OUVRAGES D'ART/REMBLAIS",
+      "structure_en": "1SOUS-SOL+RDC+4 ETAGES",
+      "mission_fr": "G3",
+      "mission_en": "G1/G2-AVP"
+    },
+    {
+      "name_fr": "RESEAU GAZ NATUREL DU NORD-OUEST",
+      "name_en": "QATARI DIAR RESSORT",
+      "details_fr": [
+        "Campagne géotechnique",
+        "Assiatance technique"
+      ],
+      "details_en": [
+        "Campagne géotechnique",
+        "Etude de Fondations"
+      ],
+      "site_fr": "TUNIS-OUEST-TUNISIA",
+      "site_en": "TOZEUR-TUNISIA",
+      "structure_fr": "PONTS PK…..",
+      "structure_en": "PONTS PK…..",
+      "mission_fr": "G1",
+      "mission_en": "G1/G2-AVP"
+    },
+    {
+      "name_fr": "STATIONS EPURATION",
+      "name_en": "QATARI DIAR RESSORT",
+      "details_fr": [
+        "Campagne géotechnique",
+        "Assiatance technique"
+      ],
+      "details_en": [
+        "Campagne géotechnique",
+        "Etude de Fondations"
+      ],
+      "site_fr": "STEP HAMMAMET/MOKNINE/BEN GUERDANE-TUNISIA",
+      "site_en": "TOZEUR-TUNISIA",
+      "structure_fr": "BASSINS-RESERVOIS-RESEAUX",
+      "structure_en": "PONTS PK…..",
+      "mission_fr": "G1",
+      "mission_en": "G1/G2-AVP"
+    },
+    {
+      "name_fr": "RESIDENCE BAB ALI",
+      "name_en": "RESIDENCE BAB ALI",
+      "details_fr": [
+        "Campagne géotechnique",
+        "Etude de Fondations-soutènements",
+        "Supervision géotechnique"
+      ],
+      "details_en": [
+        "Campagne géotechnique",
+        "Etude de Fondations-soutènements",
+        "Supervision géotechnique"
+      ],
+      "site_fr": "ARIANA-TUNISIE",
+      "site_en": "ARIANA-TUNISIE",
+      "structure_fr": "2SOUS-SOL+RDC+6 ETAGES",
+      "structure_en": "2SOUS-SOL+RDC+6 ETAGES",
+      "mission_fr": "G1/G2/G4",
+      "mission_en": "G1/G2/G5"
+    },
+    {
+      "name_fr": "RESIDENCE EL BOUSTENE JARDINS DE CARTHAGE",
+      "name_en": "RESIDENCE BAB ALI",
+      "details_fr": [
+        "Campagne géotechnique",
+        "Etude de Fondations-soutènements",
+        "Supervision géotechnique"
+      ],
+      "details_en": [
+        "Campagne géotechnique",
+        "Etude de Fondations-soutènements",
+        "Supervision géotechnique"
+      ],
+      "site_fr": "TUNIS-TUNISIE",
+      "site_en": "ARIANA-TUNISIE",
+      "structure_fr": "2SOUS-SOL+RDC+6 ETAGES",
+      "structure_en": "2SOUS-SOL+RDC+6 ETAGES",
+      "mission_fr": "G1/G2/G4",
+      "mission_en": "G1/G2/G6"
+    },
+    {
+      "name_fr": "HANNIBAL MEDICAL CENTER-BERGES DU LAC II",
+      "name_en": "RESIDENCE BAB ALI",
+      "details_fr": [
+        "Etude de Fondations-Soutènements"
+      ],
+      "details_en": [
+        "Campagne géotechnique",
+        "Etude de Fondations-soutènements",
+        "Supervision géotechnique"
+      ],
+      "site_fr": "TUNIS-TUNISIE",
+      "site_en": "ARIANA-TUNISIE",
+      "structure_fr": "3SOUS-SOLS+RDC+9ETAGES",
+      "structure_en": "2SOUS-SOL+RDC+6 ETAGES",
+      "mission_fr": "G2-PRO",
+      "mission_en": "G1/G2/G7"
+    }
+  ],
+  "etranger": [
+    {
+      "name_fr": "CENTRE INTERNATIONALE DES AFFAIRES (CIA)",
+      "name_en": "ALLIANCE BAY PROJECT",
+      "details_fr": [
+        "Etude de Fondations-Soutènements",
+        "ASSISTANCE TECHNIQUE"
+      ],
+      "details_en": [
+        "Campagne géotechnique",
+        "Etude de Fondations",
+        "Etude d'Amélioration du sol/Préchargement"
+      ],
+      "site_fr": "N’DJAMENA-TCHAD",
+      "site_en": "RAOUED ARIANA-TUNISIA",
+      "structure_fr": "",
+      "structure_en": "PONTS PK…..",
+      "mission_fr": "G2-PRO",
+      "mission_en": "G1/G3"
+    },
+    {
+      "name_fr": "TOUR BMCE MOHAMED VI-RABAT",
+      "name_en": "QATARI DIAR RESSORT",
+      "details_fr": [
+        "Expertise et controle des ouvrages géotechniques réalisés",
+        "Analyse rapports géotechniques",
+        "Examen et contrôle des études d'exécution",
+        "Assistance technique"
+      ],
+      "details_en": [
+        "Campagne géotechnique",
+        "Etude de Fondations"
+      ],
+      "site_fr": "RABAT-MAROC",
+      "site_en": "TOZEUR-TUNISIA",
+      "structure_fr": "250 mètres/55 étages (La plus haute tour d’Afrique)",
+      "structure_en": "PONTS PK…..",
+      "mission_fr": "G5",
+      "mission_en": "G1/G2-AVP"
+    },
+    {
+      "name_fr": "SIEGE DE LA BANQUE BRB",
+      "name_en": "MALL OF SOUSSE",
+      "details_fr": [
+        "Etude d'exécution/Fondations-Soutènements",
+        "Assistance technique"
+      ],
+      "details_en": [
+        "Campagne géotechnique",
+        "Etude de Fondations"
+      ],
+      "site_fr": "BUJUMBURA-BURUNDI ",
+      "site_en": "SOUSSE-TUNISIE",
+      "structure_fr": "2SOUS-SOLS+RDC+9ETAGES",
+      "structure_en": "1SOUS-SOL+2 NIVEAUX/SUPERFICIE 50 000m131",
+      "mission_fr": "G3",
+      "mission_en": "G1/G2-AVP"
+    },
+    {
+      "name_fr": "PRESIDENTIAL TOWERS",
+      "name_en": "STATION DE DESSALEMENT D'EAU DE MER",
+      "details_fr": [
+        "Etude de Fondations-Soutènements",
+        "ASSISTANCE TECHNIQUE"
+      ],
+      "details_en": [
+        "Supervion géotechnique "
+      ],
+      "site_fr": "DIXINN-CONAKRY-GUINEE\r\n",
+      "site_en": "SOUSSE-TUNISIE",
+      "structure_fr": "3SOUS-SOLS+RDC+15 A 30 ETAGES",
+      "structure_en": "Capacité de 50 000 m3/j",
+      "mission_fr": "G2-AVP",
+      "mission_en": "G5"
+    },
+    {
+      "name_fr": "REMPLACEMENT DES PONTS-LA LIGNE FERROVIAIRE T.G.M",
+      "name_en": "REMPLACEMENT DES PONTS-LA LIGNE FERROVIAIRE T.G.M",
+      "details_fr": [
+        "Campagne géotechnique"
+      ],
+      "details_en": [
+        "Campagne géotechnique"
+      ],
+      "site_fr": "TUNIS-TUNISIA",
+      "site_en": "TUNIS-TUNISIA",
+      "structure_fr": "PONTS PK…..",
+      "structure_en": "PONTS PK…..",
+      "mission_fr": "G1",
+      "mission_en": "G2"
+    },
+    {
+      "name_fr": "RFR-TRANCHE 1/TUNNEL A SAIDA MANOUBIA ",
+      "name_en": "REMPLACEMENT DES PONTS-LA LIGNE FERROVIAIRE T.G.M",
+      "details_fr": [
+        "Etude de soutènments",
+        "Assistance technique"
+      ],
+      "details_en": [
+        "Campagne géotechnique"
+      ],
+      "site_fr": "TUNIS-TUNISIA",
+      "site_en": "TUNIS-TUNISIA",
+      "structure_fr": "PONTS PK…..",
+      "structure_en": "PONTS PK…..",
+      "mission_fr": "G3",
+      "mission_en": "G3"
+    },
+    {
+      "name_fr": "KKC TOLL ROAD/LUAPULA BRIDGE ",
+      "name_en": "",
+      "details_fr": [
+        "Supervision géotechnique",
+        "Contrôle interne",
+        "Assistance technique"
+      ],
+      "details_en": [],
+      "site_fr": "RDC CONGO-FRONTIERE ZAMBIE",
+      "site_en": "",
+      "structure_fr": "AUTOROUTE 3 SECTIONS (83km)/Pont (355m)",
+      "structure_en": "",
+      "mission_fr": "G4",
+      "mission_en": ""
+    },
+    {
+      "name_fr": "EXTENSION D'AEROPORT DE MOUNDOU",
+      "name_en": "",
+      "details_fr": [
+        "Etude de fondations",
+        "Assistance technique"
+      ],
+      "details_en": [],
+      "site_fr": "MOUNDOU-TCHAD",
+      "site_en": "",
+      "structure_fr": " Aérogare/ Bloc Technique/Tour de contrôle/Hangar fret…",
+      "structure_en": "",
+      "mission_fr": "G2-PRO",
+      "mission_en": ""
+    },
+    {
+      "name_fr": "EXTENSION D'AEROPORT DE MOUNDOU",
+      "name_en": "",
+      "details_fr": [
+        "Etude de fondations-Soutènements",
+        "Assistance technique"
+      ],
+      "details_en": [],
+      "site_fr": "MOUNDOU-TCHAD",
+      "site_en": "",
+      "structure_fr": " 18 500 m ² ",
+      "structure_en": "",
+      "mission_fr": "G2-PRO",
+      "mission_en": ""
+    },
+    {
+      "name_fr": "PROJET PASPA DU SECTEUR DE LA PECHE ET DE L’AQUACULTURE",
+      "name_en": "",
+      "details_fr": [
+        "Etude de faisabilité géotechnique",
+        "Enquête documentaire",
+        "Assistance technique"
+      ],
+      "details_en": [],
+      "site_fr": "GUINEE EQUATORIALE",
+      "site_en": "",
+      "structure_fr": "10 SITES PROPOSES",
+      "structure_en": "",
+      "mission_fr": "G1-ES",
+      "mission_en": ""
+    }
+  ],
+  "clients": [
+    [
+      null,
+      "http://www.sidenor.com.tn"
+    ],
+    [
+      null,
+      "https://inp.rnrt.tn"
+    ],
+    [
+      null,
+      "http://www.atfp.tn"
+    ],
+    [
+      null,
+      "https://www.sonede.com.tn"
+    ],
+    [
+      null,
+      "http://www.parenin.com.tn"
+    ],
+    [
+      null,
+      "https://www.elmazraa.com"
+    ],
+    [
+      null,
+      "https://sotuia.com.tn"
+    ],
+    [
+      null,
+      "https://services.totalenergies.tn"
+    ],
+    [
+      null,
+      "http://teriak.com"
+    ],
+    [
+      null,
+      "http://www.onas.nat.tn"
+    ],
+    [
+      null,
+      "http://www.citet.nat.tn"
+    ],
+    [
+      null,
+      "http://www.smti.com.tn"
+    ],
+    [
+      null,
+      "https://www.ekuitycapital.com"
+    ],
+    [
+      null,
+      "https://eppm.com.tn"
+    ],
+    [
+      null,
+      "https://www.scet-tunisie.com"
+    ],
+    [
+      null,
+      "https://www.comete.com.tn"
+    ],
+    [
+      null,
+      "https://mosaique-ingenierie.com"
+    ],
+    [
+      null,
+      "https://amagroup.tn/"
+    ],
+    [
+      null,
+      "https://bouchamaoui.net/"
+    ],
+    [
+      null,
+      "http://www.tecnis.com.tn/"
+    ],
+    [
+      null,
+      "https://imm-tunisia.com"
+    ],
+    [
+      null,
+      "http://immobiliere-bouattour.com"
+    ],
+    [
+      null,
+      "https://www.al-baraka-immobiliere.com"
+    ],
+    [
+      null,
+      "https://babzouila.com"
+    ],
+    [
+      null,
+      "https://edifia-immobilier.com"
+    ],
+    []
+  ]
+}

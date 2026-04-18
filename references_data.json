@@ -1,261 +1,1972 @@
-[
-  {
-    "Français": "PROJET",
-    "__EMPTY_1": "ALLIANCE BAY PROJECT",
-    "ENGLISH": "PROJECT",
-    "__EMPTY_2": "ALLIANCE BAY PROJECT"
-  },
-  {
-    "Français": "SITE",
-    "__EMPTY_1": "RAOUED ARIANA-TUNISIA",
-    "ENGLISH": "SITE",
-    "__EMPTY_2": "RAOUED ARIANA-TUNISIA"
-  },
-  {
-    "Français": "STRUCTURE",
-    "__EMPTY_1": "Golf Resort/ hôtel et club house/ 500 maisons individuelles/12 immeubles collectifs…",
-    "ENGLISH": "STRUCTURE",
-    "__EMPTY_2": "PONTS PK….."
-  },
-  {
-    "Français": "MISSION",
-    "__EMPTY_1": "G1/G2-PRO",
-    "ENGLISH": "MISSION",
-    "__EMPTY_2": "G1/G3"
-  },
-  {
-    "__EMPTY_1": "Campagne géotechnique",
-    "__EMPTY_2": "Campagne géotechnique"
-  },
-  {
-    "__EMPTY_1": "Etude de Fondations",
-    "__EMPTY_2": "Etude de Fondations"
-  },
-  {
-    "__EMPTY_1": "Etude d'Amélioration du sol/Préchargement",
-    "__EMPTY_2": "Etude d'Amélioration du sol/Préchargement"
-  },
-  {
-    "Français": "PROJET",
-    "__EMPTY_1": "QATARI DIAR RESSORT",
-    "ENGLISH": "PROJET",
-    "__EMPTY_2": "QATARI DIAR RESSORT"
-  },
-  {
-    "Français": "SITE",
-    "__EMPTY_1": "TOZEUR-TUNISIA",
-    "ENGLISH": "SITE",
-    "__EMPTY_2": "TOZEUR-TUNISIA"
-  },
-  {
-    "Français": "STRUCTURE",
-    "__EMPTY_1": "Desert resort/villas VIP/SPA/Zones de loisirs et activités",
-    "ENGLISH": "STRUCTURE",
-    "__EMPTY_2": "Desert Resort/VIP villas and Cottages/SPA/Entertainment & Recreation facilities"
-  },
-  {
-    "Français": "MISSION",
-    "__EMPTY_1": "G1/G2-AVP",
-    "ENGLISH": "MISSION",
-    "__EMPTY_2": "G1/G2-AVP"
-  },
-  {
-    "__EMPTY_1": "Campagne géotechnique",
-    "__EMPTY_2": "Campagne géotechnique"
-  },
-  {
-    "__EMPTY_1": "Etude de Fondations",
-    "__EMPTY_2": "Etude de Fondations"
-  },
-  {
-    "Français": "PROJET",
-    "__EMPTY_1": "MALL OF SOUSSE",
-    "ENGLISH": "PROJET",
-    "__EMPTY_2": "MALL OF SOUSSE"
-  },
-  {
-    "Français": "SITE",
-    "__EMPTY_1": "SOUSSE-TUNISIE",
-    "ENGLISH": "SITE",
-    "__EMPTY_2": "SOUSSE-TUNISIE"
-  },
-  {
-    "Français": "STRUCTURE",
-    "__EMPTY_1": "1SOUS-SOL+2 NIVEAUX/SUPERFICIE 50 000m²",
-    "ENGLISH": "STRUCTURE",
-    "__EMPTY_2": "1SOUS-SOL+2 NIVEAUX/SUPERFICIE 50 000m131"
-  },
-  {
-    "Français": "MISSION",
-    "__EMPTY_1": "G1/G2-AVP",
-    "ENGLISH": "MISSION",
-    "__EMPTY_2": "G1/G2-AVP"
-  },
-  {
-    "__EMPTY_1": "Campagne géotechnique",
-    "__EMPTY_2": "Campagne géotechnique"
-  },
-  {
-    "__EMPTY_1": "Etude de Fondations",
-    "__EMPTY_2": "Etude de Fondations"
-  },
-  {
-    "Français": "PROJET",
-    "__EMPTY_1": "STATION DE DESSALEMENT D'EAU DE MER",
-    "ENGLISH": "PROJET",
-    "__EMPTY_2": "STATION DE DESSALEMENT D'EAU DE MER"
-  },
-  {
-    "Français": "SITE",
-    "__EMPTY_1": "SOUSSE-TUNISIE",
-    "ENGLISH": "SITE",
-    "__EMPTY_2": "SOUSSE-TUNISIE"
-  },
-  {
-    "Français": "STRUCTURE",
-    "__EMPTY_1": "Divers structures-Capacité de 50 000 m3/j",
-    "ENGLISH": "STRUCTURE",
-    "__EMPTY_2": "Capacité de 50 000 m3/j"
-  },
-  {
-    "Français": "MISSION",
-    "__EMPTY_1": "G4",
-    "ENGLISH": "MISSION",
-    "__EMPTY_2": "G5"
-  },
-  {
-    "__EMPTY_1": "Supervion géotechnique ",
-    "__EMPTY_2": "Supervion géotechnique "
-  },
-  {
-    "Français": "PROJET",
-    "__EMPTY_1": "REMPLACEMENT DES PONTS-LA LIGNE FERROVIAIRE T.G.M",
-    "ENGLISH": "PROJET",
-    "__EMPTY_2": "REMPLACEMENT DES PONTS-LA LIGNE FERROVIAIRE T.G.M"
-  },
-  {
-    "Français": "SITE",
-    "__EMPTY_1": "TUNIS-TUNISIA",
-    "ENGLISH": "SITE",
-    "__EMPTY_2": "TUNIS-TUNISIA"
-  },
-  {
-    "Français": "STRUCTURE",
-    "__EMPTY_1": "Ligne T.G.M/PK 3.663 ET PK 12.183",
-    "ENGLISH": "STRUCTURE",
-    "__EMPTY_2": "PONTS PK….."
-  },
-  {
-    "Français": "MISSION",
-    "__EMPTY_1": "G1",
-    "ENGLISH": "MISSION",
-    "__EMPTY_2": "G2"
-  },
-  {
-    "__EMPTY_1": "Campagne géotechnique",
-    "__EMPTY_2": "Campagne géotechnique"
-  },
-  {
-    "__EMPTY_1": "Assistance technique"
-  },
-  {
-    "Français": "PROJET",
-    "__EMPTY_1": "RFR-TRANCHE 1/TUNNEL A SAIDA MANOUBIA ",
-    "ENGLISH": "PROJET",
-    "__EMPTY_2": "REMPLACEMENT DES PONTS-LA LIGNE FERROVIAIRE T.G.M"
-  },
-  {
-    "Français": "SITE",
-    "__EMPTY_1": "TUNIS-TUNISIA",
-    "ENGLISH": "SITE",
-    "__EMPTY_2": "TUNIS-TUNISIA"
-  },
-  {
-    "Français": "STRUCTURE",
-    "__EMPTY_1": "Linéaire-630ml/Tunnel-260ml",
-    "ENGLISH": "STRUCTURE",
-    "__EMPTY_2": "PONTS PK….."
-  },
-  {
-    "Français": "MISSION",
-    "__EMPTY_1": "G3",
-    "ENGLISH": "MISSION",
-    "__EMPTY_2": "G3"
-  },
-  {
-    "__EMPTY_1": "Etude d'éxécution géotechnique",
-    "__EMPTY_2": "Campagne géotechnique"
-  },
-  {
-    "__EMPTY_1": "Contrôle interne"
-  },
-  {
-    "__EMPTY_1": "Assistance technique"
-  },
-  {
-    "Français": "PROJET",
-    "__EMPTY_1": "AUTOROUTE DE L’OUEST-LOT1/ OUED ZARGA - BOUSALEM\r\n",
-    "ENGLISH": "PROJET",
-    "__EMPTY_2": "CLINIQE LA MIDETERRANNEE"
-  },
-  {
-    "Français": "SITE",
-    "__EMPTY_1": "TUNIS-OUEST-TUNISIE",
-    "ENGLISH": "SITE",
-    "__EMPTY_2": "ARIANA-TUNISIE"
-  },
-  {
-    "Français": "STRUCTURE",
-    "__EMPTY_1": "OUVRAGES HYDRAULIQUES-OUVRAGES D'ART/REMBLAIS",
-    "ENGLISH": "STRUCTURE",
-    "__EMPTY_2": "1SOUS-SOL+RDC+4 ETAGES"
-  },
-  {
-    "Français": "MISSION",
-    "__EMPTY_1": "G3",
-    "ENGLISH": "MISSION",
-    "__EMPTY_2": "G1/G2-AVP"
-  },
-  {
-    "__EMPTY_1": "Etude de fondations des ouvrages OH et OA",
-    "__EMPTY_2": "Campagne géotechnique"
-  },
-  {
-    "__EMPTY_1": "Analyse des tassements des sections en remblais",
-    "__EMPTY_2": "Etude de Fondations"
-  },
-  {
-    "__EMPTY_1": "Etude de stabilité des sections en remblais"
-  },
-  {
-    "__EMPTY_1": "Assiatance technique"
-  },
-  {
-    "Français": "PROJET",
-    "__EMPTY_1": "RESEAU GAZ NATUREL DU NORD-OUEST",
-    "ENGLISH": "PROJET",
-    "__EMPTY_2": "QATARI DIAR RESSORT"
-  },
-  {
-    "Français": "SITE",
-    "__EMPTY_1": "TUNIS-OUEST-TUNISIA",
-    "ENGLISH": "SITE",
-    "__EMPTY_2": "TOZEUR-TUNISIA"
-  },
-  {
-    "Français": "STRUCTURE",
-    "__EMPTY_1": "PIPE 24\"-16Km/PIPE 20\"-57Km",
-    "ENGLISH": "STRUCTURE",
-    "__EMPTY_2": "PONTS PK….."
-  },
-  {
-    "Français": "MISSION",
-    "__EMPTY_1": "G1",
-    "ENGLISH": "MISSION",
-    "__EMPTY_2": "G1/G2-AVP"
-  },
-  {
-    "__EMPTY_1": "Campagne géotechnique",
-    "__EMPTY_2": "Campagne géotechnique"
-  }
-]
+{
+  "tunisia": [
+    {
+      "name": {
+        "fr": "ALLIANCE BAY PROJECT",
+        "en": "ALLIANCE BAY PROJECT",
+        "es": "ALLIANCE BAY PROJECT",
+        "ar": "ALLIANCE BAY PROJECT",
+        "de": "ALLIANCE BAY PROJECT",
+        "it": "ALLIANCE BAY PROJECT",
+        "zh": "ALLIANCE BAY PROJECT",
+        "sw": "ALLIANCE BAY PROJECT",
+        "yo": "ALLIANCE BAY PROJECT"
+      },
+      "site": {
+        "fr": "RAOUED ARIANA-TUNISIA",
+        "en": "RAOUED ARIANA-TUNISIA",
+        "es": "RAOUED ARIANA-TUNISIA",
+        "ar": "RAOUED ARIANA-TUNISIA",
+        "de": "RAOUED ARIANA-TUNISIA",
+        "it": "RAOUED ARIANA-TUNISIA",
+        "zh": "RAOUED ARIANA-TUNISIA",
+        "sw": "RAOUED ARIANA-TUNISIA",
+        "yo": "RAOUED ARIANA-TUNISIA"
+      },
+      "structure": {
+        "fr": "PONTS PK…..",
+        "en": "Bridges PK…..",
+        "es": "Puentes PK…..",
+        "ar": "جسور PK…..",
+        "de": "Brücken PK…..",
+        "it": "Ponti PK…..",
+        "zh": "桥梁 PK…..",
+        "sw": "Madaraja PK…..",
+        "yo": "Afara PK….."
+      },
+      "mission": {
+        "fr": "G1/G2-PRO",
+        "en": "G1/G2-PRO",
+        "es": "G1/G2-PRO",
+        "ar": "G1/G2-PRO",
+        "de": "G1/G2-PRO",
+        "it": "G1/G2-PRO",
+        "zh": "G1/G2-PRO",
+        "sw": "G1/G2-PRO",
+        "yo": "G1/G2-PRO"
+      },
+      "details": {
+        "fr": [
+          "Campagne géotechnique",
+          "Etude de Fondations",
+          "Etude d'Amélioration du sol/Préchargement"
+        ],
+        "en": [
+          "Geotechnical campaign",
+          "Foundation study",
+          "Soil improvement/Preloading study"
+        ],
+        "es": [
+          "Campaña geotécnica",
+          "Estudio de cimentaciones",
+          "Estudio de mejora del suelo/Precarga"
+        ],
+        "ar": [
+          "حملة جيوتقنية",
+          "دراسة الأساسات",
+          "دراسة تحسين التربة/التحميل المسبق"
+        ],
+        "de": [
+          "Geotechnische Kampagne",
+          "Gründungsstudie",
+          "Bodenverbesserungsstudie/Vorbelastung"
+        ],
+        "it": [
+          "Campagna geotecnica",
+          "Studio delle fondazioni",
+          "Studio di miglioramento del suolo/Precarico"
+        ],
+        "zh": [
+          "岩土工程勘察",
+          "基础研究",
+          "地基改良/预压研究"
+        ],
+        "sw": [
+          "Kampeni ya Jioteknolojia",
+          "Utafiti wa Msingi",
+          "Utafiti wa Uboreshaji wa Udongo/Upakiaji wa mapema"
+        ],
+        "yo": [
+          "Ipolongo Geotechnical",
+          "Iwadi Ipilẹ",
+          "Imudara ile/Iwadi iṣaaju-ikojọpọ"
+        ]
+      },
+      "image": "/api/storage?key=reference%20tunisie%2FALLIANCE%20BAY%20PROJECT.webp"
+    },
+    {
+      "name": {
+        "fr": "QATARI DIAR RESSORT",
+        "en": "QATARI DIAR RESSORT",
+        "es": "QATARI DIAR RESSORT",
+        "ar": "QATARI DIAR RESSORT",
+        "de": "QATARI DIAR RESSORT",
+        "it": "QATARI DIAR RESSORT",
+        "zh": "QATARI DIAR RESSORT",
+        "sw": "QATARI DIAR RESSORT",
+        "yo": "QATARI DIAR RESSORT"
+      },
+      "site": {
+        "fr": "TOZEUR-TUNISIA",
+        "en": "TOZEUR-TUNISIA",
+        "es": "TOZEUR-TUNISIA",
+        "ar": "TOZEUR-TUNISIA",
+        "de": "TOZEUR-TUNISIA",
+        "it": "TOZEUR-TUNISIA",
+        "zh": "TOZEUR-TUNISIA",
+        "sw": "TOZEUR-TUNISIA",
+        "yo": "TOZEUR-TUNISIA"
+      },
+      "structure": {
+        "fr": "PONTS PK…..",
+        "en": "Bridges PK…..",
+        "es": "Puentes PK…..",
+        "ar": "جسور PK…..",
+        "de": "Brücken PK…..",
+        "it": "Ponti PK…..",
+        "zh": "桥梁 PK…..",
+        "sw": "Madaraja PK…..",
+        "yo": "Afara PK….."
+      },
+      "mission": {
+        "fr": "G1/G2-AVP",
+        "en": "G1/G2-AVP",
+        "es": "G1/G2-AVP",
+        "ar": "G1/G2-AVP",
+        "de": "G1/G2-AVP",
+        "it": "G1/G2-AVP",
+        "zh": "G1/G2-AVP",
+        "sw": "G1/G2-AVP",
+        "yo": "G1/G2-AVP"
+      },
+      "details": {
+        "fr": [
+          "Campagne géotechnique",
+          "Etude de Fondations"
+        ],
+        "en": [
+          "Geotechnical campaign",
+          "Foundation study"
+        ],
+        "es": [
+          "Campaña geotécnica",
+          "Estudio de cimentaciones"
+        ],
+        "ar": [
+          "حملة جيوتقنية",
+          "دراسة الأساسات"
+        ],
+        "de": [
+          "Geotechnische Kampagne",
+          "Gründungsstudie"
+        ],
+        "it": [
+          "Campagna geotecnica",
+          "Studio delle fondazioni"
+        ],
+        "zh": [
+          "岩土工程勘察",
+          "基础研究"
+        ],
+        "sw": [
+          "Kampeni ya Jioteknolojia",
+          "Utafiti wa Msingi"
+        ],
+        "yo": [
+          "Ipolongo Geotechnical",
+          "Iwadi Ipilẹ"
+        ]
+      },
+      "image": "/api/storage?key=reference%20tunisie%2FQATARI%20DIAR%20RESSORT.webp"
+    },
+    {
+      "name": {
+        "fr": "MALL OF SOUSSE",
+        "en": "MALL OF SOUSSE",
+        "es": "MALL OF SOUSSE",
+        "ar": "MALL OF SOUSSE",
+        "de": "MALL OF SOUSSE",
+        "it": "MALL OF SOUSSE",
+        "zh": "MALL OF SOUSSE",
+        "sw": "MALL OF SOUSSE",
+        "yo": "MALL OF SOUSSE"
+      },
+      "site": {
+        "fr": "SOUSSE-TUNISIE",
+        "en": "SOUSSE-Tunisia",
+        "es": "SOUSSE-Túnez",
+        "ar": "SOUSSE-تونس",
+        "de": "SOUSSE-Tunesien",
+        "it": "SOUSSE-Tunisia",
+        "zh": "SOUSSE-突尼斯",
+        "sw": "SOUSSE-Tunisia",
+        "yo": "SOUSSE-Tunisia"
+      },
+      "structure": {
+        "fr": "1SOUS-SOL+2 NIVEAUX/SUPERFICIE 50 000m²",
+        "en": "1 Basement(s)+2 Levels/Area 50 000m²",
+        "es": "1 Sótano(s)+2 Niveles/Área 50 000m²",
+        "ar": "1 طابق سفلي+2 مستويات/مساحة 50 000m²",
+        "de": "1 Untergeschoss(e)+2 Ebenen/Fläche 50 000m²",
+        "it": "1 Seminterrato(i)+2 Livelli/Superficie 50 000m²",
+        "zh": "1 层地下室+2 层/面积 50 000m²",
+        "sw": "1 Sakafu ya chini+2 Ngazi/Eneo 50 000m²",
+        "yo": "1 Ipilẹ ile+2 Awọn ipele/Agbegbe 50 000m²"
+      },
+      "mission": {
+        "fr": "G1/G2-AVP",
+        "en": "G1/G2-AVP",
+        "es": "G1/G2-AVP",
+        "ar": "G1/G2-AVP",
+        "de": "G1/G2-AVP",
+        "it": "G1/G2-AVP",
+        "zh": "G1/G2-AVP",
+        "sw": "G1/G2-AVP",
+        "yo": "G1/G2-AVP"
+      },
+      "details": {
+        "fr": [
+          "Campagne géotechnique",
+          "Etude de Fondations"
+        ],
+        "en": [
+          "Geotechnical campaign",
+          "Foundation study"
+        ],
+        "es": [
+          "Campaña geotécnica",
+          "Estudio de cimentaciones"
+        ],
+        "ar": [
+          "حملة جيوتقنية",
+          "دراسة الأساسات"
+        ],
+        "de": [
+          "Geotechnische Kampagne",
+          "Gründungsstudie"
+        ],
+        "it": [
+          "Campagna geotecnica",
+          "Studio delle fondazioni"
+        ],
+        "zh": [
+          "岩土工程勘察",
+          "基础研究"
+        ],
+        "sw": [
+          "Kampeni ya Jioteknolojia",
+          "Utafiti wa Msingi"
+        ],
+        "yo": [
+          "Ipolongo Geotechnical",
+          "Iwadi Ipilẹ"
+        ]
+      },
+      "image": "/api/storage?key=reference%20tunisie%2FMALL%20OF%20SOUSSE.webp"
+    },
+    {
+      "name": {
+        "fr": "STATION DE DESSALEMENT D'EAU DE MER",
+        "en": "STATION DE DESSALEMENT D'EAU DE MER",
+        "es": "STATION DE DESSALEMENT D'EAU DE MER",
+        "ar": "STATION DE DESSALEMENT D'EAU DE MER",
+        "de": "STATION DE DESSALEMENT D'EAU DE MER",
+        "it": "STATION DE DESSALEMENT D'EAU DE MER",
+        "zh": "STATION DE DESSALEMENT D'EAU DE MER",
+        "sw": "STATION DE DESSALEMENT D'EAU DE MER",
+        "yo": "STATION DE DESSALEMENT D'EAU DE MER"
+      },
+      "site": {
+        "fr": "SOUSSE-TUNISIE",
+        "en": "SOUSSE-Tunisia",
+        "es": "SOUSSE-Túnez",
+        "ar": "SOUSSE-تونس",
+        "de": "SOUSSE-Tunesien",
+        "it": "SOUSSE-Tunisia",
+        "zh": "SOUSSE-突尼斯",
+        "sw": "SOUSSE-Tunisia",
+        "yo": "SOUSSE-Tunisia"
+      },
+      "structure": {
+        "fr": "Capacité de 50 000 m3/j",
+        "en": "Capacity of 50,000 m3/d",
+        "es": "Capacidad de 50.000 m3/d",
+        "ar": "سعة 50,000 م3/يوم",
+        "de": "Kapazität von 50.000 m3/T",
+        "it": "Capacità di 50.000 m3/g",
+        "zh": "日处理能力 50,000 立方米",
+        "sw": "Uwezo wa 50,000 m3/siku",
+        "yo": "Agbara ti 50,000 m3/ọjọ"
+      },
+      "mission": {
+        "fr": "G4",
+        "en": "G4",
+        "es": "G4",
+        "ar": "G4",
+        "de": "G4",
+        "it": "G4",
+        "zh": "G4",
+        "sw": "G4",
+        "yo": "G4"
+      },
+      "details": {
+        "fr": [
+          "Supervion géotechnique"
+        ],
+        "en": [
+          "Geotechnical supervision"
+        ],
+        "es": [
+          "Supervisión geotécnica"
+        ],
+        "ar": [
+          "إشراف جيوتقني"
+        ],
+        "de": [
+          "Geotechnische Überwachung"
+        ],
+        "it": [
+          "Supervisione geotecnica"
+        ],
+        "zh": [
+          "岩土工程监管"
+        ],
+        "sw": [
+          "Usimamizi wa Jioteknolojia"
+        ],
+        "yo": [
+          "Abojuto Geotechnical"
+        ]
+      },
+      "image": "/api/storage?key=reference%20tunisie%2FSTATION%20DE%20DESSALEMENT%20D'EAU%20DE%20MER.webp"
+    },
+    {
+      "name": {
+        "fr": "REMPLACEMENT DES PONTS-LA LIGNE FERROVIAIRE T.G.M",
+        "en": "REMPLACEMENT DES PONTS-LA LIGNE FERROVIAIRE T.G.M",
+        "es": "REMPLACEMENT DES PONTS-LA LIGNE FERROVIAIRE T.G.M",
+        "ar": "REMPLACEMENT DES PONTS-LA LIGNE FERROVIAIRE T.G.M",
+        "de": "REMPLACEMENT DES PONTS-LA LIGNE FERROVIAIRE T.G.M",
+        "it": "REMPLACEMENT DES PONTS-LA LIGNE FERROVIAIRE T.G.M",
+        "zh": "REMPLACEMENT DES PONTS-LA LIGNE FERROVIAIRE T.G.M",
+        "sw": "REMPLACEMENT DES PONTS-LA LIGNE FERROVIAIRE T.G.M",
+        "yo": "REMPLACEMENT DES PONTS-LA LIGNE FERROVIAIRE T.G.M"
+      },
+      "site": {
+        "fr": "TUNIS-TUNISIA",
+        "en": "TUNIS-TUNISIA",
+        "es": "TUNIS-TUNISIA",
+        "ar": "TUNIS-TUNISIA",
+        "de": "TUNIS-TUNISIA",
+        "it": "TUNIS-TUNISIA",
+        "zh": "TUNIS-TUNISIA",
+        "sw": "TUNIS-TUNISIA",
+        "yo": "TUNIS-TUNISIA"
+      },
+      "structure": {
+        "fr": "PONTS PK…..",
+        "en": "Bridges PK…..",
+        "es": "Puentes PK…..",
+        "ar": "جسور PK…..",
+        "de": "Brücken PK…..",
+        "it": "Ponti PK…..",
+        "zh": "桥梁 PK…..",
+        "sw": "Madaraja PK…..",
+        "yo": "Afara PK….."
+      },
+      "mission": {
+        "fr": "G1",
+        "en": "G1",
+        "es": "G1",
+        "ar": "G1",
+        "de": "G1",
+        "it": "G1",
+        "zh": "G1",
+        "sw": "G1",
+        "yo": "G1"
+      },
+      "details": {
+        "fr": [
+          "Campagne géotechnique"
+        ],
+        "en": [
+          "Geotechnical campaign"
+        ],
+        "es": [
+          "Campaña geotécnica"
+        ],
+        "ar": [
+          "حملة جيوتقنية"
+        ],
+        "de": [
+          "Geotechnische Kampagne"
+        ],
+        "it": [
+          "Campagna geotecnica"
+        ],
+        "zh": [
+          "岩土工程勘察"
+        ],
+        "sw": [
+          "Kampeni ya Jioteknolojia"
+        ],
+        "yo": [
+          "Ipolongo Geotechnical"
+        ]
+      },
+      "image": "/api/storage?key=reference%20tunisie%2FREMPLACEMENT%20DES%20PONTS-LA%20LIGNE%20FERROVIAIRE%20T.G.M.webp"
+    },
+    {
+      "name": {
+        "fr": "RFR-TRANCHE 1/TUNNEL A SAIDA MANOUBIA",
+        "en": "RFR-TRANCHE 1/TUNNEL A SAIDA MANOUBIA",
+        "es": "RFR-TRANCHE 1/TUNNEL A SAIDA MANOUBIA",
+        "ar": "RFR-TRANCHE 1/TUNNEL A SAIDA MANOUBIA",
+        "de": "RFR-TRANCHE 1/TUNNEL A SAIDA MANOUBIA",
+        "it": "RFR-TRANCHE 1/TUNNEL A SAIDA MANOUBIA",
+        "zh": "RFR-TRANCHE 1/TUNNEL A SAIDA MANOUBIA",
+        "sw": "RFR-TRANCHE 1/TUNNEL A SAIDA MANOUBIA",
+        "yo": "RFR-TRANCHE 1/TUNNEL A SAIDA MANOUBIA"
+      },
+      "site": {
+        "fr": "TUNIS-TUNISIA",
+        "en": "TUNIS-TUNISIA",
+        "es": "TUNIS-TUNISIA",
+        "ar": "TUNIS-TUNISIA",
+        "de": "TUNIS-TUNISIA",
+        "it": "TUNIS-TUNISIA",
+        "zh": "TUNIS-TUNISIA",
+        "sw": "TUNIS-TUNISIA",
+        "yo": "TUNIS-TUNISIA"
+      },
+      "structure": {
+        "fr": "PONTS PK…..",
+        "en": "Bridges PK…..",
+        "es": "Puentes PK…..",
+        "ar": "جسور PK…..",
+        "de": "Brücken PK…..",
+        "it": "Ponti PK…..",
+        "zh": "桥梁 PK…..",
+        "sw": "Madaraja PK…..",
+        "yo": "Afara PK….."
+      },
+      "mission": {
+        "fr": "G3",
+        "en": "G3",
+        "es": "G3",
+        "ar": "G3",
+        "de": "G3",
+        "it": "G3",
+        "zh": "G3",
+        "sw": "G3",
+        "yo": "G3"
+      },
+      "details": {
+        "fr": [
+          "Etude d'éxécution géotechnique",
+          "Contrôle interne",
+          "Assistance technique"
+        ],
+        "en": [
+          "Geotechnical execution study",
+          "Internal control",
+          "Technical assistance"
+        ],
+        "es": [
+          "Estudio de ejecución geotécnica",
+          "Control interno",
+          "Asistencia técnica"
+        ],
+        "ar": [
+          "دراسة تنفيذ جيوتقنية",
+          "رقابة داخلية",
+          "مساعدة فنية"
+        ],
+        "de": [
+          "Geotechnische Ausführungsstudie",
+          "Interne Kontrolle",
+          "Technische Unterstützung"
+        ],
+        "it": [
+          "Studio di esecuzione geotecnica",
+          "Controllo interno",
+          "Assistenza tecnica"
+        ],
+        "zh": [
+          "岩土工程施工研究",
+          "内部控制",
+          "技术援助"
+        ],
+        "sw": [
+          "Utafiti wa Utekelezaji wa Jioteknolojia",
+          "Udhibiti wa Ndani",
+          "Msaada wa Kiufundi"
+        ],
+        "yo": [
+          "Iwadi Iṣe Geotechnical",
+          "Iṣakoso inu",
+          "Iranlọwọ Imọ-ẹrọ"
+        ]
+      },
+      "image": "/api/storage?key=reference%20tunisie%2FRFR-TRANCHE%201_TUNNEL%20A%20SAIDA%20MANOUBIA.webp"
+    },
+    {
+      "name": {
+        "fr": "AUTOROUTE DE L’OUEST-LOT1/ OUED ZARGA - BOUSALEM",
+        "en": "AUTOROUTE DE L’OUEST-LOT1/ OUED ZARGA - BOUSALEM",
+        "es": "AUTOROUTE DE L’OUEST-LOT1/ OUED ZARGA - BOUSALEM",
+        "ar": "AUTOROUTE DE L’OUEST-LOT1/ OUED ZARGA - BOUSALEM",
+        "de": "AUTOROUTE DE L’OUEST-LOT1/ OUED ZARGA - BOUSALEM",
+        "it": "AUTOROUTE DE L’OUEST-LOT1/ OUED ZARGA - BOUSALEM",
+        "zh": "AUTOROUTE DE L’OUEST-LOT1/ OUED ZARGA - BOUSALEM",
+        "sw": "AUTOROUTE DE L’OUEST-LOT1/ OUED ZARGA - BOUSALEM",
+        "yo": "AUTOROUTE DE L’OUEST-LOT1/ OUED ZARGA - BOUSALEM"
+      },
+      "site": {
+        "fr": "TUNIS-OUEST-TUNISIE",
+        "en": "TUNIS-OUEST-Tunisia",
+        "es": "TUNIS-OUEST-Túnez",
+        "ar": "TUNIS-OUEST-تونس",
+        "de": "TUNIS-OUEST-Tunesien",
+        "it": "TUNIS-OUEST-Tunisia",
+        "zh": "TUNIS-OUEST-突尼斯",
+        "sw": "TUNIS-OUEST-Tunisia",
+        "yo": "TUNIS-OUEST-Tunisia"
+      },
+      "structure": {
+        "fr": "OUVRAGES HYDRAULIQUES-OUVRAGES D'ART/REMBLAIS",
+        "en": "Hydraulic Structures/Art Structures/Embankments",
+        "es": "Obras Hidráulicas/Obras de Arte/Terraplenes",
+        "ar": "منشآت هيدروليكية/منشآت فنية/ردميات",
+        "de": "Wasserbauwerke/Kunstbauten/Dämme",
+        "it": "Opere Idrauliche/Opere d'Arte/Rilevati",
+        "zh": "水工结构/艺术结构/路堤",
+        "sw": "Miundo ya Maji/Miundo ya Sanaa/Tutuw",
+        "yo": "Awọn ẹya Hydraulic/Awọn ẹya Iṣẹ-ọnà/Awọn embankments"
+      },
+      "mission": {
+        "fr": "G3",
+        "en": "G3",
+        "es": "G3",
+        "ar": "G3",
+        "de": "G3",
+        "it": "G3",
+        "zh": "G3",
+        "sw": "G3",
+        "yo": "G3"
+      },
+      "details": {
+        "fr": [
+          "Etude de fondations des ouvrages OH et OA",
+          "Analyse des tassements des sections en remblais",
+          "Etude de stabilité des sections en remblais",
+          "Assiatance technique"
+        ],
+        "en": [
+          "Foundation study for hydraulic and art structures",
+          "Settlement analysis of embankment sections",
+          "Stability study of embankment sections",
+          "Technical assistance"
+        ],
+        "es": [
+          "Estudio de cimentación de obras hidráulicas y de arte",
+          "Análisis de asentamientos de secciones en terraplén",
+          "Estudio de estabilidad de secciones en terraplén",
+          "Asistencia técnica"
+        ],
+        "ar": [
+          "دراسة أساسات المنشآت الهيدروليكية والفنية",
+          "تحليل هبوط مقاطع الردم",
+          "دراسة استقرار مقاطع الردم",
+          "مساعدة فنية"
+        ],
+        "de": [
+          "Gründungsstudie für Wasser- und Ingenieurbauwerke",
+          "Setzungsanalyse von Dammabschnitten",
+          "Stabilitätsstudie von Dammabschnitten",
+          "Technische Unterstützung"
+        ],
+        "it": [
+          "Studio delle fondazioni di opere idrauliche e d'arte",
+          "Analisi dei cedimenti delle sezioni in rilevato",
+          "Studio di stabilità delle sezioni in rilevato",
+          "Assistenza tecnica"
+        ],
+        "zh": [
+          "水利和艺术结构基础研究",
+          "路堤段沉降分析",
+          "路堤段稳定性研究",
+          "技术援助"
+        ],
+        "sw": [
+          "Utafiti wa Msingi kwa Miundo ya Maji na Sanaa",
+          "Uchambuzi wa Kutulia kwa Sehemu za Tutu",
+          "Utafiti wa Uthabiti wa Sehemu za Tutu",
+          "Msaada wa Kiufundi"
+        ],
+        "yo": [
+          "Iwadi Ipilẹ fun Awọn ẹya Hydraulic ati Iṣẹ-ọnà",
+          "Itupalẹ ti ibugbe ti awọn apakan embankment",
+          "Iwadi iduroṣinṣin ti awọn apakan embankment",
+          "Iranlọwọ Imọ-ẹrọ"
+        ]
+      },
+      "image": "/api/storage?key=reference%20tunisie%2FAUTOROUTE%20DE%20LOUEST-LOT1_OUED%20ZARGA%20-%20BOUSALEM.webp"
+    },
+    {
+      "name": {
+        "fr": "RESEAU GAZ NATUREL DU NORD-OUEST",
+        "en": "RESEAU GAZ NATUREL DU NORD-OUEST",
+        "es": "RESEAU GAZ NATUREL DU NORD-OUEST",
+        "ar": "RESEAU GAZ NATUREL DU NORD-OUEST",
+        "de": "RESEAU GAZ NATUREL DU NORD-OUEST",
+        "it": "RESEAU GAZ NATUREL DU NORD-OUEST",
+        "zh": "RESEAU GAZ NATUREL DU NORD-OUEST",
+        "sw": "RESEAU GAZ NATUREL DU NORD-OUEST",
+        "yo": "RESEAU GAZ NATUREL DU NORD-OUEST"
+      },
+      "site": {
+        "fr": "TUNIS-OUEST-TUNISIA",
+        "en": "TUNIS-OUEST-TUNISIA",
+        "es": "TUNIS-OUEST-TUNISIA",
+        "ar": "TUNIS-OUEST-TUNISIA",
+        "de": "TUNIS-OUEST-TUNISIA",
+        "it": "TUNIS-OUEST-TUNISIA",
+        "zh": "TUNIS-OUEST-TUNISIA",
+        "sw": "TUNIS-OUEST-TUNISIA",
+        "yo": "TUNIS-OUEST-TUNISIA"
+      },
+      "structure": {
+        "fr": "PONTS PK…..",
+        "en": "Bridges PK…..",
+        "es": "Puentes PK…..",
+        "ar": "جسور PK…..",
+        "de": "Brücken PK…..",
+        "it": "Ponti PK…..",
+        "zh": "桥梁 PK…..",
+        "sw": "Madaraja PK…..",
+        "yo": "Afara PK….."
+      },
+      "mission": {
+        "fr": "G1",
+        "en": "G1",
+        "es": "G1",
+        "ar": "G1",
+        "de": "G1",
+        "it": "G1",
+        "zh": "G1",
+        "sw": "G1",
+        "yo": "G1"
+      },
+      "details": {
+        "fr": [
+          "Campagne géotechnique",
+          "Assiatance technique"
+        ],
+        "en": [
+          "Geotechnical campaign",
+          "Technical assistance"
+        ],
+        "es": [
+          "Campaña geotécnica",
+          "Asistencia técnica"
+        ],
+        "ar": [
+          "حملة جيوتقنية",
+          "مساعدة فنية"
+        ],
+        "de": [
+          "Geotechnische Kampagne",
+          "Technische Unterstützung"
+        ],
+        "it": [
+          "Campagna geotecnica",
+          "Assistenza tecnica"
+        ],
+        "zh": [
+          "岩土工程勘察",
+          "技术援助"
+        ],
+        "sw": [
+          "Kampeni ya Jioteknolojia",
+          "Msaada wa Kiufundi"
+        ],
+        "yo": [
+          "Ipolongo Geotechnical",
+          "Iranlọwọ Imọ-ẹrọ"
+        ]
+      },
+      "image": "/api/storage?key=reference%20tunisie%2FRESEAU%20GAZ%20NATUREL%20DU%20NORD-OUEST.webp"
+    },
+    {
+      "name": {
+        "fr": "STATIONS EPURATION",
+        "en": "STATIONS EPURATION",
+        "es": "STATIONS EPURATION",
+        "ar": "STATIONS EPURATION",
+        "de": "STATIONS EPURATION",
+        "it": "STATIONS EPURATION",
+        "zh": "STATIONS EPURATION",
+        "sw": "STATIONS EPURATION",
+        "yo": "STATIONS EPURATION"
+      },
+      "site": {
+        "fr": "STEP HAMMAMET/MOKNINE/BEN GUERDANE-TUNISIA",
+        "en": "STEP HAMMAMET/MOKNINE/BEN GUERDANE-TUNISIA",
+        "es": "STEP HAMMAMET/MOKNINE/BEN GUERDANE-TUNISIA",
+        "ar": "STEP HAMMAMET/MOKNINE/BEN GUERDANE-TUNISIA",
+        "de": "STEP HAMMAMET/MOKNINE/BEN GUERDANE-TUNISIA",
+        "it": "STEP HAMMAMET/MOKNINE/BEN GUERDANE-TUNISIA",
+        "zh": "STEP HAMMAMET/MOKNINE/BEN GUERDANE-TUNISIA",
+        "sw": "STEP HAMMAMET/MOKNINE/BEN GUERDANE-TUNISIA",
+        "yo": "STEP HAMMAMET/MOKNINE/BEN GUERDANE-TUNISIA"
+      },
+      "structure": {
+        "fr": "BASSINS-RESERVOIS-RESEAUX",
+        "en": "Basins-Reservoirs-Networks",
+        "es": "Cuencas-Embalses-Redes",
+        "ar": "أحواض-خزانات-شبكات",
+        "de": "Becken-Reservoirs-Netzwerke",
+        "it": "Bacini-Serbatoi-Reti",
+        "zh": "盆地-水库-网络",
+        "sw": "Mabwawa-Viwanda-Mitandao",
+        "yo": "Awọn agbada-Awọn ifiomipamo-Awọn nẹtiwọki"
+      },
+      "mission": {
+        "fr": "G1",
+        "en": "G1",
+        "es": "G1",
+        "ar": "G1",
+        "de": "G1",
+        "it": "G1",
+        "zh": "G1",
+        "sw": "G1",
+        "yo": "G1"
+      },
+      "details": {
+        "fr": [
+          "Campagne géotechnique",
+          "Assiatance technique"
+        ],
+        "en": [
+          "Geotechnical campaign",
+          "Technical assistance"
+        ],
+        "es": [
+          "Campaña geotécnica",
+          "Asistencia técnica"
+        ],
+        "ar": [
+          "حملة جيوتقنية",
+          "مساعدة فنية"
+        ],
+        "de": [
+          "Geotechnische Kampagne",
+          "Technische Unterstützung"
+        ],
+        "it": [
+          "Campagna geotecnica",
+          "Assistenza tecnica"
+        ],
+        "zh": [
+          "岩土工程勘察",
+          "技术援助"
+        ],
+        "sw": [
+          "Kampeni ya Jioteknolojia",
+          "Msaada wa Kiufundi"
+        ],
+        "yo": [
+          "Ipolongo Geotechnical",
+          "Iranlọwọ Imọ-ẹrọ"
+        ]
+      },
+      "image": "/api/storage?key=reference%20tunisie%2FSTATIONS%20EPURATION.webp"
+    },
+    {
+      "name": {
+        "fr": "RESIDENCE BAB ALI",
+        "en": "RESIDENCE BAB ALI",
+        "es": "RESIDENCE BAB ALI",
+        "ar": "RESIDENCE BAB ALI",
+        "de": "RESIDENCE BAB ALI",
+        "it": "RESIDENCE BAB ALI",
+        "zh": "RESIDENCE BAB ALI",
+        "sw": "RESIDENCE BAB ALI",
+        "yo": "RESIDENCE BAB ALI"
+      },
+      "site": {
+        "fr": "ARIANA-TUNISIE",
+        "en": "ARIANA-Tunisia",
+        "es": "ARIANA-Túnez",
+        "ar": "ARIANA-تونس",
+        "de": "ARIANA-Tunesien",
+        "it": "ARIANA-Tunisia",
+        "zh": "ARIANA-突尼斯",
+        "sw": "ARIANA-Tunisia",
+        "yo": "ARIANA-Tunisia"
+      },
+      "structure": {
+        "fr": "2SOUS-SOL+RDC+6 ETAGES",
+        "en": "2 Basement(s)+Ground Floor+6 Floors",
+        "es": "2 Sótano(s)+Planta Baja+6 Pisos",
+        "ar": "2 طابق سفلي+طابق أرضي+6 طوابق",
+        "de": "2 Untergeschoss(e)+Erdgeschoss+6 Etagen",
+        "it": "2 Seminterrato(i)+Piano Terra+6 Piani",
+        "zh": "2 层地下室+底层+6 层楼",
+        "sw": "2 Sakafu ya chini+Ghorofa ya chini+6 Ghorofa",
+        "yo": "2 Ipilẹ ile+Ipilẹ Ilẹ+6 Awọn ilẹ ipakà"
+      },
+      "mission": {
+        "fr": "G1/G2/G4",
+        "en": "G1/G2/G4",
+        "es": "G1/G2/G4",
+        "ar": "G1/G2/G4",
+        "de": "G1/G2/G4",
+        "it": "G1/G2/G4",
+        "zh": "G1/G2/G4",
+        "sw": "G1/G2/G4",
+        "yo": "G1/G2/G4"
+      },
+      "details": {
+        "fr": [
+          "Campagne géotechnique",
+          "Etude de Fondations-soutènements",
+          "Supervision géotechnique"
+        ],
+        "en": [
+          "Geotechnical campaign",
+          "Foundation and retaining wall study",
+          "Geotechnical supervision"
+        ],
+        "es": [
+          "Campaña geotécnica",
+          "Estudio de cimentaciones y muros de contención",
+          "Supervisión geotécnica"
+        ],
+        "ar": [
+          "حملة جيوتقنية",
+          "دراسة الأساسات والجدران الساندة",
+          "إشراف جيوتقني"
+        ],
+        "de": [
+          "Geotechnische Kampagne",
+          "Gründungs- und Stützwandstudie",
+          "Geotechnische Überwachung"
+        ],
+        "it": [
+          "Campagna geotecnica",
+          "Studio di fondazioni e muri di sostegno",
+          "Supervisione geotecnica"
+        ],
+        "zh": [
+          "岩土工程勘察",
+          "基础和挡土墙研究",
+          "岩土工程监管"
+        ],
+        "sw": [
+          "Kampeni ya Jioteknolojia",
+          "Utafiti wa Msingi na Ukuta wa Kuzuia",
+          "Usimamizi wa Jioteknolojia"
+        ],
+        "yo": [
+          "Ipolongo Geotechnical",
+          "Ipilẹ ati Iwadi Ogiri Iduro",
+          "Abojuto Geotechnical"
+        ]
+      },
+      "image": "/api/storage?key=reference%20tunisie%2FRESIDENCE%20BAB%20ALI.webp"
+    },
+    {
+      "name": {
+        "fr": "RESIDENCE EL BOUSTENE JARDINS DE CARTHAGE",
+        "en": "RESIDENCE EL BOUSTENE JARDINS DE CARTHAGE",
+        "es": "RESIDENCE EL BOUSTENE JARDINS DE CARTHAGE",
+        "ar": "RESIDENCE EL BOUSTENE JARDINS DE CARTHAGE",
+        "de": "RESIDENCE EL BOUSTENE JARDINS DE CARTHAGE",
+        "it": "RESIDENCE EL BOUSTENE JARDINS DE CARTHAGE",
+        "zh": "RESIDENCE EL BOUSTENE JARDINS DE CARTHAGE",
+        "sw": "RESIDENCE EL BOUSTENE JARDINS DE CARTHAGE",
+        "yo": "RESIDENCE EL BOUSTENE JARDINS DE CARTHAGE"
+      },
+      "site": {
+        "fr": "TUNIS-TUNISIE",
+        "en": "TUNIS-Tunisia",
+        "es": "TUNIS-Túnez",
+        "ar": "TUNIS-تونس",
+        "de": "TUNIS-Tunesien",
+        "it": "TUNIS-Tunisia",
+        "zh": "TUNIS-突尼斯",
+        "sw": "TUNIS-Tunisia",
+        "yo": "TUNIS-Tunisia"
+      },
+      "structure": {
+        "fr": "2SOUS-SOL+RDC+6 ETAGES",
+        "en": "2 Basement(s)+Ground Floor+6 Floors",
+        "es": "2 Sótano(s)+Planta Baja+6 Pisos",
+        "ar": "2 طابق سفلي+طابق أرضي+6 طوابق",
+        "de": "2 Untergeschoss(e)+Erdgeschoss+6 Etagen",
+        "it": "2 Seminterrato(i)+Piano Terra+6 Piani",
+        "zh": "2 层地下室+底层+6 层楼",
+        "sw": "2 Sakafu ya chini+Ghorofa ya chini+6 Ghorofa",
+        "yo": "2 Ipilẹ ile+Ipilẹ Ilẹ+6 Awọn ilẹ ipakà"
+      },
+      "mission": {
+        "fr": "G1/G2/G4",
+        "en": "G1/G2/G4",
+        "es": "G1/G2/G4",
+        "ar": "G1/G2/G4",
+        "de": "G1/G2/G4",
+        "it": "G1/G2/G4",
+        "zh": "G1/G2/G4",
+        "sw": "G1/G2/G4",
+        "yo": "G1/G2/G4"
+      },
+      "details": {
+        "fr": [
+          "Campagne géotechnique",
+          "Etude de Fondations-soutènements",
+          "Supervision géotechnique"
+        ],
+        "en": [
+          "Geotechnical campaign",
+          "Foundation and retaining wall study",
+          "Geotechnical supervision"
+        ],
+        "es": [
+          "Campaña geotécnica",
+          "Estudio de cimentaciones y muros de contención",
+          "Supervisión geotécnica"
+        ],
+        "ar": [
+          "حملة جيوتقنية",
+          "دراسة الأساسات والجدران الساندة",
+          "إشراف جيوتقني"
+        ],
+        "de": [
+          "Geotechnische Kampagne",
+          "Gründungs- und Stützwandstudie",
+          "Geotechnische Überwachung"
+        ],
+        "it": [
+          "Campagna geotecnica",
+          "Studio di fondazioni e muri di sostegno",
+          "Supervisione geotecnica"
+        ],
+        "zh": [
+          "岩土工程勘察",
+          "基础和挡土墙研究",
+          "岩土工程监管"
+        ],
+        "sw": [
+          "Kampeni ya Jioteknolojia",
+          "Utafiti wa Msingi na Ukuta wa Kuzuia",
+          "Usimamizi wa Jioteknolojia"
+        ],
+        "yo": [
+          "Ipolongo Geotechnical",
+          "Ipilẹ ati Iwadi Ogiri Iduro",
+          "Abojuto Geotechnical"
+        ]
+      },
+      "image": "/api/storage?key=reference%20tunisie%2FRESIDENCE%20EL%20BOUSTENE%20JARDINS%20DE%20CARTHAGE.webp"
+    },
+    {
+      "name": {
+        "fr": "HANNIBAL MEDICAL CENTER-BERGES DU LAC II",
+        "en": "HANNIBAL MEDICAL CENTER-BERGES DU LAC II",
+        "es": "HANNIBAL MEDICAL CENTER-BERGES DU LAC II",
+        "ar": "HANNIBAL MEDICAL CENTER-BERGES DU LAC II",
+        "de": "HANNIBAL MEDICAL CENTER-BERGES DU LAC II",
+        "it": "HANNIBAL MEDICAL CENTER-BERGES DU LAC II",
+        "zh": "HANNIBAL MEDICAL CENTER-BERGES DU LAC II",
+        "sw": "HANNIBAL MEDICAL CENTER-BERGES DU LAC II",
+        "yo": "HANNIBAL MEDICAL CENTER-BERGES DU LAC II"
+      },
+      "site": {
+        "fr": "TUNIS-TUNISIE",
+        "en": "TUNIS-Tunisia",
+        "es": "TUNIS-Túnez",
+        "ar": "TUNIS-تونس",
+        "de": "TUNIS-Tunesien",
+        "it": "TUNIS-Tunisia",
+        "zh": "TUNIS-突尼斯",
+        "sw": "TUNIS-Tunisia",
+        "yo": "TUNIS-Tunisia"
+      },
+      "structure": {
+        "fr": "3SOUS-SOLS+RDC+9ETAGES",
+        "en": "3 Basement(s)+Ground Floor+9 Floors",
+        "es": "3 Sótano(s)+Planta Baja+9 Pisos",
+        "ar": "3 طابق سفلي+طابق أرضي+9 طوابق",
+        "de": "3 Untergeschoss(e)+Erdgeschoss+9 Etagen",
+        "it": "3 Seminterrato(i)+Piano Terra+9 Piani",
+        "zh": "3 层地下室+底层+9 层楼",
+        "sw": "3 Sakafu ya chini+Ghorofa ya chini+9 Ghorofa",
+        "yo": "3 Ipilẹ ile+Ipilẹ Ilẹ+9 Awọn ilẹ ipakà"
+      },
+      "mission": {
+        "fr": "G2-PRO",
+        "en": "G2-PRO",
+        "es": "G2-PRO",
+        "ar": "G2-PRO",
+        "de": "G2-PRO",
+        "it": "G2-PRO",
+        "zh": "G2-PRO",
+        "sw": "G2-PRO",
+        "yo": "G2-PRO"
+      },
+      "details": {
+        "fr": [
+          "Etude de Fondations-Soutènements"
+        ],
+        "en": [
+          "Foundation and retaining wall study"
+        ],
+        "es": [
+          "Estudio de cimentaciones y muros de contención"
+        ],
+        "ar": [
+          "دراسة الأساسات والجدران الساندة"
+        ],
+        "de": [
+          "Gründungs- und Stützwandstudie"
+        ],
+        "it": [
+          "Studio di fondazioni e muri di sostegno"
+        ],
+        "zh": [
+          "基础和挡土墙研究"
+        ],
+        "sw": [
+          "Utafiti wa Msingi na Ukuta wa Kuzuia"
+        ],
+        "yo": [
+          "Ipilẹ ati Iwadi Ogiri Iduro"
+        ]
+      },
+      "image": "/api/storage?key=reference%20tunisie%2FHANNIBAL%20MEDICAL%20CENTER-BERGES%20DU%20LAC%20II.webp"
+    }
+  ],
+  "international": [
+    {
+      "name": {
+        "fr": "CENTRE INTERNATIONALE DES AFFAIRES (CIA)",
+        "en": "CENTRE INTERNATIONALE DES AFFAIRES (CIA)",
+        "es": "CENTRE INTERNATIONALE DES AFFAIRES (CIA)",
+        "ar": "CENTRE INTERNATIONALE DES AFFAIRES (CIA)",
+        "de": "CENTRE INTERNATIONALE DES AFFAIRES (CIA)",
+        "it": "CENTRE INTERNATIONALE DES AFFAIRES (CIA)",
+        "zh": "CENTRE INTERNATIONALE DES AFFAIRES (CIA)",
+        "sw": "CENTRE INTERNATIONALE DES AFFAIRES (CIA)",
+        "yo": "CENTRE INTERNATIONALE DES AFFAIRES (CIA)"
+      },
+      "site": {
+        "fr": "N’DJAMENA-TCHAD",
+        "en": "N’DJAMENA-Chad",
+        "es": "N’DJAMENA-Chad",
+        "ar": "N’DJAMENA-تشاد",
+        "de": "N’DJAMENA-Tschad",
+        "it": "N’DJAMENA-Ciad",
+        "zh": "N’DJAMENA-乍得",
+        "sw": "N’DJAMENA-Chad",
+        "yo": "N’DJAMENA-Chad"
+      },
+      "structure": {
+        "fr": "PONTS PK…..",
+        "en": "Bridges PK…..",
+        "es": "Puentes PK…..",
+        "ar": "جسور PK…..",
+        "de": "Brücken PK…..",
+        "it": "Ponti PK…..",
+        "zh": "桥梁 PK…..",
+        "sw": "Madaraja PK…..",
+        "yo": "Afara PK….."
+      },
+      "mission": {
+        "fr": "G2-PRO",
+        "en": "G2-PRO",
+        "es": "G2-PRO",
+        "ar": "G2-PRO",
+        "de": "G2-PRO",
+        "it": "G2-PRO",
+        "zh": "G2-PRO",
+        "sw": "G2-PRO",
+        "yo": "G2-PRO"
+      },
+      "details": {
+        "fr": [
+          "Etude de Fondations-Soutènements",
+          "ASSISTANCE TECHNIQUE"
+        ],
+        "en": [
+          "Foundation and retaining wall study",
+          "ASSISTANCE TECHNIQUE"
+        ],
+        "es": [
+          "Estudio de cimentaciones y muros de contención",
+          "ASSISTANCE TECHNIQUE"
+        ],
+        "ar": [
+          "دراسة الأساسات والجدران الساندة",
+          "ASSISTANCE TECHNIQUE"
+        ],
+        "de": [
+          "Gründungs- und Stützwandstudie",
+          "ASSISTANCE TECHNIQUE"
+        ],
+        "it": [
+          "Studio di fondazioni e muri di sostegno",
+          "ASSISTANCE TECHNIQUE"
+        ],
+        "zh": [
+          "基础和挡土墙研究",
+          "ASSISTANCE TECHNIQUE"
+        ],
+        "sw": [
+          "Utafiti wa Msingi na Ukuta wa Kuzuia",
+          "ASSISTANCE TECHNIQUE"
+        ],
+        "yo": [
+          "Ipilẹ ati Iwadi Ogiri Iduro",
+          "ASSISTANCE TECHNIQUE"
+        ]
+      },
+      "image": "/api/storage?key=reference%20etranger%2FCENTRE-INTERNATIONALE-DES-AFFAIRES-_CIA_.webp"
+    },
+    {
+      "name": {
+        "fr": "TOUR BMCE MOHAMED VI-RABAT",
+        "en": "TOUR BMCE MOHAMED VI-RABAT",
+        "es": "TOUR BMCE MOHAMED VI-RABAT",
+        "ar": "TOUR BMCE MOHAMED VI-RABAT",
+        "de": "TOUR BMCE MOHAMED VI-RABAT",
+        "it": "TOUR BMCE MOHAMED VI-RABAT",
+        "zh": "TOUR BMCE MOHAMED VI-RABAT",
+        "sw": "TOUR BMCE MOHAMED VI-RABAT",
+        "yo": "TOUR BMCE MOHAMED VI-RABAT"
+      },
+      "site": {
+        "fr": "RABAT-MAROC",
+        "en": "RABAT-Morocco",
+        "es": "RABAT-Marruecos",
+        "ar": "RABAT-المغرب",
+        "de": "RABAT-Marokko",
+        "it": "RABAT-Marocco",
+        "zh": "RABAT-摩洛哥",
+        "sw": "RABAT-Morocco",
+        "yo": "RABAT-Morocco"
+      },
+      "structure": {
+        "fr": "250 mètres/55 étages (La plus haute tour d’Afrique)",
+        "en": "250 meters/55 étages (La plus haute tour d’Afrique)",
+        "es": "250 metros/55 étages (La plus haute tour d’Afrique)",
+        "ar": "250 متر/55 étages (La plus haute tour d’Afrique)",
+        "de": "250 Meter/55 étages (La plus haute tour d’Afrique)",
+        "it": "250 metri/55 étages (La plus haute tour d’Afrique)",
+        "zh": "250 米/55 étages (La plus haute tour d’Afrique)",
+        "sw": "250 mita/55 étages (La plus haute tour d’Afrique)",
+        "yo": "250 mita/55 étages (La plus haute tour d’Afrique)"
+      },
+      "mission": {
+        "fr": "G5",
+        "en": "G5",
+        "es": "G5",
+        "ar": "G5",
+        "de": "G5",
+        "it": "G5",
+        "zh": "G5",
+        "sw": "G5",
+        "yo": "G5"
+      },
+      "details": {
+        "fr": [
+          "Expertise et controle des ouvrages géotechniques réalisés",
+          "Analyse rapports géotechniques",
+          "Examen et contrôle des études d'exécution",
+          "Assistance technique"
+        ],
+        "en": [
+          "Expertise and control of geotechnical works",
+          "Analysis of geotechnical reports",
+          "Review and control of execution studies",
+          "Technical assistance"
+        ],
+        "es": [
+          "Peritaje y control de obras geotécnicas realizadas",
+          "Análisis de informes geotécnicos",
+          "Revisión y control de estudios de ejecución",
+          "Asistencia técnica"
+        ],
+        "ar": [
+          "الخبرة والرقابة على الأعمال الجيوتقنية المنجزة",
+          "تحليل التقارير الجيوتقنية",
+          "مراجعة ومراقبة دراسات التنفيذ",
+          "مساعدة فنية"
+        ],
+        "de": [
+          "Expertise und Kontrolle durchgeführter geotechnischer Arbeiten",
+          "Analyse geotechnischer Berichte",
+          "Prüfung und Kontrolle von Ausführungsstudien",
+          "Technische Unterstützung"
+        ],
+        "it": [
+          "Perizia e controllo delle opere geotecniche realizzate",
+          "Analisi dei rapporti geotecnici",
+          "Revisione e controllo degli studi di esecuzione",
+          "Assistenza tecnica"
+        ],
+        "zh": [
+          "已完成岩土工程的鉴定与控制",
+          "岩土报告分析",
+          "施工研究的审查与控制",
+          "技术援助"
+        ],
+        "sw": [
+          "Utaalamu na Udhibiti wa Kazi za Jioteknolojia",
+          "Uchambuzi wa Ripoti za Jioteknolojia",
+          "Mapitio na Udhibiti wa Tafiti za Utekelezaji",
+          "Msaada wa Kiufundi"
+        ],
+        "yo": [
+          "Imọran ati Iṣakoso ti awọn iṣẹ geotechnical ti a ṣe",
+          "Itupalẹ awọn iroyin geotechnical",
+          "Atunyẹwo ati Iṣakoso ti awọn iwadi iṣẹ",
+          "Iranlọwọ Imọ-ẹrọ"
+        ]
+      },
+      "image": "/api/storage?key=reference%20etranger%2FTOUR-BMCE-MOHAMED-VI-RABAT.webp"
+    },
+    {
+      "name": {
+        "fr": "SIEGE DE LA BANQUE BRB",
+        "en": "SIEGE DE LA BANQUE BRB",
+        "es": "SIEGE DE LA BANQUE BRB",
+        "ar": "SIEGE DE LA BANQUE BRB",
+        "de": "SIEGE DE LA BANQUE BRB",
+        "it": "SIEGE DE LA BANQUE BRB",
+        "zh": "SIEGE DE LA BANQUE BRB",
+        "sw": "SIEGE DE LA BANQUE BRB",
+        "yo": "SIEGE DE LA BANQUE BRB"
+      },
+      "site": {
+        "fr": "BUJUMBURA-BURUNDI",
+        "en": "BUJUMBURA-BURUNDI",
+        "es": "BUJUMBURA-BURUNDI",
+        "ar": "BUJUMBURA-BURUNDI",
+        "de": "BUJUMBURA-BURUNDI",
+        "it": "BUJUMBURA-BURUNDI",
+        "zh": "BUJUMBURA-BURUNDI",
+        "sw": "BUJUMBURA-BURUNDI",
+        "yo": "BUJUMBURA-BURUNDI"
+      },
+      "structure": {
+        "fr": "2SOUS-SOLS+RDC+9ETAGES",
+        "en": "2 Basement(s)+Ground Floor+9 Floors",
+        "es": "2 Sótano(s)+Planta Baja+9 Pisos",
+        "ar": "2 طابق سفلي+طابق أرضي+9 طوابق",
+        "de": "2 Untergeschoss(e)+Erdgeschoss+9 Etagen",
+        "it": "2 Seminterrato(i)+Piano Terra+9 Piani",
+        "zh": "2 层地下室+底层+9 层楼",
+        "sw": "2 Sakafu ya chini+Ghorofa ya chini+9 Ghorofa",
+        "yo": "2 Ipilẹ ile+Ipilẹ Ilẹ+9 Awọn ilẹ ipakà"
+      },
+      "mission": {
+        "fr": "G3",
+        "en": "G3",
+        "es": "G3",
+        "ar": "G3",
+        "de": "G3",
+        "it": "G3",
+        "zh": "G3",
+        "sw": "G3",
+        "yo": "G3"
+      },
+      "details": {
+        "fr": [
+          "Etude d'exécution/Fondations-Soutènements",
+          "Assistance technique"
+        ],
+        "en": [
+          "Execution study/Foundations-Retaining walls",
+          "Technical assistance"
+        ],
+        "es": [
+          "Estudio de ejecución/Cimentaciones-Muros de contención",
+          "Asistencia técnica"
+        ],
+        "ar": [
+          "دراسة التنفيذ/الأساسات والجدران الساندة",
+          "مساعدة فنية"
+        ],
+        "de": [
+          "Ausführungsstudie/Gründungen-Stützwände",
+          "Technische Unterstützung"
+        ],
+        "it": [
+          "Studio di esecuzione/Fondazioni-Muri di sostegno",
+          "Assistenza tecnica"
+        ],
+        "zh": [
+          "施工研究/基础-挡土墙",
+          "技术援助"
+        ],
+        "sw": [
+          "Utafiti wa Utekelezaji/Misingi-Kuta za Kuzuia",
+          "Msaada wa Kiufundi"
+        ],
+        "yo": [
+          "Iwadi Iṣẹ/Awọn ipilẹ-Awọn ogiri Iduro",
+          "Iranlọwọ Imọ-ẹrọ"
+        ]
+      },
+      "image": "/api/storage?key=reference%20etranger%2FSIEGE-DE-LA-BANQUE-BRB.webp"
+    },
+    {
+      "name": {
+        "fr": "PRESIDENTIAL TOWERS",
+        "en": "PRESIDENTIAL TOWERS",
+        "es": "PRESIDENTIAL TOWERS",
+        "ar": "PRESIDENTIAL TOWERS",
+        "de": "PRESIDENTIAL TOWERS",
+        "it": "PRESIDENTIAL TOWERS",
+        "zh": "PRESIDENTIAL TOWERS",
+        "sw": "PRESIDENTIAL TOWERS",
+        "yo": "PRESIDENTIAL TOWERS"
+      },
+      "site": {
+        "fr": "DIXINN-CONAKRY-GUINEE",
+        "en": "DIXINN-CONAKRY-Guinea",
+        "es": "DIXINN-CONAKRY-Guinea",
+        "ar": "DIXINN-CONAKRY-غينيا",
+        "de": "DIXINN-CONAKRY-Guinea",
+        "it": "DIXINN-CONAKRY-Guinea",
+        "zh": "DIXINN-CONAKRY-几内亚",
+        "sw": "DIXINN-CONAKRY-Guinea",
+        "yo": "DIXINN-CONAKRY-Guinea"
+      },
+      "structure": {
+        "fr": "3SOUS-SOLS+RDC+15 A 30 ETAGES",
+        "en": "3 Basement(s)+Ground Floor+15 A 30 Floors",
+        "es": "3 Sótano(s)+Planta Baja+15 A 30 Pisos",
+        "ar": "3 طابق سفلي+طابق أرضي+15 A 30 طوابق",
+        "de": "3 Untergeschoss(e)+Erdgeschoss+15 A 30 Etagen",
+        "it": "3 Seminterrato(i)+Piano Terra+15 A 30 Piani",
+        "zh": "3 层地下室+底层+15 A 30 层楼",
+        "sw": "3 Sakafu ya chini+Ghorofa ya chini+15 A 30 Ghorofa",
+        "yo": "3 Ipilẹ ile+Ipilẹ Ilẹ+15 A 30 Awọn ilẹ ipakà"
+      },
+      "mission": {
+        "fr": "G2-AVP",
+        "en": "G2-AVP",
+        "es": "G2-AVP",
+        "ar": "G2-AVP",
+        "de": "G2-AVP",
+        "it": "G2-AVP",
+        "zh": "G2-AVP",
+        "sw": "G2-AVP",
+        "yo": "G2-AVP"
+      },
+      "details": {
+        "fr": [
+          "Etude de Fondations-Soutènements",
+          "ASSISTANCE TECHNIQUE"
+        ],
+        "en": [
+          "Foundation and retaining wall study",
+          "ASSISTANCE TECHNIQUE"
+        ],
+        "es": [
+          "Estudio de cimentaciones y muros de contención",
+          "ASSISTANCE TECHNIQUE"
+        ],
+        "ar": [
+          "دراسة الأساسات والجدران الساندة",
+          "ASSISTANCE TECHNIQUE"
+        ],
+        "de": [
+          "Gründungs- und Stützwandstudie",
+          "ASSISTANCE TECHNIQUE"
+        ],
+        "it": [
+          "Studio di fondazioni e muri di sostegno",
+          "ASSISTANCE TECHNIQUE"
+        ],
+        "zh": [
+          "基础和挡土墙研究",
+          "ASSISTANCE TECHNIQUE"
+        ],
+        "sw": [
+          "Utafiti wa Msingi na Ukuta wa Kuzuia",
+          "ASSISTANCE TECHNIQUE"
+        ],
+        "yo": [
+          "Ipilẹ ati Iwadi Ogiri Iduro",
+          "ASSISTANCE TECHNIQUE"
+        ]
+      },
+      "image": "/api/storage?key=reference%20etranger%2FPRESIDENTIAL-TOWERS.webp"
+    },
+    {
+      "name": {
+        "fr": "REMPLACEMENT DES PONTS-LA LIGNE FERROVIAIRE T.G.M",
+        "en": "REMPLACEMENT DES PONTS-LA LIGNE FERROVIAIRE T.G.M",
+        "es": "REMPLACEMENT DES PONTS-LA LIGNE FERROVIAIRE T.G.M",
+        "ar": "REMPLACEMENT DES PONTS-LA LIGNE FERROVIAIRE T.G.M",
+        "de": "REMPLACEMENT DES PONTS-LA LIGNE FERROVIAIRE T.G.M",
+        "it": "REMPLACEMENT DES PONTS-LA LIGNE FERROVIAIRE T.G.M",
+        "zh": "REMPLACEMENT DES PONTS-LA LIGNE FERROVIAIRE T.G.M",
+        "sw": "REMPLACEMENT DES PONTS-LA LIGNE FERROVIAIRE T.G.M",
+        "yo": "REMPLACEMENT DES PONTS-LA LIGNE FERROVIAIRE T.G.M"
+      },
+      "site": {
+        "fr": "TUNIS-TUNISIA",
+        "en": "TUNIS-TUNISIA",
+        "es": "TUNIS-TUNISIA",
+        "ar": "TUNIS-TUNISIA",
+        "de": "TUNIS-TUNISIA",
+        "it": "TUNIS-TUNISIA",
+        "zh": "TUNIS-TUNISIA",
+        "sw": "TUNIS-TUNISIA",
+        "yo": "TUNIS-TUNISIA"
+      },
+      "structure": {
+        "fr": "PONTS PK…..",
+        "en": "Bridges PK…..",
+        "es": "Puentes PK…..",
+        "ar": "جسور PK…..",
+        "de": "Brücken PK…..",
+        "it": "Ponti PK…..",
+        "zh": "桥梁 PK…..",
+        "sw": "Madaraja PK…..",
+        "yo": "Afara PK….."
+      },
+      "mission": {
+        "fr": "G1",
+        "en": "G1",
+        "es": "G1",
+        "ar": "G1",
+        "de": "G1",
+        "it": "G1",
+        "zh": "G1",
+        "sw": "G1",
+        "yo": "G1"
+      },
+      "details": {
+        "fr": [
+          "Campagne géotechnique"
+        ],
+        "en": [
+          "Geotechnical campaign"
+        ],
+        "es": [
+          "Campaña geotécnica"
+        ],
+        "ar": [
+          "حملة جيوتقنية"
+        ],
+        "de": [
+          "Geotechnische Kampagne"
+        ],
+        "it": [
+          "Campagna geotecnica"
+        ],
+        "zh": [
+          "岩土工程勘察"
+        ],
+        "sw": [
+          "Kampeni ya Jioteknolojia"
+        ],
+        "yo": [
+          "Ipolongo Geotechnical"
+        ]
+      },
+      "image": "/api/storage?key=reference%20etranger%2FREMPLACEMENT-DES-PONTS-LA-LIGNE-FERROVIAIRE-T.G.M.webp"
+    },
+    {
+      "name": {
+        "fr": "RFR-TRANCHE 1/TUNNEL A SAIDA MANOUBIA",
+        "en": "RFR-TRANCHE 1/TUNNEL A SAIDA MANOUBIA",
+        "es": "RFR-TRANCHE 1/TUNNEL A SAIDA MANOUBIA",
+        "ar": "RFR-TRANCHE 1/TUNNEL A SAIDA MANOUBIA",
+        "de": "RFR-TRANCHE 1/TUNNEL A SAIDA MANOUBIA",
+        "it": "RFR-TRANCHE 1/TUNNEL A SAIDA MANOUBIA",
+        "zh": "RFR-TRANCHE 1/TUNNEL A SAIDA MANOUBIA",
+        "sw": "RFR-TRANCHE 1/TUNNEL A SAIDA MANOUBIA",
+        "yo": "RFR-TRANCHE 1/TUNNEL A SAIDA MANOUBIA"
+      },
+      "site": {
+        "fr": "TUNIS-TUNISIA",
+        "en": "TUNIS-TUNISIA",
+        "es": "TUNIS-TUNISIA",
+        "ar": "TUNIS-TUNISIA",
+        "de": "TUNIS-TUNISIA",
+        "it": "TUNIS-TUNISIA",
+        "zh": "TUNIS-TUNISIA",
+        "sw": "TUNIS-TUNISIA",
+        "yo": "TUNIS-TUNISIA"
+      },
+      "structure": {
+        "fr": "PONTS PK…..",
+        "en": "Bridges PK…..",
+        "es": "Puentes PK…..",
+        "ar": "جسور PK…..",
+        "de": "Brücken PK…..",
+        "it": "Ponti PK…..",
+        "zh": "桥梁 PK…..",
+        "sw": "Madaraja PK…..",
+        "yo": "Afara PK….."
+      },
+      "mission": {
+        "fr": "G3",
+        "en": "G3",
+        "es": "G3",
+        "ar": "G3",
+        "de": "G3",
+        "it": "G3",
+        "zh": "G3",
+        "sw": "G3",
+        "yo": "G3"
+      },
+      "details": {
+        "fr": [
+          "Etude de soutènments",
+          "Assistance technique"
+        ],
+        "en": [
+          "Etude de soutènments",
+          "Technical assistance"
+        ],
+        "es": [
+          "Etude de soutènments",
+          "Asistencia técnica"
+        ],
+        "ar": [
+          "Etude de soutènments",
+          "مساعدة فنية"
+        ],
+        "de": [
+          "Etude de soutènments",
+          "Technische Unterstützung"
+        ],
+        "it": [
+          "Etude de soutènments",
+          "Assistenza tecnica"
+        ],
+        "zh": [
+          "Etude de soutènments",
+          "技术援助"
+        ],
+        "sw": [
+          "Etude de soutènments",
+          "Msaada wa Kiufundi"
+        ],
+        "yo": [
+          "Etude de soutènments",
+          "Iranlọwọ Imọ-ẹrọ"
+        ]
+      },
+      "image": "/api/storage?key=reference%20etranger%2FRFR-TRANCHE-1_TUNNEL-A-SAIDA-MANOUBIA.webp"
+    },
+    {
+      "name": {
+        "fr": "KKC TOLL ROAD/LUAPULA BRIDGE",
+        "en": "KKC TOLL ROAD/LUAPULA BRIDGE",
+        "es": "KKC TOLL ROAD/LUAPULA BRIDGE",
+        "ar": "KKC TOLL ROAD/LUAPULA BRIDGE",
+        "de": "KKC TOLL ROAD/LUAPULA BRIDGE",
+        "it": "KKC TOLL ROAD/LUAPULA BRIDGE",
+        "zh": "KKC TOLL ROAD/LUAPULA BRIDGE",
+        "sw": "KKC TOLL ROAD/LUAPULA BRIDGE",
+        "yo": "KKC TOLL ROAD/LUAPULA BRIDGE"
+      },
+      "site": {
+        "fr": "RDC CONGO-FRONTIERE ZAMBIE",
+        "en": "Ground Floor Congo-FRONTIERE ZAMBIE",
+        "es": "Planta Baja Congo-FRONTIERE ZAMBIE",
+        "ar": "طابق أرضي الكونغو-FRONTIERE ZAMBIE",
+        "de": "Erdgeschoss Kongo-FRONTIERE ZAMBIE",
+        "it": "Piano Terra Congo-FRONTIERE ZAMBIE",
+        "zh": "底层 刚果-FRONTIERE ZAMBIE",
+        "sw": "Ghorofa ya chini Congo-FRONTIERE ZAMBIE",
+        "yo": "Ipilẹ Ilẹ Kongo-FRONTIERE ZAMBIE"
+      },
+      "structure": {
+        "fr": "AUTOROUTE 3 SECTIONS (83km)/Pont (355m)",
+        "en": "AUTOROUTE 3 SECTIONS (83km)/Pont (355m)",
+        "es": "AUTOROUTE 3 SECTIONS (83km)/Pont (355m)",
+        "ar": "AUTOROUTE 3 SECTIONS (83km)/Pont (355m)",
+        "de": "AUTOROUTE 3 SECTIONS (83km)/Pont (355m)",
+        "it": "AUTOROUTE 3 SECTIONS (83km)/Pont (355m)",
+        "zh": "AUTOROUTE 3 SECTIONS (83km)/Pont (355m)",
+        "sw": "AUTOROUTE 3 SECTIONS (83km)/Pont (355m)",
+        "yo": "AUTOROUTE 3 SECTIONS (83km)/Pont (355m)"
+      },
+      "mission": {
+        "fr": "G4",
+        "en": "G4",
+        "es": "G4",
+        "ar": "G4",
+        "de": "G4",
+        "it": "G4",
+        "zh": "G4",
+        "sw": "G4",
+        "yo": "G4"
+      },
+      "details": {
+        "fr": [
+          "Supervision géotechnique",
+          "Contrôle interne",
+          "Assistance technique"
+        ],
+        "en": [
+          "Geotechnical supervision",
+          "Internal control",
+          "Technical assistance"
+        ],
+        "es": [
+          "Supervisión geotécnica",
+          "Control interno",
+          "Asistencia técnica"
+        ],
+        "ar": [
+          "إشراف جيوتقني",
+          "رقابة داخلية",
+          "مساعدة فنية"
+        ],
+        "de": [
+          "Geotechnische Überwachung",
+          "Interne Kontrolle",
+          "Technische Unterstützung"
+        ],
+        "it": [
+          "Supervisione geotecnica",
+          "Controllo interno",
+          "Assistenza tecnica"
+        ],
+        "zh": [
+          "岩土工程监管",
+          "内部控制",
+          "技术援助"
+        ],
+        "sw": [
+          "Usimamizi wa Jioteknolojia",
+          "Udhibiti wa Ndani",
+          "Msaada wa Kiufundi"
+        ],
+        "yo": [
+          "Abojuto Geotechnical",
+          "Iṣakoso inu",
+          "Iranlọwọ Imọ-ẹrọ"
+        ]
+      },
+      "image": "/api/storage?key=reference%20etranger%2FKKC-TOLL-ROAD_LUAPULA-BRIDGE-.webp"
+    },
+    {
+      "name": {
+        "fr": "EXTENSION D'AEROPORT DE MOUNDOU",
+        "en": "EXTENSION D'AEROPORT DE MOUNDOU",
+        "es": "EXTENSION D'AEROPORT DE MOUNDOU",
+        "ar": "EXTENSION D'AEROPORT DE MOUNDOU",
+        "de": "EXTENSION D'AEROPORT DE MOUNDOU",
+        "it": "EXTENSION D'AEROPORT DE MOUNDOU",
+        "zh": "EXTENSION D'AEROPORT DE MOUNDOU",
+        "sw": "EXTENSION D'AEROPORT DE MOUNDOU",
+        "yo": "EXTENSION D'AEROPORT DE MOUNDOU"
+      },
+      "site": {
+        "fr": "MOUNDOU-TCHAD",
+        "en": "MOUNDOU-Chad",
+        "es": "MOUNDOU-Chad",
+        "ar": "MOUNDOU-تشاد",
+        "de": "MOUNDOU-Tschad",
+        "it": "MOUNDOU-Ciad",
+        "zh": "MOUNDOU-乍得",
+        "sw": "MOUNDOU-Chad",
+        "yo": "MOUNDOU-Chad"
+      },
+      "structure": {
+        "fr": "Aérogare/ Bloc Technique/Tour de contrôle/Hangar fret…",
+        "en": "Terminal/Technical Block/Control Tower/Freight Hangar…",
+        "es": "Terminal/Bloque Técnico/Torre de Control/Hangar de Carga…",
+        "ar": "محطة/كتلة فنية/برج مراقبة/حظيرة شحن…",
+        "de": "Terminal/Technikblock/Kontrollturm/Frachthangar…",
+        "it": "Terminale/Blocco Tecnico/Torre di Controllo/Hangar Merci…",
+        "zh": "航站楼/技术大楼/控制塔/货运机库…",
+        "sw": "Kituo/Kizuizi cha Kiufundi/Mnara wa Kudhibiti/Hangar ya Mizigo…",
+        "yo": "Ebute/Idina Imọ-ẹrọ/Ile-iṣọ Iṣakoso/Hangar Ẹru…"
+      },
+      "mission": {
+        "fr": "G2-PRO",
+        "en": "G2-PRO",
+        "es": "G2-PRO",
+        "ar": "G2-PRO",
+        "de": "G2-PRO",
+        "it": "G2-PRO",
+        "zh": "G2-PRO",
+        "sw": "G2-PRO",
+        "yo": "G2-PRO"
+      },
+      "details": {
+        "fr": [
+          "Etude de fondations",
+          "Assistance technique"
+        ],
+        "en": [
+          "Etude de fondations",
+          "Technical assistance"
+        ],
+        "es": [
+          "Etude de fondations",
+          "Asistencia técnica"
+        ],
+        "ar": [
+          "Etude de fondations",
+          "مساعدة فنية"
+        ],
+        "de": [
+          "Etude de fondations",
+          "Technische Unterstützung"
+        ],
+        "it": [
+          "Etude de fondations",
+          "Assistenza tecnica"
+        ],
+        "zh": [
+          "Etude de fondations",
+          "技术援助"
+        ],
+        "sw": [
+          "Etude de fondations",
+          "Msaada wa Kiufundi"
+        ],
+        "yo": [
+          "Etude de fondations",
+          "Iranlọwọ Imọ-ẹrọ"
+        ]
+      },
+      "image": "/api/storage?key=reference%20etranger%2FEXTENSION-D_AEROPORT-DE-MOUNDOU.webp"
+    },
+    {
+      "name": {
+        "fr": "PROJET PASPA DU SECTEUR DE LA PECHE ET DE L'AQUACULTURE",
+        "en": "PROJET PASPA DU SECTEUR DE LA PECHE ET DE L’AQUACULTURE",
+        "es": "PROJET PASPA DU SECTEUR DE LA PECHE ET DE L’AQUACULTURE",
+        "ar": "PROJET PASPA DU SECTEUR DE LA PECHE ET DE L’AQUACULTURE",
+        "de": "PROJET PASPA DU SECTEUR DE LA PECHE ET DE L’AQUACULTURE",
+        "it": "PROJET PASPA DU SECTEUR DE LA PECHE ET DE L’AQUACULTURE",
+        "zh": "PROJET PASPA DU SECTEUR DE LA PECHE ET DE L’AQUACULTURE",
+        "sw": "PROJET PASPA DU SECTEUR DE LA PECHE ET DE L’AQUACULTURE",
+        "yo": "PROJET PASPA DU SECTEUR DE LA PECHE ET DE L’AQUACULTURE"
+      },
+      "site": {
+        "fr": "GUINEE EQUATORIALE",
+        "en": "Guinea EQUATORIALE",
+        "es": "Guinea EQUATORIALE",
+        "ar": "غينيا EQUATORIALE",
+        "de": "Guinea EQUATORIALE",
+        "it": "Guinea EQUATORIALE",
+        "zh": "几内亚 EQUATORIALE",
+        "sw": "Guinea EQUATORIALE",
+        "yo": "Guinea EQUATORIALE"
+      },
+      "structure": {
+        "fr": "10 SITES PROPOSES",
+        "en": "10 Proposed Sites",
+        "es": "10 Sitios Propuestos",
+        "ar": "10 مواقع مقترحة",
+        "de": "10 Vorgeschlagene Standorte",
+        "it": "10 Siti Proposti",
+        "zh": "10 个建议地点",
+        "sw": "Maeneo 10 Yaliyopendekezwa",
+        "yo": "Awọn aaye 10 ti a dabaa"
+      },
+      "mission": {
+        "fr": "G1-ES",
+        "en": "G1-ES",
+        "es": "G1-ES",
+        "ar": "G1-ES",
+        "de": "G1-ES",
+        "it": "G1-ES",
+        "zh": "G1-ES",
+        "sw": "G1-ES",
+        "yo": "G1-ES"
+      },
+      "details": {
+        "fr": [
+          "Etude de faisabilité géotechnique",
+          "Enquête documentaire",
+          "Assistance technique"
+        ],
+        "en": [
+          "Geotechnical feasibility study",
+          "Documentary survey",
+          "Technical assistance"
+        ],
+        "es": [
+          "Estudio de viabilidad geotécnica",
+          "Investigación documental",
+          "Asistencia técnica"
+        ],
+        "ar": [
+          "دراسة الجدوى الجيوتقنية",
+          "مسح وثائقي",
+          "مساعدة فنية"
+        ],
+        "de": [
+          "Geotechnische Machbarkeitsstudie",
+          "Dokumentarische Untersuchung",
+          "Technische Unterstützung"
+        ],
+        "it": [
+          "Studio di fattibilità geotecnica",
+          "Indagine documentale",
+          "Assistenza tecnica"
+        ],
+        "zh": [
+          "岩土工程可行性研究",
+          "文件调查",
+          "技术援助"
+        ],
+        "sw": [
+          "Utafiti wa Uwezekano wa Jioteknolojia",
+          "Utafiti wa Hati",
+          "Msaada wa Kiufundi"
+        ],
+        "yo": [
+          "Iwadi iṣeeṣe Geotechnical",
+          "Iwadi Iwe-ipamọ",
+          "Iranlọwọ Imọ-ẹrọ"
+        ]
+      },
+      "image": "/api/storage?key=reference%20etranger%2FPROJET_PASPA_DU_SECTEUR_DE_LA-PECHE-ET-DE_lAQUACULTURE.webp"
+    }
+  ],
+  "clients": [
+    {
+      "name": "SIDENOR",
+      "url": "http://www.sidenor.com.tn",
+      "logo": "/api/storage?key=clients%20logo%2Fsidenor.png"
+    },
+    {
+      "name": "INP",
+      "url": "https://inp.rnrt.tn",
+      "logo": "/api/storage?key=clients%20logo%2Finp.png"
+    },
+    {
+      "name": "ATFP",
+      "url": "http://www.atfp.tn",
+      "logo": "/api/storage?key=clients%20logo%2Fatfp.png"
+    },
+    {
+      "name": "SONEDE",
+      "url": "https://www.sonede.com.tn",
+      "logo": "/api/storage?key=clients%20logo%2Fsonede.png"
+    },
+    {
+      "name": "PARENIN",
+      "url": "http://www.parenin.com.tn",
+      "logo": "/api/storage?key=clients%20logo%2Fparenin.png"
+    },
+    {
+      "name": "ELMAZRAA",
+      "url": "https://www.elmazraa.com",
+      "logo": "/api/storage?key=clients%20logo%2Fmazraaa.png"
+    },
+    {
+      "name": "SOTUIA",
+      "url": "https://sotuia.com.tn",
+      "logo": "/api/storage?key=clients%20logo%2Fsotuia.png"
+    },
+    {
+      "name": "SERVICES",
+      "url": "https://services.totalenergies.tn",
+      "logo": "https://www.google.com/s2/favicons?domain=services.totalenergies.tn&sz=64"
+    },
+    {
+      "name": "TERIAK",
+      "url": "http://teriak.com",
+      "logo": "/api/storage?key=clients%20logo%2Fteriak.png"
+    },
+    {
+      "name": "ONAS",
+      "url": "http://www.onas.nat.tn",
+      "logo": "/api/storage?key=clients%20logo%2Fonas.png"
+    },
+    {
+      "name": "CITET",
+      "url": "http://www.citet.nat.tn",
+      "logo": "/api/storage?key=clients%20logo%2Fcitet.png"
+    },
+    {
+      "name": "SMTI",
+      "url": "http://www.smti.com.tn",
+      "logo": "/api/storage?key=clients%20logo%2Fsmti.png"
+    },
+    {
+      "name": "EKUITYCAPITAL",
+      "url": "https://www.ekuitycapital.com",
+      "logo": "/api/storage?key=clients%20logo%2Fekuitycapital.png"
+    },
+    {
+      "name": "EPPM",
+      "url": "https://eppm.com.tn",
+      "logo": "/api/storage?key=clients%20logo%2Feppm.png"
+    },
+    {
+      "name": "SCET-TUNISIE",
+      "url": "https://www.scet-tunisie.com",
+      "logo": "https://www.google.com/s2/favicons?domain=scet-tunisie.com&sz=64"
+    },
+    {
+      "name": "COMETE",
+      "url": "https://www.comete.com.tn",
+      "logo": "/api/storage?key=clients%20logo%2Fcomete.png"
+    },
+    {
+      "name": "MOSAIQUE-INGENIERIE",
+      "url": "https://mosaique-ingenierie.com",
+      "logo": "https://www.google.com/s2/favicons?domain=mosaique-ingenierie.com&sz=64"
+    },
+    {
+      "name": "AMAGROUP",
+      "url": "https://amagroup.tn/",
+      "logo": "/api/storage?key=clients%20logo%2Famagroup.png"
+    },
+    {
+      "name": "BOUCHAMAOUI",
+      "url": "https://bouchamaoui.net/",
+      "logo": "/api/storage?key=clients%20logo%2Fbouchamaoui.png"
+    },
+    {
+      "name": "TECNIS",
+      "url": "http://www.tecnis.com.tn/",
+      "logo": "/api/storage?key=clients%20logo%2Ftecnis.png"
+    },
+    {
+      "name": "IMM-TUNISIA",
+      "url": "https://imm-tunisia.com",
+      "logo": "https://www.google.com/s2/favicons?domain=imm-tunisia.com&sz=64"
+    },
+    {
+      "name": "IMMOBILIERE-BOUATTOUR",
+      "url": "http://immobiliere-bouattour.com",
+      "logo": "https://www.google.com/s2/favicons?domain=immobiliere-bouattour.com&sz=64"
+    },
+    {
+      "name": "AL-BARAKA-IMMOBILIERE",
+      "url": "https://www.al-baraka-immobiliere.com",
+      "logo": "/api/storage?key=clients%20logo%2Falbaraka.png"
+    },
+    {
+      "name": "BABZOUILA",
+      "url": "https://babzouila.com",
+      "logo": "/api/storage?key=clients%20logo%2Fbabzouila.png"
+    },
+    {
+      "name": "EDIFIA-IMMOBILIER",
+      "url": "https://edifia-immobilier.com",
+      "logo": "https://www.google.com/s2/favicons?domain=edifia-immobilier.com&sz=64"
+    }
+  ]
+}
